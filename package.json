@@ -1,0 +1,29 @@
+{
+  "name": "serf.club.engine",
+  "version": "0.2.5",
+  "description": "Algorithmic director",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "color": "^0.11.4",
+    "colors": "^1.1.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.8",
+    "socket.io": "^1.4.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pwrstudio/serf.club.engine"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
