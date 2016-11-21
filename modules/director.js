@@ -7,9 +7,10 @@ var Stream = require('../models/stream.js')
 var config = require('../config/config.js')
 // Modules
 var state = require('./state.js')
+var communicator = require('./communicator.js')
 
 var director = {
-  start: function start (app, io) {
+  start: function start () {
     console.log('serf.club.engine'.bgBlack.bold)
     // Connect to database
     mongoose.Promise = global.Promise;
@@ -28,9 +29,9 @@ var director = {
           })
           .exec(function (err, streams) {
             if (err) { console.log(err) }
-            console.log(streams[Math.floor(Math.random() * (streams.length + 1))])
+            communicator.send(streams[Math.floor(Math.random() * (streams.length + 1))])
           })
-      }, 10000)
+      }, 5000)
 
     })
   }
