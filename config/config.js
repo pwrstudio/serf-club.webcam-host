@@ -1,5 +1,5 @@
 var config = {
-  mongodbUri: 'mongodb://heroku_dd4stj26:gafdkjmqp87b40edr18h574u43@ds139665.mlab.com:39665/heroku_dd4stj26'
+  mongodbUri: 'mongodb://pwr:a9Hn87B8SF38@ds119368.mlab.com:19368/serfclub'
 }
 
 module.exports = config
