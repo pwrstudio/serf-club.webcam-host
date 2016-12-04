@@ -15,9 +15,9 @@ var communicator = {
       })
     })
   },
-  broadcast: function broadcast(screen, data) {
+  broadcast: function broadcast(event, screen, data) {
     console.log(screen)
-    io.emit('exoCut', {
+    io.emit(event, {
       screen: screen,
       state: data
     });

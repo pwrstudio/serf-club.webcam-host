@@ -24,20 +24,26 @@ var director = {
         })
         .exec(function (err, streams) {
           if (err) { console.log(err) }
-          communicator.broadcast(((++switcher % 2 == 0) ? 1 : 2), streams[Math.floor(Math.random() * (streams.length + 1))])
+          console.log(streams.length)
+          communicator.broadcast('xcut', ((++switcher % 2 == 0) ? 1 : 2), streams[Math.round(Math.random() * (streams.length + 1))])
           console.log(t)
-          var tNew = chance.integer({min:5000,max:15000})
+          // var tNew = chance.integer({min:5000,max:15000})
+          var tNew = 10000
+
+          // setTimeout(function() {
+            communicator.broadcast('icut_pan', 2, {top: 30, left: 40, zoom: 2})
+          // }, 1000)
+
           setTimeout(function() {loop(tNew)}, t)
         })
     }
 
     console.log('serf.club.engine'.bgBlack.bold)
-    // Connect to database
+
     mongoose.Promise = global.Promise;
     mongoose.connect(config.mongodbUri)
     var db = mongoose.connection
     db.on('error', console.error.bind(console, 'connection error:'))
-    // Wait for the database connection to establish, then start the app.
 
     db.once('open', function () {
       console.log('db open'.bgCyan)
