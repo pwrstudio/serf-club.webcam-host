@@ -11,6 +11,7 @@ var config = require('../config/config.js')
 var state = require('./state.js')
 var communicator = require('./communicator.js')
 var switcher = 0;
+var panSteps = [0, 20, 40, 60, 80, 100]
 
 
 var director = {
@@ -23,18 +24,31 @@ var director = {
           'online': true
         })
         .exec(function (err, streams) {
+
           if (err) { console.log(err) }
+
           console.log(streams.length)
-          communicator.broadcast('xcut', ((++switcher % 2 == 0) ? 1 : 2), streams[Math.round(Math.random() * (streams.length + 1))])
-          console.log(t)
+
+          if(switcher % 2 === 0) {
+            state.screenOne.url = chance.pickone(streams).url
+            state.screenOne.classObject.active = true
+            state.screenTwo.classObject.active = false
+          } else {
+            state.screenTwo.url = chance.pickone(streams).url
+            state.screenTwo.classObject.active = true
+            state.screenOne.classObject.active = false
+          }
+
+          switcher++
+
+          communicator.updateState()
+
           // var tNew = chance.integer({min:5000,max:15000})
+
           var tNew = 10000
 
-          // setTimeout(function() {
-            communicator.broadcast('icut_pan', 2, {top: 30, left: 40, zoom: 2})
-          // }, 1000)
-
           setTimeout(function() {loop(tNew)}, t)
+          
         })
     }
 
