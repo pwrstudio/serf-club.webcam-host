@@ -50,7 +50,7 @@ var director = {
 
           // var tNew = chance.integer({min:5000,max:15000})
 
-          var tNew = 15000
+          var tNew = 10000
 
           setTimeout(function() {loop(tNew)}, t)
 
