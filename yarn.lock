@@ -119,6 +119,10 @@ debug@2.3.3:
   dependencies:
     ms "0.7.2"
 
+deck@>=0.0.3:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/deck/-/deck-0.0.4.tgz#d4d89d460ba81ee820b04a05a7d0dce64d8b730a"
+
 depd@~1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/depd/-/depd-1.1.0.tgz#e1bd82c6aab6ced965b97b88b17ed3e528ca18c3"
@@ -251,6 +255,12 @@ has-cors@1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/has-cors/-/has-cors-1.1.0.tgz#5e474793f7ea9843d1bb99c23eef49ff126fff39"
 
+hashish@>=0.0.2:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/hashish/-/hashish-0.0.4.tgz#6d60bc6ffaf711b6afd60e426d077988014e6554"
+  dependencies:
+    traverse ">=0.2.4"
+
 hooks-fixed@1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/hooks-fixed/-/hooks-fixed-1.2.0.tgz#0d2772d4d7d685ff9244724a9f0b5b2559aac96b"
@@ -291,9 +301,21 @@ kareem@1.1.3:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/kareem/-/kareem-1.1.3.tgz#0877610d8879c38da62d1dbafde4e17f2692f041"
 
+lazy@>=1.0.3:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/lazy/-/lazy-1.0.11.tgz#daa068206282542c088288e975c297c1ae77b690"
+
 lodash@^4.14.0:
   version "4.17.2"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.2.tgz#34a3055babe04ce42467b607d700072c7ff6bf42"
+
+markov:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/markov/-/markov-0.0.7.tgz#35ace82ae26133f719e1608d21f0cbc21452abe3"
+  dependencies:
+    deck ">=0.0.3"
+    hashish ">=0.0.2"
+    lazy ">=1.0.3"
 
 media-typer@0.3.0:
   version "0.3.0"
@@ -385,6 +407,10 @@ muri@1.1.1:
 negotiator@0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
+
+nlp_compromise:
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/nlp_compromise/-/nlp_compromise-6.5.3.tgz#7720b67daab7b486509057ef1d5eff9a3db091bb"
 
 object-assign@4.1.0:
   version "4.1.0"
@@ -578,6 +604,10 @@ string_decoder@~0.10.x:
 to-array@0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/to-array/-/to-array-0.1.4.tgz#17e6c11f73dd4f3d74cda7a4ff3238e9ad9bf890"
+
+traverse@>=0.2.4:
+  version "0.6.6"
+  resolved "https://registry.yarnpkg.com/traverse/-/traverse-0.6.6.tgz#cbdf560fd7b9af632502fed40f918c157ea97137"
 
 type-is@~1.6.13:
   version "1.6.14"

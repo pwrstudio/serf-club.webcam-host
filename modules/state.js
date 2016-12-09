@@ -1,5 +1,6 @@
 var state = {
   xcut: true,
+  subtitle: 'test',
   screenOne: {
     url: 'aaaaa',
     classObject: {

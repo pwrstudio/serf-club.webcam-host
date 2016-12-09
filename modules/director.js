@@ -10,6 +10,7 @@ var config = require('../config/config.js')
 // Modules
 var state = require('./state.js')
 var communicator = require('./communicator.js')
+var speaker = require('./speaker.js')
 var switcher = 0;
 var panSteps = [0, 20, 40, 60, 80, 100]
 
@@ -33,11 +34,15 @@ var director = {
             state.screenOne.url = chance.pickone(streams).url
             state.screenOne.classObject.active = true
             state.screenTwo.classObject.active = false
+            state.subtitle = speaker.utter()
           } else {
             state.screenTwo.url = chance.pickone(streams).url
             state.screenTwo.classObject.active = true
             state.screenOne.classObject.active = false
+            state.subtitle = speaker.utter()
           }
+
+          console.log(state.subtitle)
 
           switcher++
 
@@ -45,10 +50,10 @@ var director = {
 
           // var tNew = chance.integer({min:5000,max:15000})
 
-          var tNew = 10000
+          var tNew = 15000
 
           setTimeout(function() {loop(tNew)}, t)
-          
+
         })
     }
 
