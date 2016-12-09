@@ -1,20 +1,19 @@
 // Dependencies
-var express = require('express')
-var app = express()
-var port = process.env.PORT || 8080
-var server = app.listen(port)
-var io = require('socket.io').listen(server)
-var state = require('./state.js')
+const express = require('express')
+const app = express()
+const port = process.env.PORT || 8080
+const server = app.listen(port)
+const io = require('socket.io').listen(server)
+const state = require('./state.js')
 
-var communicator = {
-  init: function init() {
-    console.log('socket initialization...')
+const communicator = {
+  init: function init () {
     io.on('connection', function (socket) {
       console.log(socket.id)
       socket.emit('init', state)
     })
   },
-  updateState: function updateState() {
+  updateState: function updateState () {
     io.emit('state', state)
   }
 }

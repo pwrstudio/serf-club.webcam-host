@@ -1,11 +1,6 @@
-// let nlp = require('nlp_compromise')
-let Sentencer = require('sentencer');
-// let fs = require('fs')
-// let markov = require('markov')
-// let m = markov(1)
-// let corpus = fs.createReadStream('./content/text.txt')
+const Sentencer = require('sentencer')
 
-var nouns = [
+const nouns = [
   'he',
   'she',
   'it',
@@ -17,7 +12,7 @@ var nouns = [
   'the girl',
   'the boy',
   'the child']
-var adjectives = [
+const adjectives = [
   'cold',
   'warm',
   'good',
@@ -56,7 +51,7 @@ var adjectives = [
   'wrong',
   'bad',
   'good']
-var verbs = [
+const verbs = [
   'will be',
   'has been',
   'is',
@@ -66,7 +61,7 @@ var verbs = [
   'was not',
   'seemed',
   'might be']
-var actions = [
+const actions = [
   'heard',
   'overheard',
   'saw',
@@ -84,7 +79,7 @@ var actions = [
   'dreamt about',
   'told about',
   'indicated']
-var objects = [
+const objects = [
   'them',
   'her',
   'him',
@@ -104,14 +99,14 @@ var objects = [
   'the company',
   'the club',
   'someone']
-var singleObjects = [
+const singleObjects = [
   'story',
   'step',
   'mechanism',
   'process',
   'organization',
   'machine']
-var statements = [
+const statements = [
   'yes',
   'yes',
   'yes',
@@ -128,7 +123,7 @@ var statements = [
   'true',
   'false'
 ]
-var questions = [
+const questions = [
   'yes?',
   'no?',
   'really?',
@@ -137,20 +132,20 @@ var questions = [
   'where?',
   'why?',
   'what?']
-var punctations = [
+const punctations = [
   '',
   '',
   '',
   '...',
   '.']
-var adverbs = [
+const adverbs = [
   'quickly',
   'suddenly',
   'finally',
   'slowly',
   'technically',
   'carefully']
-var sentenceTemplates = [
+const sentenceTemplates = [
   '{{ statement}}, {{ noun }} {{ verb }} {{ adjective }}',
   '{{ statement}}... {{ noun }} {{ verb }} {{ adjective }}',
   '{{ noun }} {{ verb }} {{ adjective }}{{ punctation }}',
@@ -165,34 +160,34 @@ var sentenceTemplates = [
   '{{ question }}',
   '{{ question }} {{ noun }} {{ action }} {{ object }}?']
 
-var speaker = {
-  init: function init (){
+const speaker = {
+  init: function init () {
     Sentencer.configure({
       nounList: nouns,
       adjectiveList: adjectives,
       actions: {
-        verb: function(){
+        verb: function () {
           return verbs[Math.round(Math.random() * (verbs.length - 1))]
         },
-        action: function(){
+        action: function () {
           return actions[Math.round(Math.random() * (actions.length - 1))]
         },
-        object: function(){
+        object: function () {
           return objects[Math.round(Math.random() * (objects.length - 1))]
         },
-        statement: function(){
+        statement: function () {
           return statements[Math.round(Math.random() * (statements.length - 1))]
         },
-        question: function(){
+        question: function () {
           return questions[Math.round(Math.random() * (questions.length - 1))]
         },
-        punctation: function(){
+        punctation: function () {
           return punctations[Math.round(Math.random() * (punctations.length - 1))]
         },
-        adverb: function(){
+        adverb: function () {
           return adverbs[Math.round(Math.random() * (adverbs.length - 1))]
         },
-        single_object: function(){
+        single_object: function () {
           return singleObjects[Math.round(Math.random() * (singleObjects.length - 1))]
         }
       }
