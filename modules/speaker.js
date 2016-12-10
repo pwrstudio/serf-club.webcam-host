@@ -1,4 +1,9 @@
+const Chance = require('chance')
+const chance = new Chance()
 const Sentencer = require('sentencer')
+const state = require('./state.js')
+const director = require('./director.js')
+const communicator = require('./communicator.js')
 
 const nouns = [
   'he',
@@ -41,7 +46,6 @@ const adjectives = [
   'uneasy',
   'happy',
   'leaving',
-  'coming',
   'sad',
   'important',
   'right',
@@ -196,6 +200,33 @@ const speaker = {
   utter: function utter () {
     let utterance = Sentencer.make(sentenceTemplates[Math.round(Math.random() * (sentenceTemplates.length - 1))])
     return utterance
+  },
+  conversation: function conversation() {
+
+    const convoLimit =  chance.weighted([1, 2, 3], [4, 2, 1])
+    const convoSpeed = Math.round(director.mainSpeed / convoLimit)
+    var convoCounter = 0
+
+    // console.log('convospeed', convoSpeed)
+    // console.log('convoCounter', convoCounter)
+
+    // Wait for clientside fade...
+    setTimeout(function(){loop(convoSpeed)},4000)
+
+    function loop(time) {
+      console.log('convocounter', convoCounter)
+      if(convoCounter <= convoLimit) {
+        state.subtitle = speaker.utter()
+        communicator.updateSubtitle()
+        convoCounter++
+        setTimeout(function(){ loop(convoSpeed) }, time)
+      } else {
+        // console.log('convo cleared')
+        state.subtitle = ''
+        communicator.updateSubtitle()
+      }
+    }
+
   }
 }
 

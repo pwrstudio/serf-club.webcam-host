@@ -94,6 +94,12 @@ const state = {
       'pan-100-80': false,
       'pan-100-100': false
     }
+  },
+  soundOne: {
+    url: ''
+  },
+  soundTwo: {
+    url: ''
   }
 }
 

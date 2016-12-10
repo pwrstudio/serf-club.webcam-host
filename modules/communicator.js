@@ -13,8 +13,14 @@ const communicator = {
       socket.emit('init', state)
     })
   },
-  updateState: function updateState () {
-    io.emit('state', state)
+  crossCut: function crossCut () {
+    io.emit('crosscut', state)
+  },
+  updateSubtitle: function updateSubtitle () {
+    io.emit('subtitle', state)
+  },
+  updateAudio: function updateSubtitle () {
+    io.emit('audio', state)
   }
 }
 

@@ -1,17 +1,16 @@
-// Dependencies
-const Chance = require('chance')
-const chance = new Chance()
-// Config
-const config = require('../config/config.js')
-// Modules
-const state = require('./state.js')
-
 const director = {
-  init: function start () {
-    console.log(director)
-  },
+  mainSpeed: 10000,
+  audioSpeed: 50000,
+  mood: 0,
+  intensity: 0,
+  intimacy: 0,
   tick: function tick () {
-
+    if(this.mainSpeed <= 4000) {
+      this.mainSpeed = 30000
+    } else {
+      this.mainSpeed = this.mainSpeed - 100
+    }
+    console.log(this.mainSpeed)
   }
 }
 
