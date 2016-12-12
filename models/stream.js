@@ -7,8 +7,9 @@ var streamSchema = new mongoose.Schema({
   description: String,
   location: String,
   timezone: Number,
+  iconic: Boolean,
   intensity: Number,
   intimacy: Number
 })
 
-module.exports = mongoose.model('streams', streamSchema)
+module.exports = mongoose.model('streams', streamSchema, 'streams')

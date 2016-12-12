@@ -16,7 +16,9 @@
     "markov": "^0.0.7",
     "mongoose": "^4.5.8",
     "nlp_compromise": "^6.5.3",
+    "npm": "^4.0.3",
     "oscillators": "^0.4.0",
+    "poisson-process": "^0.2.1",
     "sentencer": "^0.1.5",
     "socket.io": "^1.4.8"
   },

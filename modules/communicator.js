@@ -16,10 +16,13 @@ const communicator = {
   crossCut: function crossCut () {
     io.emit('crosscut', state)
   },
-  updateSubtitle: function updateSubtitle () {
+  jumpCut: function jumpCut() {
+    io.emit('jumpcut', state)
+  },
+  subtitle: function aubtitle () {
     io.emit('subtitle', state)
   },
-  updateAudio: function updateSubtitle () {
+  audio: function audio () {
     io.emit('audio', state)
   }
 }

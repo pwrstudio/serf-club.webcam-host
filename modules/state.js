@@ -1,15 +1,12 @@
 const state = {
-  xcut: true,
-  subtitle: 'test',
+  subtitle: 'I am here now',
   screenOne: {
     url: 'aaaaa',
     classObject: {
       active: true,
-      'zoom-12': false,
-      'zoom-14': false,
-      'zoom-16': false,
-      'zoom-18': false,
       'zoom-20': false,
+      'zoom-30': false,
+      'zoom-40': false,
       'pan-0-0': false,
       'pan-0-20': false,
       'pan-0-40': false,
@@ -52,11 +49,9 @@ const state = {
     url: 'bbbbb',
     classObject: {
       active: true,
-      'zoom-12': false,
-      'zoom-14': false,
-      'zoom-16': false,
-      'zoom-18': false,
       'zoom-20': false,
+      'zoom-30': false,
+      'zoom-40': false,
       'pan-0-0': false,
       'pan-0-20': false,
       'pan-0-40': false,
@@ -96,10 +91,10 @@ const state = {
     }
   },
   soundOne: {
-    url: ''
+    url: 'xxx'
   },
   soundTwo: {
-    url: ''
+    url: 'yyy'
   }
 }
 

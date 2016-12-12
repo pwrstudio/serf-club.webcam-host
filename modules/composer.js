@@ -2,6 +2,7 @@
 const mongoose = require('mongoose')
 const Chance = require('chance')
 const chance = new Chance()
+const PoissonProcess = require('poisson-process')
 
 // Models
 const Audio = require('../models/audio.js')
@@ -15,17 +16,16 @@ let switcher = 0
 
 const composer = {
   start: function start () {
-    composer.loop(director.audioSpeed)
-  },
-  loop: function loop(time) {
 
-    const queryArgs = {}
+    const composerLoop = PoissonProcess.create(director.audioSpeed, function message() {
 
-    Audio
-    .find(queryArgs)
-    .exec(function (err, audioStreams) {
+      const queryArgs = {}
 
-        // Handle error
+      Audio
+      .find(queryArgs)
+      .exec(function (err, audioStreams) {
+
+          // Handle error
         if (err) { console.log(err) }
 
         const selectedAudio = chance.pickone(audioStreams)
@@ -36,13 +36,16 @@ const composer = {
           state.soundTwo = selectedAudio
         }
 
-        communicator.updateAudio()
+        communicator.audio()
 
         switcher++
 
-        setTimeout(function () { composer.loop(director.audioSpeed) }, time)
-
       })
+
+    })
+
+    composerLoop.start()
+
   }
 }
 

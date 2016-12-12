@@ -1,6 +1,8 @@
 const Chance = require('chance')
 const chance = new Chance()
 const Sentencer = require('sentencer')
+const PoissonProcess = require('poisson-process')
+
 const state = require('./state.js')
 const director = require('./director.js')
 const communicator = require('./communicator.js')
@@ -33,6 +35,8 @@ const adjectives = [
   'shaken',
   'content',
   'trapped',
+  'angry',
+  'nervous',
   'late',
   'valuable',
   'brilliant',
@@ -46,7 +50,10 @@ const adjectives = [
   'uneasy',
   'happy',
   'leaving',
+  'deep',
   'sad',
+  'narrow',
+  'wide',
   'important',
   'right',
   'alright',
@@ -70,18 +77,23 @@ const actions = [
   'overheard',
   'saw',
   'visited',
+  'focused',
   'revisited',
   'looked at',
   'stared at',
   'knew',
+  'need',
   'was aware of',
   'mentioned',
-  'was close to',
+  'longed for',
   'travelled to',
   'found',
+  'struggled with',
+  'touched',
   'thought about',
   'dreamt about',
   'told about',
+  'wanted',
   'indicated']
 const objects = [
   'them',
@@ -93,6 +105,8 @@ const objects = [
   'something',
   'what happened',
   'the object',
+  'the thing',
+  'the individual',
   'the situation',
   'the process',
   'the story',
@@ -102,11 +116,17 @@ const objects = [
   'the building',
   'the company',
   'the club',
+  'the assembly',
+  'the position',
   'someone']
 const singleObjects = [
   'story',
   'step',
   'mechanism',
+  'device',
+  'vehicle',
+  'engine',
+  'rule',
   'process',
   'organization',
   'machine']
@@ -120,12 +140,14 @@ const statements = [
   'maybe',
   'perhaps',
   'could be',
+  'I know',
   'I have no idea',
   'I had no idea',
   'I don’t know',
   'no idea',
   'true',
-  'false'
+  'false',
+  'sure'
 ]
 const questions = [
   'yes?',
@@ -146,6 +168,11 @@ const adverbs = [
   'quickly',
   'suddenly',
   'finally',
+  'always',
+  'never',
+  'rarely',
+  'poorly',
+  'really',
   'slowly',
   'technically',
   'carefully']
@@ -165,7 +192,7 @@ const sentenceTemplates = [
   '{{ question }} {{ noun }} {{ action }} {{ object }}?']
 
 const speaker = {
-  init: function init () {
+  start: function start () {
     Sentencer.configure({
       nounList: nouns,
       adjectiveList: adjectives,
@@ -196,36 +223,14 @@ const speaker = {
         }
       }
     })
-  },
-  utter: function utter () {
-    let utterance = Sentencer.make(sentenceTemplates[Math.round(Math.random() * (sentenceTemplates.length - 1))])
-    return utterance
-  },
-  conversation: function conversation() {
 
-    const convoLimit =  chance.weighted([1, 2, 3], [4, 2, 1])
-    const convoSpeed = Math.round(director.mainSpeed / convoLimit)
-    var convoCounter = 0
+    const speakerLoop = PoissonProcess.create(director.speakerSpeed, function message() {
+      let utterance = Sentencer.make(sentenceTemplates[Math.round(Math.random() * (sentenceTemplates.length - 1))])
+      state.subtitle = utterance
+      communicator.subtitle()
+    })
 
-    // console.log('convospeed', convoSpeed)
-    // console.log('convoCounter', convoCounter)
-
-    // Wait for clientside fade...
-    setTimeout(function(){loop(convoSpeed)},4000)
-
-    function loop(time) {
-      console.log('convocounter', convoCounter)
-      if(convoCounter <= convoLimit) {
-        state.subtitle = speaker.utter()
-        communicator.updateSubtitle()
-        convoCounter++
-        setTimeout(function(){ loop(convoSpeed) }, time)
-      } else {
-        // console.log('convo cleared')
-        state.subtitle = ''
-        communicator.updateSubtitle()
-      }
-    }
+    speakerLoop.start()
 
   }
 }
