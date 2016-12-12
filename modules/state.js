@@ -4,6 +4,7 @@ const state = {
     url: 'aaaaa',
     classObject: {
       active: true,
+      active: false,
       'zoom-20': false,
       'zoom-30': false,
       'zoom-40': false,
@@ -48,7 +49,8 @@ const state = {
   screenTwo: {
     url: 'bbbbb',
     classObject: {
-      active: true,
+      active: false,
+      active: false,
       'zoom-20': false,
       'zoom-30': false,
       'zoom-40': false,

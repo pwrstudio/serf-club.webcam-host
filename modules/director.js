@@ -1,17 +1,37 @@
+const Chance = require('chance')
+const chance = new Chance()
+const colors = require('colors')
+
 const director = {
   mainSpeed: 10000,
+  reducer: 1000,
   audioSpeed: 50000,
-  speakerSpeed: 10000,
-  mood: 0,
-  intensity: 0,
-  intimacy: 0,
+  speakerSpeed: 20000,
+  intense: false,
+  intenseCounter: 10,
+  // intimate: false,
+  exterior: true,
+  // night: true,
   tick: function tick () {
-    if (this.mainSpeed <= 3000) {
-      this.mainSpeed = 40000
+
+    if(this.intense && this.intenseCounter > 0) {
+      console.log('intenseRound', this.intenseCounter )
+      this.intenseCounter--
+      this.mainSpeed = chance.integer({min: 1000, max: 3000})
     } else {
-      this.mainSpeed = this.mainSpeed - 500
+      // Every 5th time on average: switch to intense
+      if(chance.weighted(['calm', 'intense'], [5, 1]) === 'calm') {
+        this.intense = false
+        console.log('calm')
+        this.mainSpeed = chance.integer({min: 10000, max: 40000})
+      } else {
+        console.log('intense')
+        this.intense = true
+        this.intenseCounter = 10
+        this.mainSpeed = chance.integer({min: 1000, max: 3000})
+      }
     }
-    console.log(this.mainSpeed)
+
   }
 }
 

@@ -37,17 +37,38 @@ const editor = {
       composer.start()
       speaker.start()
     })
+
   },
   loop: function loop (time) {
+
+    // Advance the director
+    director.tick()
 
     const queryArgs = {
       'format': 'mjpg',
       'online': true
     }
 
-    if(director.mainSpeed > 38000){
-      queryArgs.iconic = true
+    console.log(colors.bgYellow(director.mainSpeed))
+
+    if(director.intense) {
+      queryArgs.intensity = { $gt: 7 }
+      console.log('‡‡‡ Mode: intense'.bgYellow)
+    } else {
+      queryArgs.intensity = { $lt: 8 }
+      console.log('‡‡‡ Mode: calm'.bgYellow)
     }
+
+    if(director.exterior) {
+      console.log('‡‡‡ Mode: Exterior'.bgYellow)
+    } else {
+      console.log('‡‡‡ Mode: Interior'.bgYellow)
+    }
+
+    // if(director.mainSpeed > 25000){
+    //   queryArgs.iconic = true
+    //   console.log('‡‡‡ Mode: Iconic'.bgYellow)
+    // }
 
     console.log(queryArgs)
 
@@ -85,26 +106,45 @@ const editor = {
           // For reference...
           console.log(streams.length)
 
-          const selectedStream = chance.pickone(streams)
+          let randomIndex = Math.round(Math.random() * (streams.length - 1))
 
-          console.log(selectedStream.description)
-          console.log(selectedStream.iconic)
+          // console.log('random index:',randomIndex)
+
+          const selectedStream = streams[randomIndex]
+
+          // console.dir(selectedStream)
+
+          console.log(selectedStream.description, 'iconic:', selectedStream.iconic)
 
           if (screenSelector === 1) {
             state.screenOne.url = selectedStream.url
-            state.screenOne.classObject.active = true
+            if(director.intense) {
+              state.screenOne.classObject.direct = true
+            } else {
+              state.screenOne.classObject.active = true
+            }
             state.screenTwo.classObject.active = false
+            state.screenTwo.classObject.direct = false
           } else {
             state.screenTwo.url = selectedStream.url
-            state.screenTwo.classObject.active = true
+            if(director.intense) {
+              state.screenTwo.classObject.direct = true
+            } else {
+              state.screenTwo.classObject.active = true
+            }
             state.screenOne.classObject.active = false
+            state.screenOne.classObject.direct= false
           }
+
+          state.subtitle = ''
 
           // Broadcast new state
           communicator.crossCut()
 
-          // Jumpcut
-          setTimeout(function(){
+          // One in six low-intensity jumpcut
+          if(chance.weighted([true, false], [1, 6])) {
+            console.log('JUMPCUT'.bgYellow)
+            setTimeout(function(){
 
             let panClass = 'pan-' + chance.pickone(panSteps) + '-' + chance.pickone(panSteps)
             let zoomClass = 'zoom-' + chance.pickone(zoomSteps)
@@ -123,9 +163,7 @@ const editor = {
             communicator.jumpCut()
 
           }, (director.mainSpeed / 2))
-
-          // Advance the director
-          director.tick()
+          }
 
           setTimeout(function () { editor.loop(director.mainSpeed) }, time)
 
