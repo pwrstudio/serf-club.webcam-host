@@ -51,13 +51,13 @@ const editor = {
 
     console.log(colors.bgYellow(director.mainSpeed))
 
-    if(director.intense) {
-      queryArgs.intensity = { $gt: 7 }
-      console.log('‡‡‡ Mode: intense'.bgYellow)
-    } else {
-      queryArgs.intensity = { $lt: 8 }
-      console.log('‡‡‡ Mode: calm'.bgYellow)
-    }
+    // if(director.intense) {
+    //   queryArgs.intensity = { $gt: 7 }
+    //   console.log('‡‡‡ Mode: intense'.bgYellow)
+    // } else {
+    //   queryArgs.intensity = { $lt: 8 }
+    //   console.log('‡‡‡ Mode: calm'.bgYellow)
+    // }
 
     if(director.exterior) {
       console.log('‡‡‡ Mode: Exterior'.bgYellow)
@@ -114,55 +114,80 @@ const editor = {
 
           // console.dir(selectedStream)
 
-          console.log(selectedStream.description, 'iconic:', selectedStream.iconic)
+          console.log(selectedStream.description, selectedStream.location,'iconic:', selectedStream.iconic)
 
           if (screenSelector === 1) {
             state.screenOne.url = selectedStream.url
-            if(director.intense) {
-              state.screenOne.classObject.direct = true
-            } else {
-              state.screenOne.classObject.active = true
-            }
+            state.screenOne.classObject.active = true
             state.screenTwo.classObject.active = false
             state.screenTwo.classObject.direct = false
           } else {
             state.screenTwo.url = selectedStream.url
-            if(director.intense) {
-              state.screenTwo.classObject.direct = true
-            } else {
-              state.screenTwo.classObject.active = true
-            }
+            state.screenTwo.classObject.active = true
             state.screenOne.classObject.active = false
             state.screenOne.classObject.direct= false
           }
 
-          state.subtitle = ''
+          // state.subtitle = ''
 
           // Broadcast new state
           communicator.crossCut()
 
           // One in six low-intensity jumpcut
-          if(chance.weighted([true, false], [1, 6])) {
-            console.log('JUMPCUT'.bgYellow)
-            setTimeout(function(){
+          // if(chance.weighted([true, false], [1, 6]) && director.mainSpeed > 15000) {
+          if(director.mainSpeed > 14000 && director.mainSpeed < 24000) {
 
-            let panClass = 'pan-' + chance.pickone(panSteps) + '-' + chance.pickone(panSteps)
-            let zoomClass = 'zoom-' + chance.pickone(zoomSteps)
+            var isFirst = true
 
-            console.log(panClass)
-            console.log(zoomClass)
+            function jump() {
 
-            if (screenSelector === 1) {
-              state.screenTwo.classObject[panClass] = true
-              state.screenOne.classObject[panClass] = true
-            } else {
-              state.screenTwo.classObject[zoomClass] = true
-              state.screenOne.classObject[zoomClass] = true
+              console.log('JUMPCUT'.bgYellow)
+
+              // Reset classes
+              // if (screenSelector === 1) {
+              //   Object.keys(state.screenOne.classObject).forEach(function(key,index) {
+              //     state.screenOne.classObject[key] = false
+              //   })
+              //   state.screenOne.classObject.active = true
+              // } else {
+              //   Object.keys(state.screenTwo.classObject).forEach(function(key,index) {
+              //     state.screenTwo.classObject[key] = false
+              //   })
+              //   state.screenTwo.classObject.active = true
+              // }
+
+              let panClass = 'pan-' + chance.pickone(panSteps) + '-' + chance.pickone(panSteps)
+              let zoomClass = ''
+              if(isFirst) {
+                console.log('first')
+                zoomClass = 'zoom-' + chance.pickone(zoomSteps)
+              }
+
+              console.log(panClass)
+              console.log(zoomClass)
+
+              if (screenSelector === 1) {
+                state.screenOne.classObject[panClass] = true
+                if(isFirst) {
+                  state.screenOne.classObject[zoomClass] = true
+                }
+              } else {
+                state.screenTwo.classObject[panClass] = true
+                if(isFirst) {
+                  state.screenTwo.classObject[zoomClass] = true
+                }
+              }
+
+              isFirst = false
+
+              communicator.jumpCut()
+
             }
 
-            communicator.jumpCut()
+            setTimeout(jump, 7000)
+            if(chance.bool()) {setTimeout(jump, 10000)}
+            setTimeout(jump, 14000)
 
-          }, (director.mainSpeed / 2))
           }
 
           setTimeout(function () { editor.loop(director.mainSpeed) }, time)

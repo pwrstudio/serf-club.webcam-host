@@ -8,17 +8,17 @@ const director = require('./director.js')
 const communicator = require('./communicator.js')
 
 const nouns = [
-  'he',
-  'she',
-  'it',
-  'the guest',
-  'the man',
-  'nobody',
-  'everyone',
-  'the woman',
-  'the girl',
-  'the boy',
-  'the child']
+  'He',
+  'She',
+  'It',
+  'The guest',
+  'The man',
+  'Nobody',
+  'Everyone',
+  'The woman',
+  'The girl',
+  'The boy',
+  'The child']
 const adjectives = [
   'cold',
   'warm',
@@ -79,7 +79,7 @@ const actions = [
   'looked at',
   'stared at',
   'knew',
-  'need',
+  'needed',
   'was aware of',
   'mentioned',
   'longed for',
@@ -110,6 +110,7 @@ const objects = [
   'the screen',
   'the organization',
   'the group',
+  'the border',
   'the building',
   'the company',
   'the club',
@@ -124,6 +125,7 @@ const singleObjects = [
   'vehicle',
   'engine',
   'rule',
+  'border',
   'process',
   'organization',
   'machine']
@@ -153,6 +155,7 @@ const questions = [
   'why not?',
   'how?',
   'where?',
+  'now?',
   'why?',
   'what?']
 const punctations = [
@@ -179,8 +182,8 @@ const sentenceTemplates = [
   '{{ noun }} {{ action }} {{ object }}{{ punctation }}',
   'I {{ action }} {{ object }}{{ punctation }}',
   'the {{ adjective}} {{ single_object }}{{ punctation }}',
-  'I am {{ adjective }}{{ punctation }}',
   'I was {{ adjective }}{{ punctation }}',
+  'You were {{ adjective }}{{ punctation }}',
   '{{ noun }} {{ adverb }} {{ action }} {{ object }}',
   '{{ statement }}{{ punctation }}',
   '{{ question }}',
