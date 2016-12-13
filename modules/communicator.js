@@ -23,11 +23,9 @@ const communicator = {
     io.emit('subtitle', state)
   },
   audioTwo: function audioTwo () {
-    console.log('emit audio2');
     io.emit('audiotwo', state)
   },
   audioOne: function audioOne () {
-    console.log('emit audio1');
     io.emit('audioone', state)
   }
 }

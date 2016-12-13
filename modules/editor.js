@@ -141,7 +141,7 @@ const editor = {
 
           // One in six low-intensity jumpcut
           // if(chance.weighted([true, false], [1, 6]) && director.mainSpeed > 15000) {
-          if(director.mainSpeed > 14000 && director.mainSpeed < 24000 && chance.bool()) {
+          if(director.mainSpeed > 15000 && director.mainSpeed < 20000 && chance.weighted([true, false], [6, 1])) {
 
             var isFirst = true
 

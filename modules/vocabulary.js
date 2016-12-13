@@ -84,6 +84,21 @@ const vocabulary = {
     'told about',
     'wanted',
     'indicated'],
+  futures: [
+      'will go',
+      'will return',
+      'will know',
+      'will be there',
+      'will come here',
+      'will communicate',
+    ],
+    presents: [
+        'saw',
+        'talks to',
+        'looks at',
+        'go to',
+        'get to know'
+      ],
   objects: [
     'them',
     'her',
@@ -104,6 +119,7 @@ const vocabulary = {
     'the group',
     'the border',
     'the building',
+    'the source',
     'the company',
     'the club',
     'the assembly',
@@ -172,18 +188,14 @@ const vocabulary = {
     '{{ noun }} {{ verb }} {{ adjective }}{{ punctation }}',
     '{{ noun }} {{ action }} {{ object }}{{ punctation }}',
     'I {{ action }} {{ object }}{{ punctation }}',
-    // 'the {{ adjective}} {{ single_object }}{{ punctation }}',
     'I was {{ adjective }}{{ punctation }}',
     'You were {{ adjective }}{{ punctation }}',
     '{{ noun }} {{ adverb }} {{ action }} {{ object }}',
     '{{ statement }}{{ punctation }}',
     '{{ question }}',
     '{{ question }} {{ noun }} {{ action }} {{ object }}?',
-    '{{ statement }}... {{ noun }} {{ verb }}',
     '{{ noun }} {{ verb }} {{ adjective }}?',
-    '{{ adverb }} {{ verb }} {{ noun }}{{ verb }}',
-    '{{ question }} {{ statement }}',
-    '{{ verb }} {{ object }}{{ punctation }}',
+    'if {{ noun }} {{ present }} {{ object }}, {{ noun }} {{ future }} {{ punctation }}',
     '{{ noun }} {{ action }} {{ object }}{{ punctation }}']
 }
 

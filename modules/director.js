@@ -14,7 +14,7 @@ const director = {
   // night: true,
   tick: function tick () {
 
-    this.mainSpeed = chance.integer({min: 10000, max: 40000})
+    this.mainSpeed = chance.integer({min: 15000, max: 50000})
 
     // if(this.intense && this.intenseCounter > 0) {
     //   console.log('intenseRound', this.intenseCounter )

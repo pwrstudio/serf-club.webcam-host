@@ -37,10 +37,15 @@ const speaker = {
         },
         single_object: function () {
           return vocabulary.singleObjects[Math.round(Math.random() * (vocabulary.singleObjects.length - 1))]
+        },
+        future: function () {
+          return vocabulary.futures[Math.round(Math.random() * (vocabulary.futures.length - 1))]
+        },
+        present: function () {
+          return vocabulary.presents[Math.round(Math.random() * (vocabulary.presents.length - 1))]
         }
       }
     })
-
     const speakerLoop = PoissonProcess.create(director.speakerSpeed, function message() {
       let utterance = Sentencer.make(vocabulary.sentenceTemplates[Math.round(Math.random() * (vocabulary.sentenceTemplates.length - 1))])
       state.subtitle = utterance
