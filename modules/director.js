@@ -5,7 +5,7 @@ const chance = new Chance()
 const director = {
   mainSpeed: 10000,
   reducer: 1000,
-  audioSpeed: 50000,
+  audioSpeed: 30000,
   speakerSpeed: 20000,
   intense: false,
   intenseCounter: 10,

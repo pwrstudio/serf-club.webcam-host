@@ -114,7 +114,7 @@ const editor = {
 
           // console.dir(selectedStream)
 
-          console.log(selectedStream.description, selectedStream.location,'iconic:', selectedStream.iconic)
+          // console.log(selectedStream.description, selectedStream.location,'interior:', selectedStream.interior)
 
           if (screenSelector === 1) {
             state.screenOne.url = selectedStream.url
@@ -128,14 +128,20 @@ const editor = {
             state.screenOne.classObject.direct= false
           }
 
-          // state.subtitle = ''
+          if(selectedStream.exterior) {
+
+
+          }
+
+          // Play new background sound
+          composer.triggerDiagetic()
 
           // Broadcast new state
           communicator.crossCut()
 
           // One in six low-intensity jumpcut
           // if(chance.weighted([true, false], [1, 6]) && director.mainSpeed > 15000) {
-          if(director.mainSpeed > 14000 && director.mainSpeed < 24000) {
+          if(director.mainSpeed > 14000 && director.mainSpeed < 24000 && chance.bool()) {
 
             var isFirst = true
 

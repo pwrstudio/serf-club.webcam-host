@@ -1,5 +1,6 @@
 const state = {
   subtitle: 'I am here now',
+  exterior: false,
   screenOne: {
     url: 'aaaaa',
     classObject: {

@@ -1,46 +1,55 @@
-url,background,foreground,intensity,mood (0-10),description
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/101837__stereodivo__tex-room-tv-ambience.mp3,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/104320__proxima4__desert-simple.mp3,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/138288__kangaroovindaloo__desert-at-night.mp3,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/15851__laurent__natural-night-sounds-in-boquete.mp3,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/172461__setuniman__tripping-0x52p.mp3,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/181697__setuniman__ominous-0z19p+2.mp3,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/184565__magnus589__computer-fan+(1).mp3,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/275553__mbezzola__fassdrone.mp3,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/30306__erh__tension.mp3,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/329907__aerror__server-room-emissions.mp3,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/349689__thaighaudio__070916-machine-room-server-rack-fans-3.mp3,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/42761__decembered__lucid-drone.mp3,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/58808__syna-max__refrigerator-drone-loop+1.mp3,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/MAJOR.mp3,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/Hagihara+Yoshiaki+-+Nishi-nippori+Station+-+For+Louis+Andriessen.mp3,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/Les_Cartes_Postales_Sonores_-_09_-_Wooden_Cow_Bells.mp3,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/The_Conet_Project_-_23_-_strich_with_rare_message.mp3,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/The_Conet_Project_-_23_-_unidentified_chinese_station.mp3,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/The_Conet_Project_-_37_-_olx_irdial.mp3,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/The_Conet_Project_-_42_-_high_pitch_polytone.mp3,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/Upsweep+-+Master+-+Bloop+sketch.mp3,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/Voice+001_sd.m4a,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/Voice+002_sd.m4a,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/Voice+004_sd.m4a,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/Voice+007_sd.m4a,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/Voice+009_sd.m4a,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/Voice+011_sd.m4a,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/Voice+012_sd.m4a,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/Voice+014_sd.m4a,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/ambien2.mp3,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/beep.mp3,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/china1.mp3,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/choir2.mp3,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/choir3.mp3,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/city.mp3,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/clock.mp3,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/fan2.mp3,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/fireworks1.mp3,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/fireworks2.mp3,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/gong.mp3,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/guitar1.mp3,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/mexico.mp3,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/nuns.mp3,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/rain.mp3,,,,,
-https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/shortpiano.mp3,,,,,
+url,exterior,interior,diegetic,melodic,intense,mood (0-10),description
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/101837__stereodivo__tex-room-tv-ambience.mp3,,true ,true ,false,4,4,"room ambience, distant voices"
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/104320__proxima4__desert-simple.mp3,true , ,true ,false,8,8,desert winds
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/138288__kangaroovindaloo__desert-at-night.mp3,true , ,true ,false,6,6,birds chirping and wind
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/15851__laurent__natural-night-sounds-in-boquete.mp3,true , ,true ,false,7,7,birds at night
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/172461__setuniman__tripping-0x52p.mp3,true ,true ,false ,true,7,7,"classic piano, solemn"
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/181697__setuniman__ominous-0z19p+2.mp3,true ,true ,false ,true,7,7,"classic piano, solemn"
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/184565__magnus589__computer-fan+(1).mp3,,true ,true ,false,10,5,computer fan
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/275553__mbezzola__fassdrone.mp3,true,true ,true ,false,8,8,sad drone
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/30306__erh__tension.mp3,true,true ,false ,true,8,8,intense tension rising
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/349689__thaighaudio__070916-machine-room-server-rack-fans-3.mp3,,true ,true ,false,6,4,monotone server noise
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/42761__decembered__lucid-drone.mp3,true,true ,true ,false,7,7,shrill drone
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/MAJOR.mp3,true,true ,false ,true,7,9,sad piano
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/Les_Cartes_Postales_Sonores_-_09_-_Wooden_Cow_Bells.mp3,true ,,true ,false,7,8,"pastoral noises (cars, cows bells, animals, mumbling)"
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/The_Conet_Project_-_23_-_unidentified_chinese_station.mp3,,true,false ,false,7,8,radio noise chinese woman talking (repetitive)
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/The_Conet_Project_-_42_-_high_pitch_polytone.mp3,,true,false ,false,9,7,high pitch polytone
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/Voice+002_sd.m4a,true   ,,true   ,true,7,8,"city ambience (person walking, wind blowing, someone playing an guitar/sitar)"
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/beep.mp3,true   ,,true   ,false,7,7,"city ambience, talking and beeps"
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/china1.mp3,true   ,,true    ,false,8,8,"street ambience, voices"
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/city.mp3,true   ,,true   ,false,6,5,city ambience
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/clock.mp3,,true,true   ,false,6,6,ticking clock and room ambience
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/fan2.mp3,true,,false   ,false,6,6,whirring fan noises
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/fireworks1.mp3,true    ,,true   ,false,5,5,distant fireworks
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/rain.mp3,true   ,,true   ,false,false,7,rain
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/shortpiano.mp3,true,true,false ,true,true,8,melancolic piano music
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/new/250542__jhumbucker__suspense-motif.mp3,true,true,true,false,false,8,"suspense, single high tone"
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/new/130982__reacthor__drone-of-suspense.mp3,true,true,true,false,false,8,drone of suspense
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/new/144981__are16ocean__suspense-ambience.mp3,true,true,true,false,false,7,soft suspense
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/new/362035__insintesi__sweet-suspense-1.mp3,true,true,false,true,true,6,"suspence, soft high pitches"
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/new/41322__gurdonark__birds-planes-automobiles.mp3,true,,true,false,4,4,"birds, road, people"
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/new/326093__ikbenraar__oil-jetty-field-recording.mp3,true,,true,false,5,6,oil jetty being build in UAE
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/new/196768__didierwei__amb-taipei-alley-night-02.mp3,true,,true,false,3,2,night in tapei
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/new/166390__daimon-zero__needle-finished-on-vinyl-record.mp3,,true,true,false,2,2,"needle finished on vinyl, very soft"
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/new/207910__splash-yang__gas-pumping.mp3,,true,true,false,4,3,gas pumping
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/new/207908__splash-yang__windmill-long.mp3,true,,true,false,1,1,windmill
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/new/276294__sandermotions__leaves-in-wind.mp3,true,,true,false,2,2,leaves in wind
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/new/235963__mffm__dryer.mp3,,true,true,false,3,3,dryer in garage
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/new/328614__sandermotions__diesel-engine-2.mp3,true,,true,false,6,6,diesel engine
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/new/42629__rokhausen__092207-wall-drags-clean.mp3,,true,true,false,7,7,beer can being dragged of surface
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/new/266347__hromantizm__peaceful-air-plane.mp3,true,,true,false,4,4,calm airplane sound
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/new/366846__malieengel__ambiance-massage-chair+copy.mp3,,true,true,false,4,3,massage chair
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/new/19451__ahhhjrene__double-proc-phone.mp3,true,true,false,true,8,8,"intensity, long tone"
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/new/1%2C17.+The_Conet_Project_-_16_-_tyrolean_music_station.m4a,,true,true,true,true,7,tyrolean music station
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/new/1%2C20+(opening+music)+The_Conet_Project_-_21_-_eastern_music_station.m4a,,true,false,true,7,7,eastern music station
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/new/10.+EON_-_02_-_tainted_noise_nap_-_part_2.m4a,true,,true,false,5,5,"slow noise, murmors"
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/new/14.+The_Conet_Project_-_35_-_okno_okno_onko.m4a,,true,false,false,6,6,voice calling okno okno okno
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/new/30.+Lyn_Goeringer_-_Sleeper_Train.m4a,true,true,true,false,5,5,"pulsing radar like sounds, abstract"
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/new/30.+EON_-_02_-_tainted_noise_nap_-_part_2.m4a,true,,true,false,4,4,"noise, soft, murmors"
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/new/60.+Lyn_Goeringer_-_Walking_Commute.m4a,true,,true,false,1,1,"super soft noise, almost not hearable"
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/new/104587__meral__pianokeys-meral.mp3,,,,true,,,
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/new/253762__hwwesthoff__plane-inside.mp3,false,true,true,false,,,
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/new/64828__casualsamples__pianos-y-teclados-8.mp3,,,,true,,,
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/new/piano5.mp3,,,,true,,,
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/new/pinao4.mp3,,,,true,,,
+https://s3-eu-west-1.amazonaws.com/serf.club.audio/audio/new/plane1.mp3,false,true,,false,,,

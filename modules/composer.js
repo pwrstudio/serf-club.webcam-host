@@ -1,6 +1,7 @@
 // Dependencies
 const mongoose = require('mongoose')
 const Chance = require('chance')
+const colors = require('colors')
 const chance = new Chance()
 const PoissonProcess = require('poisson-process')
 
@@ -12,39 +13,70 @@ const state = require('./state.js')
 const director = require('./director.js')
 const communicator = require('./communicator.js')
 
-let switcher = 0
 
 const composer = {
   start: function start () {
 
     const composerLoop = PoissonProcess.create(director.audioSpeed, function message() {
 
+      // console.log('audio triggered'.bgBlue)
+
       const queryArgs = {}
+
+      if(chance.bool()) {
+        queryArgs.melodic = true
+      }
 
       Audio
       .find(queryArgs)
       .exec(function (err, audioStreams) {
 
-          // Handle error
+        // console.log('audio streams:', audioStreams.length)
+
+        // Handle error
         if (err) { console.log(err) }
 
         const selectedAudio = chance.pickone(audioStreams)
 
-        if (switcher % 2 === 0) {
-          state.soundOne = selectedAudio
-        } else {
-          state.soundTwo = selectedAudio
-        }
+        // console.log('extra sound:', selectedAudio.url)
+        state.soundTwo = selectedAudio
 
-        communicator.audio()
-
-        switcher++
+        communicator.audioTwo()
 
       })
 
     })
 
     composerLoop.start()
+
+  },
+  triggerDiagetic: function triggerDiagetic() {
+
+    console.log('diagetic'.bgBlue)
+
+    const queryArgs = {'diegetic': true}
+
+    Audio
+    .find(queryArgs)
+    .exec(function (err, audioStreams) {
+
+      console.log('diagetic streams:', audioStreams.length)
+
+      if(audioStreams.length !== 0) {
+
+          // Handle error
+        if (err) { console.log(err) }
+
+        const selectedAudio = chance.pickone(audioStreams)
+
+        console.log('diagetic sound:', selectedAudio.url)
+        state.soundOne = selectedAudio
+
+        communicator.audioOne()
+
+      }
+
+    })
 
   }
 }
