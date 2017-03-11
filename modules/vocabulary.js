@@ -1,3 +1,4 @@
+"use strict"
 const vocabulary = {
   nouns: [
     'he',

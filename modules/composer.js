@@ -1,3 +1,4 @@
+"use strict"
 // Dependencies
 const mongoose = require('mongoose')
 const Chance = require('chance')
@@ -19,8 +20,6 @@ const composer = {
 
     const composerLoop = PoissonProcess.create(director.audioSpeed, function message() {
 
-      // console.log('audio triggered'.bgBlue)
-
       const queryArgs = {}
 
       if(chance.bool()) {
@@ -31,14 +30,10 @@ const composer = {
       .find(queryArgs)
       .exec(function (err, audioStreams) {
 
-        console.log('audio streams:', audioStreams.length)
-
-        // Handle error
         if (err) { console.log(err) }
 
         const selectedAudio = chance.pickone(audioStreams)
 
-        // console.log('extra sound:', selectedAudio.url)
         state.soundTwo = selectedAudio
         state.playerTwoRate  = chance.weighted([1.4, 1.2 , 1 , 0.8, 0.6, 0.4], [ 2, 4, 10 , 4, 2, 1])
 
@@ -69,8 +64,6 @@ const composer = {
         if (err) { console.log(err) }
 
         const selectedAudio = chance.pickone(audioStreams)
-
-        // console.dir(selectedAudio)
 
         console.log('diagetic sound:', selectedAudio.url)
         state.soundOne = selectedAudio

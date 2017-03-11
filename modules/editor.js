@@ -1,3 +1,4 @@
+"use strict"
 // Dependencies
 const mongoose = require('mongoose')
 const colors = require('colors')
@@ -30,7 +31,7 @@ const editor = {
     var db = mongoose.connection
     db.on('error', console.error.bind(console, 'connection error:'))
 
-    // Once the databse is open, start the loop
+    // Once the database is open, start the loop
     db.once('open', function () {
       console.log('db open'.bgGreen)
       editor.loop(director.mainSpeed)
@@ -40,6 +41,9 @@ const editor = {
 
   },
   loop: function loop (time) {
+
+    console.log('loop')
+    console.log(time)
 
     // Advance the director
     director.tick()

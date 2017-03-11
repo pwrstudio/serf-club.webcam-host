@@ -1,0 +1,975 @@
+url,online,intimacy,location,mood,colorful,format,description,timezone,intensity,proximity,interior,iconic
+http://88.213.202.96:81/mjpg/video.mjpg,false,,"Dulgopol, Bulgaria",,,mjpg,Internet café in Bulgaria,2,6,5,true,false
+http://161.72.25.11/mjpg/video.mjpg,true,1,"La Laguna, Canary Islands",5,5,mjpg,Observatory?,2,5,5,false,true
+http://165.234.49.199/mjpg/video.mjpg,true,1,"Bismarck, USA",3,3,mjpg,Industry,-5,7,8,true,false
+http://141.212.37.40/mjpg/video.mjpg,true,5,"Michigan, Ann arbor, US",5,5,mjpg,Server room,-5,3,5,true,false
+http://67.42.251.204/mjpg/video.mjpg,true,5,"Salt lake city, US",5,4,mjpg,Dogs,-7,7,5,true,false
+http://151.237.205.2:81/mjpg/video.mjpg,true,5,"Benicarlo, Spain",5,6,mjpg,Office,1,6,5,true,false
+http://46.160.244.38/mjpg/video.mjpg,true,1,"Moscow, Russia",3,3,mjpg,Building,3,4,2,true,false
+http://173.200.27.210:82/mjpg/video.mjpg,true,5,"Atlanta, US",7,6,mjpg,Dogs,-5,5,5,true,false
+http://89.233.245.254/mjpg/video.mjpg,true,1,"Kalix, SE",2,3,mjpg,Parking lot industrial,0,2,5,false,false
+http://88.206.147.145:8000/mjpg/video.mjpg,true,2,"Eslöv, SE",5,4,mjpg,House/ parking,0,3,4,false,false
+http://95.128.118.30:9000/mjpg/video.mjpg,true,2,"katrineholm, SE",4,5,mjpg,weird industry,0,1,6,true,false
+http://95.44.37.191:1024/mjpg/video.mjpg,true,5,"Cork, IR",3,4,mjpg,church,0,4,3,true,true
+http://141.84.11.4/mjpg/video.mjpg,true,1,"munchen, DE",5,6,mjpg,swinging pendulum,0,3,8,true,true
+http://80.254.50.16/mjpg/video.mjpg,true,7,"saint petersburg, RU",8,7,mjpg,doors opening / entry way,,9,5,true,
+http://92.255.239.225/mjpg/video.mjpg,true,8,"kirov, RU",8,8,mjpg,"fast food, people",,7,3,true,false
+http://93.95.100.134/mjpg/video.mjpg,false,,"moscow, Russia",,4,mjpg,server room,,3,,true,
+http://81.137.228.155:8080/mjpg/video.mjpg,true,6,"westminister, england",7,5,mjpg,back room warehouse,,4,5,true,
+http://80.94.102.230:8080/mjpg/video.mjpg,true,4,"Monaco, Monaco",2,6,mjpg,factory,2,4,5,true,false
+http://81.22.21.155:8888/mjpg/quad/video.mjpg,true,3,"Manama, Bahrain",3,,mjpg,company entrance,3,7,5,true,
+http://158.132.254.161:8082/?action=stream,true,2,Hong Kong,3,7,mjpg,"numbers, factory",9,0,2,true,true
+http://213.125.60.53/mjpg/video.mjpg,true,5,Tilburg Netherlands,5,3,mjpg,Suburb,1,2,6,false,
+http://www.ustream.tv/channel/17074538,true,,Space,,8,,ISS international space station,,0,10,false,
+http://www.ustream.tv/channel/17074538,true,,Space,,8,,ISS international space station,,0,10,false,
+https://www.ivideon.com/tv/camera/200-7f8fba277695f01054a3d5e0e8d1b7a2/65536/?lang=ru,true,7,"Kemerovo, Russia",6,6,,Swimming pool,7,6,7,false,true
+https://www.ivideon.com/tv/camera/200-5e996925276447d0df1d82e3bf4accc2/65536/?lang=ru,true,8,"Kemerovo, Russia",5,5,,Gym,7,6,6,true,false
+https://www.ivideon.com/tv/camera/200-7f8fba277695f01054a3d5e0e8d1b7a2/0/?lang=ru,true,6,"Kemerovo, Russia",5,5,,Tennis court,7,5,6,true,false
+https://youtu.be/D8YHp37-tp0,true,6,"Makkah, Saudi Arabia",7,9,,Ka'ba haj,3,9,9,false,true
+http://80.152.244.238:8000,true,2,"Krefeld, Germany",4,4,,Bridge,2,3,8,false,false
+http://50.195.50.214:8082/mjpg/video.mjpg?timestamp=1479507052539,true,,"Boston,USA",,3,,wind mill,-4,6,,true,true
+http://165.234.49.199/mjpg/video.mjpg,true,1,"Bismarck, USA",5,8,mjpg,Industry,-5,7,3,true,true
+http://141.212.37.40/mjpg/video.mjpg,true,5,"Michigan, Ann arbor, US",5,5,mjpg,Server room,-5,3,5,true,false
+http://78.224.168.52:8080/mjpg/video.mjpg,true,7,"Poitou-Charentes, Niort, FR",6,,mjpg,Mall,1,2,6,true,
+http://67.42.251.204/mjpg/video.mjpg,true,,"Salt lake city, US",5,,mjpg,Dogs,-7,7,5,true,false
+http://96.231.203.147/mjpg/video.mjpg,true,3,"Washington, US",4,,mjpg,Construction site,-5,6,9,false,false
+http://151.237.205.2:81/mjpg/video.mjpg,true,6,"Benicarlo, Spain",7,,mjpg,Office,1,6,5,true,
+http://112.160.30.39:81/mjpg/video.mjpg,true,2,"Tsche-Mul-P-Ho, south korea",2,,mjpg,pipes,9,4,4,true,
+http://95.156.95.36:8080/mjpg/video.mjpg,true,1,"Krasfalseyarsk, Russia",5,,mjpg,Observatory,7,5,9,false,true
+http://46.160.244.38/mjpg/video.mjpg,true,2,"Moscow, Russia",3,,mjpg,Building,3,4,10,false,
+http://212.55.39.88:81/jpg/image.jpg,true,2,"Torshavn, Faroe Islands",5,,mjpg,road,1,5,10,false,false
+http://89.216.22.82:82/mjpg/video.mjpg,true,5,"Belgrade, Serbia",6,,mjpg,store,2,6,5,true,
+http://109.206.97.194:8084/mjpg/video.mjpg,true,6,"Belgrade, Serbia",2,,mjpg,betting table,2,7,5,true,
+http://109.206.101.50/mjpg/video.mjpg,true,2,"Belgrade, Serbia",5,8,mjpg,busy street,2,8,9,false,true
+http://42.144.200.118/mjpg/video.mjpg,true,7,"Tokyo, Japan",8,1,mjpg,,,,,,
+http://69.5.99.165:8080/?action=stream,true,1,"Oregon city, USA",4,,,machine,-8,6,5,true,
+http://188.134.70.68/mjpg/video.mjpg,true,2,"saint petersburg, RU",5,,mjpg,buildings,4,7,8,false,
+http://91.144.150.75:81/mjpg/video.mjpg,true,4,"kirov, RU",4,,mjpg,kitchen,4,5,4,true,
+http://91.144.173.252/mjpg/video.mjpg,true,,"kirov, RU",2,,mjpg,restaurant,4,6,1,true,
+http://188.134.21.82/mjpg/video.mjpg,true,2,"saint petersburg, RU",5,,mjpg,building,4,3,9,false,
+http://185.97.165.78/mjpg/video.mjpg,true,1,antwerpen?,5,,mjpg,"harbour, industrial",1,4,10,false,
+http://88.200.161.211:8080/mjpg/video.mjpg,true,6,"Pervomayskaya, RU",3,,mjpg,pills,4,4,2,true,
+http://81.211.119.197/mjpg/video.mjpg,false,,"Arkhangelsk, RU",,,mjpg,mailboxes,4,1,5,,
+http://46.231.215.182:8083/mjpg/video.mjpg,false,,"saint petersburg, RU",5,,mjpg,building,4,5,9,false,
+http://87.239.28.70/mjpg/video.mjpg,true,2,"Moscow, Russia",5,,mjpg,Construction site,4,3,6,false,
+http://89.28.252.214:8083/mjpg/video.mjpg,true,5,"Magadan, RU",6,,mjpg,landscape,12,4,7,false,
+http://195.70.201.30:8081/mjpg/video.mjpg,true,4,"saint petersburg, RU",4,,mjpg,parking lot,4,4,4,true,
+http://82.137.178.29/mjpg/video.mjpg,true,2,"Saratov, RU",4,,mjpg,"Building, people",4,4,7,false,
+http://62.144.69.102/mjpg/video.mjpg,true,6,"frankfurt, de",1,,mjpg,toys,,1,3,true,
+http://188.21.173.21/mjpg/video.mjpg,true,4,"innsbruck, de",7,,mjpg,warehouse,,1,5,true,
+http://139.223.38.90/mjpg/video.mjpg,true,2,"taipei, taiwan",8,,mjpg,weird warehouse / shelf,,1,4,true,
+http://173.200.27.210:83/mjpg/video.mjpg,true,7,"georia, us",4,,mjpg,dogs,,8,5,true,false
+http://206.162.189.195/mjpg/video.mjpg,true,3,"Dalhousie, canada",5,,mjpg,industry,-4,2,3,true,
+http://142.46.20.23/mjpg/video.mjpg,true,1,"torofalseto, canada",6,,mjpg,factory with metal parts,-5,5,5,true,
+http://192.81.55.139:83/?action=stream,true,2,"creston, canada",5,9,mjpg,cutter/printer?,-8,7,4,true,true
+http://192.81.55.139:82/?action=stream,true,2,"creston, canada",5,9,mjpg,cutter/printer?,-8,7,5,true,true
+http://192.81.55.139:8080/?action=stream,true,2,"creston, canada",4,9,mjpg,cutter/printer?,-8,7,2,true,true
+http://69.70.135.38/mjpg/video.mjpg,true,3,"montreal, canada",8,8,mjpg,street view,-5,3,9,true,true
+http://216.223.107.141/mjpg/video.mjpg,true,4,"greater sudbury, canada",5,5,mjpg,turtles,-5,5,4,true,false
+http://212.204.179.70:88/mjpg/video.mjpg,true,5,"schalkhaar,netherlands",3,7,mjpg,"bar, people",1,6,5,true,false
+http://75.145.217.140:8082/mjpg/video.mjpg,true,7,"memphis, usa",2,4,mjpg,pond,-5,4,4,false,false
+http://78.9.31.140/mjpg/video.mjpg,true,4,"wroclaw, poland",8,,mjpg,"square, people",2,6,7,false,
+http://94.42.123.60/mjpg/video.mjpg,true,2,"tarfalsew, poland",5,,mjpg,"street view, people",2,4,6,false,
+http://85.158.74.22/mjpg/video.mjpg,true,3,"ventspils, latvia",5,,mjpg,harbour,3,4,10,false,
+http://217.91.58.189:1024/mjpg/video.mjpg,true,5,"Mahlpfuhl, germany",7,,mjpg,"street view, people",1,4,8,false,
+http://166.239.210.94:5001/mjpg/1/video.mjpg,true,2,"doylestown, usa",3,9,mjpg,billboard,-5,5,5,false,true
+http://129.237.112.65/mjpg/1/video.mjpg,true,2,"lawrence, usa",6,4,mjpg,building,-6,6,9,false,true
+http://129.186.220.6/mjpg/video.mjpg,true,8,"Ames, Usa",5,4,mjpg,"school hallway, people",-6,5,8,,false
+http://141.35.154.67/mjpg/video.mjpg,true,1,"jena, germany",5,,mjpg,machine part,1,6,2,false,true
+http://110.5.60.140:8081/mjpg/video.mjpg?timestamp=1479508552889,true,7,"Tokyo, Japan",7,3,mjpg,"building, woods",9,7,7,true,false
+http://107.193.60.72/mjpg/video.mjpg,true,7,woodland hills,6,8,mjpg,fish tank,-8,5,5,true,true
+http://179.189.237.60:8080/mjpg/video.mjpg,true,2,"barueri, brazil",7,8,mjpg,buildings / server rack?,-3,6,4,false,false
+http://166.154.143.98/mjpg/video.mjpg,true,3,"torrance, usa",3,6,mjpg,"road, desert",-8,4,10,false,false
+http://24.13.67.63/mjpg/1/video.mjpg,true,8,"park ridge, usa",1,3,mjpg,"door, private house",-6,4,8,false,false
+http://94.72.19.56/mjpg/video.mjpg,true,5,"Shushary, usa",3,7,mjpg,moving street camera,-3,7,9,false,false
+http://166.143.186.1:5001/mjpg/1/video.mjpg,true,2,"las vegas, usa",4,8,mjpg,billboard,-8,6,5,false,false
+http://108.81.77.58:8080/mjpg/video.mjpg,true,6,"miami beach, usa",4,8,mjpg,hotel hallway,-5,6,4,true,true
+http://213.122.75.54:1024/mjpg/video.mjpg,false,,"rowington, england",,,mjpg,church,0,5,,true,false
+http://66.214.179.50:8001/mjpg/video.mjpg,true,8,"glendal, usa",2,7,mjpg,daycare,-8,7,5,true,false
+http://168.131.109.223/mjpg/video.mjpg,true,8,"Seoul, South Korea",9,7,mjpg,servers/machine,8,8,8,,true
+http://206.176.34.53/mjpg/video.mjpg,true,4,"sioux falls, usa",5,8,mjpg,busy street,-8,7,7,false,false
+http://128.10.29.32/mjpg/1/video.mjpg,true,6,"west lafayette, usa",3,5,mjpg,restaurant/airport?,-5,7,6,false,false
+http://221.164.13.27/mjpg/video.mjpg,true,1,"syunsen, south korea",8,4,mjpg,landscape,9,8,10,false,false
+http://192.33.141.32/mjpg/video.mjpg,true,7,"tuscon, usa",7,0,mjpg,roof top,-7,4,4,false,true
+http://208.87.73.44/mjpg/video.mjpg,true,4,"martin, usa",6,0,mjpg,campus,-8,7,7,false,false
+http://166.166.212.11/mjpg/video.mjpg,true,3,"beaumont, usa",3,6,mjpg,hospital landing plateau,-6,6,6,false,false
+http://182.52.238.15:81/mjpg/video.mjpg,true,4,"bangkok, thailand",5,5,mjpg,bridge,9,4,7,false,true
+http://70.99.6.20:9000/mjpg/video.mjpg,true,6,"vancouver, usa",3,3,mjpg,office,-8,7,5,true,false
+http://208.98.173.20/mjpg/1/video.mjpg,true,,"boise, usa",4,1,mjpg,landscape,-7,6,8,false,true
+http://200.57.16.4:8081/mjpg/video.mjpg,true,5,"Cuauhtemoc, mexico",6,8,mjpg,factory,-6,6,7,true,false
+http://200.57.16.4:8083/mjpg/video.mjpg,true,5,"Cuauhtemoc, mexico",6,7,mjpg,factory,-6,6,7,true,false
+http://200.57.16.4:8084/mjpg/video.mjpg,true,5,"Cuauhtemoc, mexico",5,8,mjpg,factory,-6,7,7,true,false
+http://200.57.16.4:8080/mjpg/video.mjpg,true,5,"Cuauhtemoc, mexico",4,6,mjpg,factory,-6,7,8,true,false
+http://87.228.103.5:8080/mjpg/video.mjpg,true,2,"Moscow, Russia",3,5,mjpg,construction site,3,6,9,false,false
+http://173.16.182.4:81/mjpg/video.mjpg,true,5,"Springfield, Missoury",4,5,mjpg,factory,-6,7,5,true,true
+http://94.139.68.254:8090/mjpg/video.mjpg,true,2,"Dalen, falserway",5,5,mjpg,mountain,1,3,8,false,false
+http://93.87.72.254:8084/mjpg/video.mjpg,true,7,"Bela Crkva, Serbia",6,3,mjpg,market,1,4,6,false,false
+http://208.68.126.46/mjpg/video.mjpg,true,,"Cherokee, USA",2,5,mjpg,landscape,-5,3,10,false,true
+http://69.165.113.223/mjpg/video.mjpg,true,,"La Jolla, USA",1,1,mjpg,solar panels,-8,3,8,false,false
+http://91.112.176.230:8001/mjpg/video.mjpg,true,0,"Tirol, Austria",1,2,mjpg,machine,1,5,3,true,false
+http://188.138.128.226:5000/mjpg/video.mjpg,true,2,"Chisinau, Moldova",3,4,mjpg,parking lot,2,6,8,false,false
+http://190.104.250.226/mjpg/video.mjpg,true,1,"Buefalses Aires, Argentina",7,4,mjpg,traffic,-3,6,8,false,true
+http://59.126.124.243:8001/mjpg,false,,"Fengyuan, Taiwan",,,mjpg,street,8,7,6,false,false
+http://93.153.148.242/mjpg/video.mjpg,true,1,"Kaliningrad, Russia",8,5,mjpg,landscape,2,3,10,false,false
+http://200.89.129.237/mjpg/video.mjpg,true,,"mendoza, Argentina",4,1,mjpg,canal,-3,5,6,false,false
+http://122.129.127.251/mjpg/video.mjpg,true,6,"Cyberjaya, Malasya",6,4,mjpg,street view,8,7,8,false,false
+http://81.166.42.252:84/mjpg/video.mjpg,true,4,"Stavanger, falserway",8,4,mjpg,View on water,1,4,8,false,false
+,,,,,,mjpg,,,,,true,false
+http://99.227.81.0:8000/mjpg/video.mjpg,true,5,"York Mills, USA",7,0,mjpg,entrance of house,-5,5,3,false,false
+http://129.186.133.2/mjpg/video.mjpg,true,5,"Ames, Usa",3,4,mjpg,hallway,-6,7,5,true,false
+http://178.255.188.4:8082/mjpg/video.mjpg,true,5,"Piemonte, Italy",5,5,mjpg,garage,1,4,6,false,false
+http://198.0.254.151/mjpg/video.mjpg,true,,"McHenry, USA",7,4,mjpg,machine,-6,7,3,,false
+http://190.215.38.148:8082/mjpg/video.mjpg,true,,"Santiago, Chile",5,3,mjpg,dam,-4,6,6,false,false
+http://190.215.38.147:8084/mjpg/video.mjpg,true,6,"Santiago, Chile",7,4,mjpg,bridge,-4,5,5,false,false
+http://97.68.168.156/mjpg/video.mjpg,true,6,"Florida, USA",7,4,mjpg,street,-5,2,4,false,false
+http://119.195.110.156/mjpg/video.mjpg,true,3,"Kijang, South Korea",7,6,mjpg,watershore,9,5,6,false,false
+http://200.2.228.161:81/mjpg/video.mjpg,true,5,"Puerto Natales, Chile",3,8,mjpg,machine,-4,7,1,true,true
+http://86.43.96.171/mjpg/video.mjpg,true,6,Ireland,2,8,mjpg,church,0,3,6,true,false
+http://91.221.52.198:82/mjpg/video.mjpg,true,6,"Simferopol', Ukraine",1,7,mjpg,office,2,7,5,true,false
+http://148.244.68.195/mjpg/video.mjpg,true,7,"Tultepec, Mexico",2,4,mjpg,bathrooms,-6,4,4,true,false
+http://92.255.239.225/mjpg/video.mjpg,true,7,"kirov, RU",8,7,mjpg,restaurant,3,8,3,true,false
+http://147.229.26.172/mjpg/video.mjpg,true,5,"Brfalse, Czech Republic",3,3,mjpg,classroom,2,6,5,true,true
+http://80.14.17.201/mjpg/video.mjpg,true,5,"Puteaux, France",3,8,mjpg,"helicopter, landing pad",1,7,8,false,false
+http://130.15.118.94/mjpg/video.mjpg,true,2,"Kingston, USA",,,mjpg,football field,-5,4,9,false,false
+http://62.28.152.110:82/mjpg/1/video.mjpg,true,4,"Lisboa, Portugal",5,5,mjpg,entrance of house,1,4,7,false,false
+http://150.214.222.106/mjpg/video.mjpg,true,1,"Almeria, Spain",2,4,mjpg,observatory,1,7,9,false,false
+http://201.229.12.131:8083/mjpg/video.mjpg,true,5,"Oranjestad, Aruba",,,mjpg,entrance of house,-4,6,6,false,false
+http://109.173.16.138:83/mjpg/1/video.mjpg,true,2,"Moscow, Russia",,,mjpg,buildings,3,8,8,false,true
+http://166.239.12.138:81/mjpg/video.mjpg,true,3,"doylestwon, usa",3,8,mjpg,street,-5,6,5,false,false
+http://213.248.170.138/mjpg/video.mjpg,true,7,"denizli, Turkey",8,6,mjpg,store,2,6,5,true,false
+http://91.201.117.136/mjpg/video.mjpg,true,2,"Pskov, Russia",8,4,mjpg,roundabout,3,6,7,false,false
+http://200.2.228.136:83/mjpg/video.mjpg,true,1,"Puerto Natales, Chile",2,5,mjpg,factory,-4,4,5,true,false
+http://81.133.10.143/mjpg/video.mjpg,true,3,UK,1,6,mjpg,church,0,5,6,true,false
+http://2.228.68.135/mjpg/video.mjpg,true,7,"Milan, Italy",2,1,mjpg,conference room,1,6,5,true,false
+http://67.47.8.134:81/mjpg/video.mjpg,true,4,"New Paris, USA",2,5,mjpg,machine,-5,5,3,true,false
+http://199.189.128.27/mjpg/video.mjpg,true,,"Cordova, Alaska",,,mjpg,satellite dishes,-9,6,9,false,false
+http://207.115.90.134/mjpg/video.mjpg,true,3,"Seattle, USA",,,mjpg,machine,-8,5,5,true,false
+http://90.63.132.246:8082/mjpg/video.mjpg,true,2,"Bagfalselet, France",1,3,mjpg,machines,1,7,4,true,false
+http://87.54.226.246/mjpg/video.mjpg,true,3,"tranberg, Denmark",4,6,mjpg,roundabout,1,3,6,false,false
+http://194.177.238.221/mjpg/video.mjpg,true,2,"Nuuk, Greenland",3,7,mjpg,View on water,-3,3,9,false,false
+http://185.87.240.168:8080/mjpg/quad/video.mjpg,true,2,"prato, italy",3,7,mjpg,landscape,1,2,10,false,false
+http://217.92.184.80:8082/jpg/1/image.jpg,true,5,"Berlin, Germany",3,6,mjpg,landing strip,1,5,7,false,false
+http://193.190.230.96/mjpg/video.mjpg,true,1,"Brussels, Belgium",1,5,mjpg,sky,1,2,10,false,false
+http://213.82.111.58:8081/mjpg/video.mjpg,true,6,"Milan, Italy",4,7,mjpg,beach / plant,1,5,2,false,false
+http://50.206.36.37/mjpg/video.mjpg,true,,"Baltimore, USA",,,mjpg,sky,-5,6,1,false,false
+http://95.111.136.73:82/mjpg/video.mjpg,false,,"Odessa, Ukraine",,,mjpg,cables,2,8,,true,false
+http://94.92.6.57:81/mjpg/video.mjpg,true,7,"viadana, italy",4,5,mjpg,entrance of house,1,7,5,true,false
+http://212.114.166.70/mjpg/video.mjpg,true,2,"Munich, Germany",4,5,mjpg,FIELD,1,2,8,false,false
+http://193.213.13.69/mjpg/video.mjpg,true,2,"Alta, falserway",5,8,mjpg,road,1,6,7,false,false
+http://139.229.106.69/mjpg/video.mjpg,true,,"tuscon, usa",,,mjpg,mountain/desert,-8,4,10,false,true
+http://186.67.74.68:8090/mjpg/video.mjpg,true,,"Valparaiso, Chile",,,mjpg,store,-4,6,4,true,false
+http://31.134.151.78/mjpg/video.mjpg,true,2,"st petersburg, russia",4,6,mjpg,building,3,5,9,false,false
+http://216.9.0.53:84/mjpg/video.mjpg,true,5,"Seattle, USA",,,mjpg,classroom,-7,8,5,true,false
+http://97.68.168.59/mjpg/video.mjpg,true,,"Daytona Beach, USA",,,mjpg,road,-4,5,4,false,true
+http://200.52.135.36/mjpg/video.mjpg,true,9,"Naucalpan De Juarez, Mexico",6,7,mjpg,kindergarten,-6,8,5,true,false
+http://108.12.132.51/mjpg/1/video.mjpg,true,2,"New York, USA",5,8,mjpg,road side advertising,-4,6,6,false,false
+http://128.119.70.55:86/mjpg/video.mjpg,true,1,"amherst, USA",1,6,mjpg,machine,-4,5,3,true,true
+http://209.248.148.41/mjpg/video.mjpg,true,2,"Springfield, USA",1,7,mjpg,electrical circuits,-4,4,2,true,false
+http://86.47.47.41:1024/mjpg/video.mjpg,true,4,"Dublin, Ireland",5,6,mjpg,church,-1,4,6,true,false
+http://78.188.134.47/mjpg/video.mjpg,true,4,"Ankara, Turkey",3,5,mjpg,storage closet,3,4,4,true,false
+http://200.214.130.38:3000/mjpg/video.mjpg,true,8,"rio de janeiro, Brazil",2,4,mjpg,waiting room,-3,8,5,true,false
+http://200.214.130.38:9000/mjpg/video.mjpg,true,8,"rio de janeiro, Brazil",2,5,mjpg,waiting area,-3,8,5,true,false
+http://200.52.135.39/mjpg/video.mjpg,true,10,"Naucalpan De Juarez, Mexico",7,9,mjpg,kindergarten,-6,8,5,true,false
+http://89.186.215.39:3000/mjpg/video.mjpg,true,8,"Buchs, Sweden",1,4,mjpg,smoking area,2,4,5,true,false
+http://141.212.37.39/mjpg/video.mjpg,true,8,"Ann Harbour, USA",5,4,mjpg,computers/lab,-4,5,5,true,false
+http://130.149.32.39/mjpg/quad/video.mjpg,true,1,"Berlin, Germany",1,1,mjpg,lab,1,5,2,true,false
+http://200.117.250.39:8083/mjpg/video.mjpg,true,7,"Buefalses Aires, Argentina",5,5,mjpg,office,-3,5,6,true,false
+http://93.123.226.39/mjpg/video.mjpg,true,5,"Moscow, Russia",3,5,mjpg,parking lot,3,6,7,false,false
+http://50.247.3.40/mjpg/video.mjpg,false,,"San Jose, USa",,,mjpg,kindergarten,-7,8,,true,false
+http://92.255.185.40/mjpg/video.mjpg,true,7,"Omsk, Russia",3,4,mjpg,hotel lobby,7,7,5,true,false
+http://81.8.143.35/mjpg/video.mjpg,true,5,"Vindeln, Sweden",5,8,mjpg,garden,2,4,4,false,false
+http://207.188.247.34/mjpg/video.mjpg,true,7,"Betheshda, USA",3,3,mjpg,"hallway, elevators",-4,7,6,true,false
+http://107.1.228.34/mjpg/video.mjpg,true,3,"Plainfield, USA",6,8,mjpg,"windmill, baths",-4,6,8,false,true
+http://186.67.202.34:8084/mjpg/video.mjpg,true,6,"Santiago, Chile",5,6,mjpg,warehouse,-4,6,8,true,true
+http://200.52.135.24/mjpg/video.mjpg,true,9,"Naucalpan De Juarez, Mexico",6,7,mjpg,kindergarten,-6,8,5,true,false
+http://209.137.240.24:8081/mjpg/video.mjpg,true,6,"Buttle, USA",5,4,mjpg,stables,-6,4,5,,false
+http://154.126.208.35/mjpg/video.mjpg,true,2,"Cape Town, South Africa",2,2,mjpg,landing strip,2,2,8,false,false
+http://209.225.99.35/mjpg/video.mjpg,true,7,Milwaulkee USA,7,7,mjpg,"terrace, waterfront",-5,6,5,false,false
+http://128.193.47.35/mjpg/video.mjpg,true,5,"corvallis, usa",1,4,mjpg,factory,-7,6,7,true,true
+http://216.159.64.30/mjpg/video.mjpg,true,5,"Sioux City, USA",5,5,mjpg,houses and parking lot,-5,6,6,false,false
+http://71.43.231.29/mjpg/video.mjpg,true,,"Orlando, USA",,,mjpg,plane,-4,5,6,true,false
+http://200.52.135.29/mjpg/video.mjpg,true,9,"Naucalpan De Juarez, Mexico",6,7,mjpg,kindergarten,-6,4,5,true,false
+http://95.230.85.28/mjpg/video.mjpg,true,5,"Rome, Italy",3,5,mjpg,street views,2,5,5,false,false
+http://72.52.116.28/mjpg/video.mjpg,true,3,"Fremont, USA",4,8,mjpg,cables,-7,6,2,true,false
+http://88.12.6.26:8080/mjpg/video.mjpg,true,2,"Madrid, Spain",1,0,mjpg,warehouses,2,4,6,false,false
+http://75.145.30.26/mjpg/video.mjpg,true,2,USA,3,4,mjpg,building,-6,3,7,false,false
+http://200.52.135.25/mjpg/video.mjpg,true,9,"Naucalpan De Juarez, Mexico",6,7,mjpg,kindergarten,-6,5,5,true,false
+http://203.138.220.33/mjpg/video.mjpg,true,7,"osaka, Japan",5,9,mjpg,street view,9,6,6,false,false
+http://66.109.142.31/mjpg/video.mjpg,true,5,"Missoulla, USA",6,5,mjpg,plants,-6,5,7,false,false
+http://129.16.208.250/mjpg/video.mjpg,true,3,"Goeteburg, Sweden",3,6,mjpg,satellite dishes,2,7,7,false,false
+http://96.89.129.22:84/mjpg/video.mjpg,true,8,"Pittsburgh, USA",6,8,mjpg,kindergarten,-4,6,5,true,false
+http://96.89.129.22:81/mjpg/video.mjpg,true,8,"Pittsburgh, USA",6,8,mjpg,kindergarten,-4,6,5,true,false
+http://96.89.129.22:8084/mjpg/video.mjpg3,true,8,"Pittsburgh, USA",6,8,mjpg,kindergarten,-4,6,5,true,false
+http://96.89.129.22:85/mjpg/video.mjpg,true,8,"Pittsburgh, USA",6,8,mjpg,kindergarten,-4,6,5,true,false
+http://96.89.129.22:8081/mjpg/video.mjpg,true,8,"Pittsburgh, USA",6,8,mjpg,kindergarten,-4,6,6,true,false
+http://96.89.129.22:82/mjpg/video.mjpg,true,8,"Pittsburgh, USA",6,8,mjpg,kindergarten,-4,6,5,true,false
+http://96.89.129.22:8082/mjpg/video.mjpg,true,8,"Pittsburgh, USA",6,8,mjpg,kindergarten,-4,6,6,true,false
+http://96.89.129.22:91/mjpg/video.mjpg,true,8,"Pittsburgh, USA",6,8,mjpg,kindergarten,-4,6,5,true,false
+http://194.44.202.21/mjpg/video.mjpg,true,2,"L'Viv, USA",,,mjpg,club,3,8,5,true,true
+http://193.33.166.21:8090/mjpg/video.mjpg,true,2,"Tyumen, Russia",3,4,mjpg,building,6,7,6,false,false
+http://61.38.106.34/mjpg/video.mjpg,true,4,"Seoul, South Korea",7,4,mjpg,road,9,4,2,false,false
+http://110.5.60.253:8082/mjpg/video.mjpg,true,4,"Tokyo, Japan",4,7,mjpg,screen,9,5,2,false,true
+http://110.5.60.250:8084/mjpg/video.mjpg,true,4,"Tokyo, Japan",4,7,mjpg,screen,9,5,2,true,true
+http://178.46.128.247:8090/mjpg/video.mjpg,true,8,Yekatarinaburg,2,2,mjpg,stairs,6,4,4,true,true
+http://192.82.150.11:8083/mjpg/1/video.mjpg,true,7,"Brampton, Canada",7,7,mjpg,street view,-4,6,6,false,false
+http://24.253.60.235:5000/mjpg/1/video.mjpg,true,7,"las vegas, usa",3,5,mjpg,"door, private house",-7,4,4,false,false
+http://186.233.14.234/mjpg/video.mjpg,true,5,"Foz Do Iguacu, Brazil",5,3,mjpg,road,-3,5,7,false,false
+http://221.144.181.228/mjpg/video.mjpg,true,3,"Neietsu, South Korea",3,3,mjpg,landscape,9,2,9,false,false
+http://188.136.237.116/mjpg/video.mjpg,true,3,"dowlatabad, Iran",3,2,mjpg,building under construction,3.3,6,9,false,false
+http://220.254.108.163:1024/mjpg/video.mjpg,true,,"Nagafalse, Japan",2,5,mjpg,landscape,9,2,10,false,false
+http://210.61.51.127/mjpg/1/video.mjpg,true,4,"Taoyuan City, Taiwan",2,1,mjpg,bridge/dam,8,3,8,false,false
+http://50.96.119.242:8001/mjpg/video.mjpg,true,5,"Marshallville, USA",3,6,mjpg,bungalows,-5,5,7,false,false
+http://50.244.86.84/mjpg/video.mjpg,true,7,"Savannah, USA",6,7,mjpg,elevators ,-5,5,5,true,true
+http://112.162.204.80/mjpg/video.mjpg,true,2,"Kijang, South Korea",5,3,mjpg,waterfront,9,2,8,false,false
+http://121.119.136.221/mjpg/video.mjpg,true,,"Shibiya-ku, Japan",3,4,mjpg,street,9,6,9,false,false
+http://117.102.112.34/mjpg/video.mjpg,true,2,"Ubud, Indonesia",4,3,mjpg,waterfront,8,2,2,false,false
+http://211.72.235.33/mjpg/video.mjpg,true,0,"Chang-Hua, Taiwan",2,2,mjpg,waterlevel,8,6,4,false,false
+http://217.117.125.16/mjpg/video.mjpg,true,2,"Moscow, Russia",4,4,mjpg,building,3,4,2,false,true
+http://122.53.139.217/mjpg/video.mjpg,true,2,"Mandaluyong City, Philipines",4,6,mjpg,building with advertisments,8,2,8,false,false
+http://81.0.146.226:88/mjpg/video.mjpg,,7,"Oslo, falserway",6,4,mjpg,"store, ice cream ",2,6,8,,false
+http://84.92.80.192:8081/mjpg/video.mjpg,,4,"Sheffield, UK",4,4,mjpg,small airport,1,3,4,,false
+http://87.23.2.18:82/mjpg/video.mjpg,,9,"Rome, Italy",7,4,mjpg,hallway,2,8,8,,false
+http://87.116.21.107/mjpg/video.mjpg,,9,"Ikast, Denmark",8,8,mjpg,numbers,2,8,9,,false
+http://87.116.21.108/mjpg/video.mjpg,,9,"Ikast, Denmark",8,8,mjpg,"numbers, newspaper factory",2,8,9,,true
+http://88.205.148.250/mjpg/video.mjpg,,7,"Chelyabinsk, Russia",6,6,mjpg,street,4,6,8,,false
+http://152.1.220.101/mjpg/video.mjpg,true,7,"Raleigh, USA",5,3,mjpg,computer room,-4,5,8,,false
+http://194.117.188.37/mjpg/video.mjpg,,7,"Boden, Sweden",7,7,mjpg,flags,2,7,7,,false
+http://134.139.25.143/mjpg/video.mjpg,,8,"Long Beach, USA",8,5,mjpg,storage,-7,8,8,,true
+http://137.205.164.245/mjpg/video.mjpg,,8,"Coventry, England",8,7,mjpg,satellite dishes,1,7,9,,true
+http://157.157.215.231:8080/mjpg/video.mjpg,,4,"Reykyavik, Iceland",4,5,mjpg,mountain,0,4,3,,false
+http://161.72.22.245/mjpg/video.mjpg,,8,"La laguna, spain",8,7,mjpg,telescope site,2,8,7,,true
+http://161.72.5.26/mjpg/video.mjpg,,7,"La laguna, spain",7,6,mjpg,telescope site,2,6,6,,false
+http://206.76.137.144/mjpg/video.mjpg,,6,"austin, usa",7,7,mjpg,telescope site,-6,7,5,,false
+http://210.176.28.142:82/mjpg/video.mjpg,,8,"hong kong, china",9,8,mjpg,factory,8,8,7,,true
+http://209.124.174.219/mjpg/video.mjpg,,7,"Baltimore, USA",7,8,mjpg,church,-4,7,6,,false
+http://213.200.238.234/mjpg/video.mjpg,,,"Zurich, Switzerland",,,,houses,2,,,,
+http://216.198.113.50/mjpg/video.mjpg,,7,"Susansville, USA",7,6,mjpg,construction/antenna's,-8,7,8,,false
+http://216.198.113.51/mjpg/video.mjpg,,7,"Susansville, USA",7,6,mjpg,antenna's,-8,7,8,,false
+http://222.151.227.102/mjpg/video.mjpg,,,"Tokyo, Japan",,,,?,9,,,,false
+http://50.203.169.97/mjpg/video.mjpg,,6,"Aspen, USA",6,6,mjpg,detail of sidewalk,-6,,,,false
+http://62.81.68.206/mjpg/video.mjpg,,6,"Bassauri, Spain",5,3,mjpg,"terrace, waterfront",2,5,5,,false
+http://65.183.153.11/mjpg/video.mjpg,,8,"Burlington, USA",5,7,mjpg,restaurant,-4,6,8,,false
+http://76.9.124.15/mjpg/video.mjpg,,8,"Troy, USA",8,6,mjpg,office,-4,8,8,,false
+http://136.169.219.105/mjpg/video.mjpg?timestamp=1477924217350,,8,"Selavat, Russia",3,10,mjpg,flower shop,5,9,9,,true
+http://84.243.5.100/mjpg/video.mjpg,,8,"Bjarred, Sweden",5,0,mjpg,road,2,8,9,,false
+http://73.119.124.99:8081/mjpg/video.mjpg,,8,"Mount Laurell, USA",2,4,mjpg,doorstep,-5,3,8,,false
+http://81.242.103.102:84/mjpg/video.mjpg?timestamp=1477927504488,,7,"Leuven, Belgium",2,5,mjpg,storage space/meeting point,2,7,7,,false
+http://82.153.199.102:8081/mjpg/video.mjpg,,8,"twyn lian, UK",2,4,mjpg,kitchen,0,5,8,,false
+http://108.182.23.95:8084/jpg/1/image.jpg,,8,"New York, USA",8,6,mjpg,boxing club,-5,7,7,,false
+http://187.207.181.99:8001/mjpg/video.mjpg,,8,"Distrito Federal, Mexico",4,5,mjpg,opticiën,-6,6,8,,false
+http://190.62.115.96:8081/mjpg/video.mjpg,,,"La Libertad, El Salvador",7,6,mjpg,parking lot,-6,,,,false
+http://190.62.115.96:8082/mjpg/video.mjpg,,,"La Libertad, El Salvador",2,1,mjpg,parking lot detail,-6,,,,false
+http://212.120.32.98:8080/mjpg/video.mjpg,,7,"Basel, Switzerland",8,8,mjpg,cable porn,1,8,8,,true
+http://178.82.195.98:8000/mjpg/video.mjpg,,7,"Sankt Gallen, Switzerland",3,4,mjpg,cafe,1,4,7,,false
+http://66.108.251.98:9000/mjpg/video.mjpg,,8,"Astoria, USA",5,6,mjpg,street/door,-5,6,9,,false
+http://86.62.113.90/mjpg/1/video.mjpg?camera=1&timestamp=1477937166249,,7,"Moscow, Russia",2,6,mjpg,construction site,3,7,8,,false
+http://24.73.140.88/mjpg/video.mjpg,,7,"Melbourne, USA",1,2,mjpg,backyard,-5,6,8,,false
+http://67.85.184.90:5000/mjpg/video.mjpg,,8,"New York, USA",5,7,mjpg,"temple, people, shop",-5,8,7,,true
+http://77.241.61.90:8080/mjpg/video.mjpg,,7,"Madrid, Spain",6,7,mjpg,kitchen with tv,1,7,8,,true
+http://88.88.93.90:81/mjpg/video.mjpg,,8,"Raholt, falserway",4,4,mjpg,living room,1,8,8,,false
+http://187.8.158.90/mjpg/video.mjpg?timestamp=1477937776777,,4,"Sao Paolo, Brazil",2,3,mjpg,beach,-3,3,6,,false
+http://208.83.94.90:2000/mjpg/video.mjpg,,8,USA,5,6,mjpg,restaurant,-4,6,8,,false
+http://213.126.92.90:8082/mjpg/video.mjpg?timestamp=1477938153234,,8,"The Hague, The Netherlands",4,6,mjpg,gym,1,,,,
+http://24.98.207.93/mjpg/video.mjpg,,7,"Georgia, USA",1,1,mjpg,"swimming pool, backyard",-5,6,8,,false
+http://78.195.146.91:90/mjpg/video.mjpg,,7,"Allonzier-La-Caille, France",3,7,mjpg,?,1,7,8,,false
+http://85.246.241.95/mjpg/video.mjpg?timestamp=1477938365033,,7,"Lisboa, Portugal",3,5,mjpg,office,1,4,8,,false
+http://188.251.9.91:8080/mjpg/video.mjpg,,7,"Bragda, Portugal",4,4,mjpg,food court,1,3,7,,false
+http://69.193.149.90:82/mjpg/video.mjpg?timestamp=1477938620139,,9,"Herndon, USA",5,4,mjpg,elevator,-5,9,8,,true
+http://69.193.149.90:83/mjpg/video.mjpg?timestamp=1477938703680,,8,"Herndon, USA",3,4,mjpg,office space,-5,7,7,,false
+http://220.130.53.4:81/,,,Taiwan,8,8,mjpg,tv,8,,,,
+http://108.226.17.63:8090/mjpg/video.mjpg?timestamp=1477939852997,,8,"Brentwood, USA",4,8,mjpg,headshots,-8,9,9,,true
+http://31.134.162.132:8084/mjpg/video.mjpg,,4,"St. Petersburg, Russia",3,6,mjpg,flats,3,8,2,,true
+http://74.3.144.132:8083/mjpg/video.mjpg?timestamp=1478530095982,,7,"Sasketchawan, Canada",1,4,mjpg,airport (small),-6,7,6,,false
+http://78.245.249.134:8081/mjpg/video.mjpg,,8,"Bretagne, France",4,4,mjpg,restaurant,1,7,8,,false
+http://81.193.200.134:82/mjpg/video.mjpg,,8,"Lisboa, Portugal",4,4,mjpg,restaurant,0,7,8,,false
+http://85.183.4.132:6001/mjpg/video.mjpg,,8,"Hamburg, Germany",1,2,mjpg,hallway,1,7,8,,false
+http://81.167.211.130:8081/mjpg/video.mjpg,,1,"Stavanger, falserway",1,1,mjpg,mountain,1,6,3,,false
+http://90.191.68.132:2000/mjpg/video.mjpg?timestamp=1478530496777,,9,"Tallin, Estonia",3,3,mjpg,living room,2,,,,
+http://98.240.224.133:83/mjpg/video.mjpg,,9,"Minnesota, USA",6,6,mjpg,living room,-6,7,9,,false
+http://93.143.156.133:82/mjpg/video.mjpg,,5,"Zupanja, Croatia",3,4,mjpg,outside pool,2,,,,
+http://109.193.225.132/mjpg/video.mjpg,,1,"Eppingen, Germany",1,1,mjpg,mountain view,1,,,,
+http://181.118.102.130:8090/mjpg/video.mjpg?timestamp=1478530841557,,6,"Tucuman, Argentina",6,5,mjpg,street crossing,-3,6,7,,false
+http://125.63.65.133/mjpg/1/video.mjpg,,8,"Imphal, India",9,8,mjpg,live stream local tv,5.3,8,9,,true
+http://190.29.99.134/mjpg/video.mjpg,,8,"Antioquia, Colombia",2,3,mjpg,"kitchen, people",-5,7,8,,false
+http://185.120.177.130/mjpg/video.mjpg,,6,"Paris, France",5,6,mjpg,airport (small),1,7,6,,true
+http://213.218.198.130/mjpg/video.mjpg?timestamp=1478531467909,,7,"Edgbaston, UK",3,3,mjpg,speaking platform,0,6,8,,false
+http://217.232.191.135:88/mjpg/video.mjpg,,7,"Hessen, Germany",4,2,mjpg,"swing, garden",1,,,,
+http://197.86.210.121:83/mjpg/video.mjpg,,6,"Gauteng, South Africa",6,4,mjpg,"factory, warehouse",2,,,,
+http://212.125.222.126:8080/mjpg/video.mjpg,,8,"Oslo, falserway",8,9,mjpg,cutting machine,1,9,9,,true
+http://46.227.192.128/mjpg/video.mjpg,,2,"Kyrksaeterora, falserway",2,5,mjpg,"landscape, beautiful",1,4,2,,false
+http://70.1.39.130:85/mjpg/video.mjpg,,6,"Arizona, USA",6,8,mjpg,"Arena, hallway",-7,,,,
+http://79.28.173.129:8083/mjpg/video.mjpg,,4,"Siena, Italy",4,8,mjpg,street,1,6,8,,false
+http://83.155.186.129:8084/mjpg/video.mjpg,,7,"Bordeaux, France",4,4,mjpg,wash,1,6,7,,false
+http://212.125.222.126:8081/mjpg/video.mjpg,,6,"Oslo, falserway",7,8,mjpg,"factory, counting screen",1,7,9,,false
+http://148.0.119.122:88/mjpg/video.mjpg,,3,"San Pedro de Marconis, Dominican Republic",2,6,mjpg,entrance of villa,-4,,,,
+http://201.123.250.123/mjpg/video.mjpg,,8,"Ciudad Nezahualcoyot,mexico",8,7,mjpg,meeting room,-6,,,,
+http://89.190.174.137/mjpg/video.mjpg,,2,"Bolzafalse, Italy",5,2,mjpg,unkfalsewn,1,7,8,,false
+http://50.251.252.137/mjpg/video.mjpg?streamprofile=SALCDefault&timestamp=1478717123194,,5,"Vancouver, USA",5,5,mjpg,church,-8,5,7,,false
+http://178.26.230.134:86/mjpg/video.mjpg,,5,"Heroldsbach, Germany",5,7,mjpg,church,1,4,7,,false
+http://24.190.210.136:9000/mjpg/video.mjpg,,9,"Southhampton, USA",4,7,mjpg,childrens room,0,,,,
+http://178.141.249.138/mjpg/video.mjpg,,4,"kirov, RU",6,2,mjpg,building,3,7,4,,false
+http://220.245.123.138/mjpg/video.mjpg,,6,"Pyrmont, Australia",8,4,mjpg,stairs,11,7,8,,false
+http://176.46.233.131:8001/mjpg/video.mjpg,,5,"Ticifalse, Switzerland",3,2,mjpg,house,1,6,7,,false
+http://79.54.32.135:86/mjpg/video.mjpg?timestamp=1478717786776,,5,"Piemonte, Italy",6,7,mjpg,street view,1,7,7,,false
+http://79.54.32.135:83/mjpg/video.mjpg?timestamp=1478718400600,,5,"Piemonte, Italy",6,4,mjpg,street view,1,7,7,,false
+http://217.100.101.138/mjpg/video.mjpg,,2,"Zwolle, The Netherlands",3,3,mjpg,View on water,1,5,4,,false
+http://208.53.254.139/mjpg/video.mjpg,,3,"Mitchell, USA",6,8,mjpg,corn palace,-6,7,7,,false
+http://201.103.169.139:91/mjpg/video.mjpg,,7,"Polanco, Mexico",6,7,mjpg,restaurant,-6,7,8,,false
+http://88.185.37.138:8083/mjpg/video.mjpg?COUNTER,,7,"Lanta, France",3,2,mjpg,kitchen,1,7,8,,false
+http://193.248.208.62/mjpg/video.mjpg,,5,"Chalette-Sur-Loing, France",6,7,mjpg,factory,1,8,8,,false
+http://193.136.28.101/mjpg/video.mjpg,,5,"Porto, Italy",7,6,mjpg,machine,1,,,,
+http://194.74.182.39/mjpg/video.mjpg,,4,"Leverstock, UK",7,3,mjpg,data centre,0,8,8,,true
+http://195.88.178.202/mjpg/video.mjpg,,7,"Petropavlovsk-Kamcha, Kamchatka",7,3,mjpg,window,12,3,5,,false
+http://194.133.15.39/mjpg/video.mjpg,,5,"herriads, UK",7,3,mjpg,data centre,0,8,8,,true
+http://188.134.5.209/mjpg/video.mjpg,,4,"St. Petersburg, Russia",6,3,mjpg,crossroads,4,7,6,,false
+http://195.113.207.238/mjpg/video.mjpg,,4,"jihlava, Czech Republic",4,3,mjpg,square,2,4,5,,false
+http://201.86.128.194:8081/mjpg/video.mjpg,,7,"Curitiba, Brazil",8,6,mjpg,stairs and hallway,-3,4,7,,false
+http://148.61.151.202/mjpg/video.mjpg,,4,"Grand Rapids, USA",4,4,mjpg,university,-4,4,4,,false
+http://146.186.65.36/jpg/image.jpg,,5,"Pennsylvania, USA",7,3,mjpg,university,-4,4,8,,false
+http://141.212.37.37/mjpg/video.mjpg,,8,"Ann Harbour, USA",7,4,mjpg,computer room,-4,6,8,,false
+http://150.229.9.117/mjpg/video.mjpg,,7,"Canberra, Australia",7,7,mjpg,unkfalsewn,10,6,9,,false
+http://149.220.61.172/mjpg/quad/video.mjpg,,7,"Dresden, Germany",7,7,mjpg,computer,1,7,9,,false
+http://158.109.64.167/jpg/image.jpg,,6,"Barcelona, Spain",4,6,mjpg,sports fields,1,7,5,,false
+http://157.157.90.210/mjpg/video.mjpg,,1,"Reykjavik, Iceland",5,3,mjpg,harbour,0,6,5,,false
+http://200.36.58.250/mjpg/1/video.mjpg?timestamp=1478779160957,,5,"Mexico City, Mexico",4,6,mjpg,beach,-5,4,6,,false
+http://151.237.205.2:83/mjpg/1/video.mjpg,,6,Spain,4,3,mjpg,gate,2,7,8,,false
+http://160.94.171.74/mjpg/video.mjpg,,2,"Rochester, USA",4,3,mjpg,"light, landscape",-5,,,,
+http://174.140.110.39:81/mjpg/video.mjpg,,6,"Miami Beach, USa",6,5,mjpg,split screen camera's,-4,7,6,,false
+http://173.54.50.3:8080/mjpg/video.mjpg,,6,"New Jersey, USA",2,5,mjpg,private garden,-4,4,7,,false
+http://173.9.43.97:83/mjpg/video.mjpg,,5,"Boston, USA",4,1,mjpg,container,-4,8,8,,true
+http://212.55.36.149:82/jpg/image.jpg,,4,"Streymoy, Faroe Islands",4,4,mjpg,small harbour,0,5,6,,false
+http://webcam1.swansea.gov.uk/jpg/image.jpg,,8,"wales, UK",5,3,mjpg,wedding chapel,0,,,,
+http://212.199.69.238/mjpg/video.mjpg,,4,"Petah Tikva, Israel",6,3,mjpg,beach,3,,,,
+http://212.170.60.136/mjpg/video.mjpg,,7,"Madrid, Spain",7,9,mjpg,room,2,,,,
+http://216.115.113.203/mjpg/1/video.mjpg,,3,"Fairbanks, Alaska",5,2,mjpg,backyard,-12,4,7,,false
+http://217.169.1.60/mjpg/video.mjpg,,6,"Arfalseld, UK",7,8,mjpg,cable porn,1,7,8,,false
+http://217.128.163.193/mjpg/video.mjpg,,5,"Ile de France, France",5,2,mjpg,bridge ,1,,,,
+http://62.68.209.74/mjpg/video.mjpg,,6,"Nebelberg, Austria",7,2,mjpg,"stairs, water",1,,,,
+http://206.40.112.202/mjpg/video.mjpg,,3,"Appleton, USA",4,5,mjpg,suburbs,-5,5,5,,false
+http://212.30.214.249/mjpg/video.mjpg,,4,"Reykyavik, Iceland",6,3,mjpg,landscape and houses,0,5,5,,false
+http://212.47.24.208:81/mjpg/video.mjpg,,8,"Prague, Czech Republic",5,7,mjpg,swimming pool,2,7,7,,false
+http://210.249.39.229/mjpg/video.mjpg,,5,"Tokyo, Japan",6,6,mjpg,factory,9,7,7,,false
+http://208.123.136.75/mjpg/video.mjpg,,5,"Trinidad, USA",6,4,mjpg,road,-7,7,5,,false
+http://209.23.238.227/mjpg/video.mjpg,,4,"Pennsylvania, USA",3,4,mjpg,parking lot,-4,5,6,,false
+http://209.124.174.219/mjpg/video.mjpg,,7,"Baltimore, USA",3,8,mjpg,church,-4,6,6,,false
+http://209.250.208.139/mjpg/video.mjpg,,7,"Clarion, USA",6,1,mjpg,view from window,-4,7,8,,false
+http://209.184.47.43/mjpg/video.mjpg,,8,Offerle USA,4,5,mjpg,office,-5,7,7,,false
+http://157.157.215.63:8000/jpg/image.jpg,,1,"Reykjavik, Iceland",2,4,mjpg,landscape,0,,,,
+http://157.157.79.85:8080/mjpg/video.mjpg,,2,"Reykjavik, Iceland",4,5,mjpg,landscape and road,0,6,5,,false
+http://157.242.44.60/mjpg/1/video.mjpg?timestamp=1478876430258,,5,"Los Angeles, USA",4,4,mjpg,"road, building",-7,4,6,,false
+http://157.157.215.231:8080/mjpg/video.mjpg,,3,"Reykjavik, Iceland",6,6,mjpg,harbour,0,5,5,,false
+http://161.72.22.245/mjpg/video.mjpg,,3,"La Laguna, Canary Islands",7,7,mjpg,observatory,2,8,7,,true
+http://176.12.125.198:82/mjpg/video.mjpg,,6,"Prague, Czech Republic",7,4,mjpg,"road, stop sign",2,7,7,,false
+http://174.69.246.19/mjpg/video.mjpg,,9,"San Diego, USA",6,6,mjpg,"screens, conference room",-7,6,8,,false
+http://173.245.154.4/mjpg/quad/video.mjpg,,1,"New York, USA",1,1,mjpg,landscape,-4,6,5,,false
+http://190.32.43.60/mjpg/3/video.mjpg,,8,"Panama, Panama",6,4,mjpg,"office, people",-5,6,8,,false
+http://190.32.43.60/mjpg/2/video.mjpg,,8,"Panama, Panama",5,4,mjpg,"desk, people",-5,7,9,,false
+http://190.32.43.60/mjpg/1/video.mjpg,,6,"Panama, Panama",7,5,mjpg,storage room,-5,6,8,,false
+http://193.33.166.16/mjpg/video.mjpg,,8,"Tyumen, Russia",6,5,mjpg,"office, people",6,6,8,,false
+http://193.205.246.49/mjpg/video.mjpg,,2,"Rome, Italy",7,6,mjpg,pafalserama,2,6,4,,false
+http://193.72.17.116/mjpg/video.mjpg,,4,"Argau, Switzerland",3,3,mjpg,bees,2,6,7,,false
+http://192.203.224.2:8080/mjpg/video.mjpg,,4,"Aurora, USA",4,4,mjpg,lake view,-5,5,6,,false
+http://194.25.154.154:8080/mjpg/video.mjpg,,8,"Nuremberg, Germany",7,4,mjpg,private entrance,2,7,8,,false
+http://193.251.1.251:8082/mjpg/video.mjpg,,0,"Ile de France, France",7,7,mjpg,abstract,2,5,8,,false
+http://193.229.208.48/mjpg/video.mjpg,,5,"Helsinki, Finland",6,7,mjpg,factory,3,7,8,,false
+http://193.248.169.191/mjpg/4/video.mjpg,,6,"Orange, France",5,4,mjpg,gas station,1,7,7,,false
+http://194.190.24.150/mjpg/video.mjpg,,5,"Moscow, Russia",6,5,mjpg,parking lot,4,7,5,,false
+http://195.18.181.101/mjpg/video.mjpg,,4,"Tromso, falserway",4,4,mjpg,"road, landscape",2,8,6,,false
+http://195.67.112.2:8081/mjpg/video.mjpg,,6,"Helsingborg, Sweden",6,8,mjpg,factory,2,7,8,,false
+http://207.30.43.65/mjpg/video.mjpg?timestamp=1478878404797,,4,"Ocala, USA",4,6,mjpg,palms,-4,4,5,,false
+http://195.70.117.61/mjpg/video.mjpg,,5,"Salzburg, Austria",4,6,mjpg,neighborhood,2,5,5,,false
+http://205.144.213.85/mjpg/video.mjpg,,6,"Georgia, USA",4,4,mjpg,"office, people",-4,5,8,,false
+http://212.13.111.186/mjpg/video.mjpg,,5,"Moscow, Russia",5,4,mjpg,neighborhood,3,7,3,,true
+http://216.54.25.118/mjpg/video.mjpg,,6,"Petersburg,USA",5,5,mjpg,"front desk, people",-4,5,8,,false
+http://216.99.115.136:8080/mjpg/video.mjpg,,3,"Chalotte, USA",4,4,mjpg,beach,-4,5,6,,false
+http://93.87.72.254:8082/mjpg/video.mjpg,,6,"falsevi Pazar, Serbia",7,8,mjpg,"stall, people",2,7,7,,false
+http://120.127.252.106/mjpg/1/video.mjpg,,6,"Tapei, Taiwan",6,4,mjpg,"entrance, people",8,4,8,,false
+http://120.127.252.106/mjpg/2/video.mjpg,,6,"Tapei, Taiwan",7,4,mjpg,"street view, people",8,,,,
+http://120.127.252.106/mjpg/4/video.mjpg,,5,"Tapei, Taiwan",6,5,mjpg,room with machines,8,5,7,,false
+http://128.104.138.26/mjpg/video.mjpg,,6,"Madison, USA",8,5,mjpg,ants,-4,8,9,,false
+http://130.207.156.187/mjpg/video.mjpg,,9,"Georgia, USA",8,7,mjpg,"lab, people",-4,8,8,,true
+http://130.207.156.192/mjpg/video.mjpg,,9,"Georgia, USA",8,8,mjpg,"lab, people",-4,8,8,,false
+http://130.95.52.185/mjpg/video.mjpg,,8,"Perth, Australia",8,8,mjpg,lab,8,8,9,,true
+http://202.39.75.186/mjpg/2/video.mjpg?camera=2&timestamp=1478880489942,,7,"Tapei, Taiwan",6,7,mjpg,"entrance, people",8,6,5,,false
+http://202.39.75.186/mjpg/3/video.mjpg?camera=3&timestamp=1478880540020,,7,"Tapei, Taiwan",7,7,mjpg,"front desk, people",8,6,7,,false
+http://216.16.241.216/mjpg/1/video.mjpg,,7,"Waterloo, Canada",7,4,mjpg,inside truck,-4,7,8,,false
+http://216.16.241.216/mjpg/2/video.mjpg,,7,"Waterloo, Canada",7,4,mjpg,inside truck,-4,7,8,,false
+http://109.233.85.182/jpg/1/image.jpg,,6,San Marifalse,7,6,mjpg,cable porn,2,8,8,,true
+http://99.40.12.166/mjpg/video.mjpg,,8,"Livonia, USA",7,2,mjpg,window,-4,9,10,,false
+http://128.223.164.243/mjpg/video.mjpg,,5,"Eugen, USA",7,6,mjpg,observatory,-7,6,7,,true
+http://129.21.172.171/mjpg/video.mjpg,,6,"Rochester, USA",6,6,mjpg,"lab, people",-4,6,7,,false
+http://128.193.47.34/mjpg/video.mjpg,,4,"Corvallis, USa",6,6,mjpg,factory,-7,4,5,,false
+http://131.130.50.123/mjpg/video.mjpg,,5,"Wien, Austria",6,5,mjpg,abstract,2,5,9,,false
+http://188.21.153.22/mjpg/video.mjpg,,9,"Wien, Austria",8,5,mjpg,"private house, people",2,9,8,,true
+http://195.31.81.138/mjpg/video.mjpg,,5,"Roma, Italy",4,5,mjpg,board walk,2,4,6,,false
+http://195.35.248.82:81/mjpg/video.mjpg,,6,"Overijssel, Netherlands",4,4,mjpg,"factory, people",2,4,7,,false
+http://82.225.4.56:81/mjpg/video.mjpg,,8,"Malakoff, France",8,3,mjpg,"road, people",1,8,9,,false
+http://83.64.223.67/mjpg/video.mjpg,,7,"Vienna, Austria",7,8,mjpg,"office, people",1,8,8,,false
+http://83.56.21.203/mjpg/video.mjpg,,4,"Madrid, Spain",5,5,mjpg,"beach, people",1,6,6,,false
+http://82.245.253.25:83/mjpg/video.mjpg,,8,"Ile de France, France",6,5,mjpg,kitchen? People,1,6,9,,false
+http://82.229.131.145/mjpg/video.mjpg,,7,"Ile de France, France",7,5,mjpg,window,1,6,9,,false
+http://84.52.127.28/mjpg/video.mjpg,,7,"St. Petersburg, Russia",6,8,mjpg,"shop, beds, people",3,7,8,,false
+http://83.234.97.117/mjpg/video.mjpg,,5,"Moscow, Russia",8,3,mjpg,street view,3,7,7,,false
+http://85.19.69.108:8082/mjpg/video.mjpg,,7,"Oslo, falserway",8,7,mjpg,machine,1,7,10,,true
+http://85.19.69.108:8080/mjpg/video.mjpg,,8,"Oslo, falserway",8,8,mjpg,machine,1,8,10,,true
+http://84.205.233.40/mjpg/video.mjpg,,1,"Athens, Greece",7,7,mjpg,abstract,3,8,8,,false
+http://85.33.203.244/mjpg/video.mjpg,,5,"Rome, Italy",6,6,mjpg,road,2,6,6,,false
+http://87.116.21.107/mjpg/video.mjpg,,7,"Ikast, Denmark",8,7,mjpg,numbers,1,8,10,,false
+http://87.23.2.18:82/mjpg/video.mjpg,,9,"Rome, Italy",8,2,mjpg,door entrance,2,7,9,,false
+http://87.204.161.46/mjpg/video.mjpg,,8,"Warsaw, Poland",6,4,mjpg,"shopping street, people",2,5,8,,false
+http://88.205.148.250/mjpg/video.mjpg,,7,"Chelyabinsk, Russia",6,6,mjpg,"street, people",6,7,7,,false
+http://95.225.116.13:81/mjpg/video.mjpg,,7,"Rome, Italy",3,5,mjpg,shop,2,5,8,,false
+http://137.229.91.244/mjpg/video.mjpg?timestamp=1478889259810,,2,"Juneau, Alaska",7,4,mjpg,barren landscape,-8,6,2,,false
+http://137.229.91.245/mjpg/video.mjpg?timestamp=1478889470197,,2,"Juneau, Alaska",7,4,mjpg,barren landscape,-8,6,2,,false
+http://144.75.185.76/mjpg/video.mjpg,,4,"Lexington, USA",4,6,mjpg,university,-4,5,2,,false
+http://150.216.60.236/mjpg/video.mjpg,,6,"Greenville, USA",6,6,mjpg,university square,-4,7,6,,false
+http://123.243.248.217/mjpg/video.mjpg,,9,"falserth Hyde, Australia",7,3,mjpg,dog cage,10,7,9,,false
+http://123.243.248.219/mjpg/video.mjpg,,8,"falserth Hyde, Australia",7,7,mjpg,"animal hospital, people",10,6,8,,false
+http://83.160.100.113:8080/mjpg/video.mjpg,,4,"Amsterdam, Netherlands",6,7,mjpg,"warehouse, people",1,5,7,,false
+http://128.253.181.41/mjpg/video.mjpg,,4,"Ithaca, USA",5,4,mjpg,green houses,-4,6,8,,false
+http://130.132.127.63/mjpg/video.mjpg,,7,"New Haven, USA",8,3,mjpg,"street, people",-4,8,10,,true
+http://130.95.52.157/mjpg/video.mjpg,,8,"Perth, Australia",6,7,mjpg,"office, people",8,5,8,,false
+http://136.145.249.31/mjpg/video.mjpg,,2,"San Juan, Puerto Rico",2,6,mjpg,ocean,-4,4,2,,true
+http://128.119.70.55:82/mjpg/video.mjpg,,8,"Amherst, USA",8,7,mjpg,"lab, people",-4,8,8,,true
+http://130.132.127.62/mjpg/video.mjpg,,8,"New Haven, USA",9,7,mjpg,"waiting area, people",-4,9,9,,false
+http://130.207.156.191/mjpg/video.mjpg,,9,"Atlanta, USA",8,8,mjpg,"hospital, people",-4,9,8,,false
+http://128.153.6.52/mjpg/video.mjpg,,8,"Potsdam, USA",9,8,mjpg,"office, screening, people",-4,9,7,,true
+http://130.132.127.65/mjpg/video.mjpg,,8,"New Haven, USA",8,4,mjpg,"front door, people",-4,7,8,,false
+http://134.139.25.143/mjpg/video.mjpg,,8,"Long Beach, USA",7,6,mjpg,storage,-7,8,9,i,false
+http://132.177.91.154/mjpg/video.mjpg,,9,"Durham, USA",8,7,mjpg,"office, people",-4,7,8,,false
+http://128.253.63.135/mjpg/video.mjpg,,8,"Ithaca, USA",8,6,mjpg,"hallway, abstract",-4,7,9,,false
+http://137.205.164.245/mjpg/video.mjpg,,8,"Coventry, UK",9,7,mjpg,"rooftop, machine",0,8,9,,false
+http://128.10.29.25/mjpg/video.mjpg,,8,"falseblesville, USA",6,5,mjpg,"office, people",-4,5,7,,false
+http://192.36.152.203/mjpg/video.mjpg,,6,"Sundsvall, Sweden",7,2,mjpg,"view from window, people",2,8,7,,false
+http://132.177.91.155/mjpg/video.mjpg,,8,"Durham, USA",6,6,mjpg,"workshop, factory, people",-4,4,7,,false
+http://59.20.183.191:8081/mjpg/video.mjpg,,9,"Seoul, South Korea",9,6,mjpg,machines,9,9,8,,true
+http://59.20.183.191:8080/mjpg/video.mjpg,,9,"Seoul, South Korea",9,9,mjpg,machine,9,9,8,,true
+http://63.158.237.58:8080/cam_1.jpg?uniq=0.019798680778052136,,7,"Seattle, USA",9,4,mjpg,view from skyscraper,-8,9,7,,true
+http://118.39.59.195:8080/mjpg/video.mjpg,,8,"Seoul, South Korea",8,7,mjpg,machine,9,8,7,,true
+http://107.10.249.195:88/mjpg/video.mjpg,,6,"Indianapolis, USA",4,5,mjpg,driveway,-4,4,7,,false
+http://64.118.25.194/jpg/1/image.jpg,,7,"Kingston, Canada",5,5,mjpg,dock,-4,5,6,,false
+http://70.90.13.197:8083/mjpg/video.mjpg,,9,"New York, USA",6,7,mjpg,"kindergarten, people",-4,6,8,,false
+http://70.90.13.197:8081/mjpg/video.mjpg,,9,"New York, USA",6,7,mjpg,"kindergarten, people",-4,6,8,,false
+http://71.39.126.187:8083/mjpg/video.mjpg,,7,"Montana, USA",8,8,mjpg,basins,-6,8,7,,false
+http://80.53.211.168:8888/mjpg/video.mjpg,,6,"Warsaw, Poland",7,6,mjpg,"workshop, factory, people",-5,6,7,,false
+http://86.21.20.192/mjpg/video.mjpg,,8,"Guildford, UK",6,6,mjpg,"workshop, factory, people",0,6,9,,false
+http://71.39.126.187:8082/mjpg/video.mjpg,,7,"Montana, USA",7,6,mjpg,bassins,-6,7,7,,false
+http://71.43.245.197/mjpg/video.mjpg,,9,"Orlando, USA",8,8,mjpg,"news 13, people",-5,8,9,,false
+http://63.230.124.195:9000/mjpg/video.mjpg,,8,"Boise, USA",7,7,mjpg,"swimming pools, people",-6,5,8,,false
+http://62.93.76.203/mjpg/1/video.mjpg,,7,"Amstetten, Austria",8,5,mjpg,satellite dishes,2,8,9,,false
+http://81.149.171.204:9000/mjpg/video.mjpg,,8,"London, UK",8,3,mjpg,"entrance, people",0,7,9,,false
+http://94.84.187.202/mjpg/1/video.mjpg,,8,"viadana, Italy",5,5,mjpg,"chair, doors, people",1,5,8,,false
+http://220.254.0.210/mjpg/4/video.mjpg,,5,"Nagafalse, Japan",6,5,mjpg,dam,9,7,6,,false
+http://220.254.0.210/mjpg/3/video.mjpg,,5,"Nagafalse, Japan",6,5,mjpg,dam,9,7,6,,false
+http://220.254.0.210/mjpg/2/video.mjpg,,5,"Nagafalse, Japan",6,5,mjpg,landscape,9,7,6,,false
+http://220.254.0.210/mjpg/1/video.mjpg,,5,"Nagafalse, Japan",6,5,mjpg,dam,9,7,6,,false
+http://212.47.24.208:83/mjpg/video.mjpg,,8,"Prague, Czech Republic",7,7,mjpg,"restaurant, shopping centre",2,7,8,,false
+http://66.118.200.190/jpg/1/image.jpg,,4,"Durango, USA",4,6,mjpg,"windmill, landscape",-6,3,4,,false
+http://66.118.200.190/jpg/2/image.jpg,,6,"Durango, USA",4,4,mjpg,"garage, view",-6,5,6,,false
+http://66.118.200.190/jpg/3/image.jpg,,1,"Durango, USA",6,6,mjpg,abstract,-6,7,8,,false
+http://71.39.126.187:8084/mjpg/video.mjpg,,6,"Billings, USA",7,7,mjpg,bassins,-6,7,7,,true
+http://75.149.26.182:84/mjpg/video.mjpg,,8,"Pittsburgh, USA",7,2,mjpg,"entrance, people",-4,6,8,,false
+http://121.129.201.163:8080/mjpg/video.mjpg,,1,"Seoul, South Korea",6,8,mjpg,lights,9,6,5,,false
+http://74.142.100.144/mjpg/video.mjpg,,7,"Barberton, USA",5,4,mjpg,"printer room, people",-5,4,7,,false
+http://86.47.88.163/mjpg/video.mjpg,,6,"Meath, Ireland",6,4,mjpg,"beach, people",0,4,7,,false
+http://46.229.128.224:8080/mjpg/video.mjpg,,6,"Moscow, Russia",7,6,mjpg,road,-3,6,7,,false
+http://91.222.109.142/mjpg/video.mjpg,,7,"Warsaw, Poland",6,6,mjpg,"suburb, people",2,6,8,,false
+http://68.65.132.146/mjpg/video.mjpg,,8,"Seattle, USA",6,6,mjpg,storage room,-7,6,9,,false
+http://62.48.54.45/mjpg/video.mjpg,,4,"Florence, Italy",4,7,mjpg,landscape,2,2,3,,false
+http://80.240.218.44:8081/mjpg/video.mjpg,,8,"Moscow, Russia",7,4,mjpg,"private mailboxes, people",4,7,8,,true
+http://85.119.12.44:2000/mjpg/video.mjpg,,6,"Sajobabony, Hungary",7,8,mjpg,"landscape, flowers",2,7,7,,false
+http://190.0.7.46:81/mjpg/video.mjpg,,2,"Meddelin, Colombia",4,3,mjpg,city pafalserama,-5,4,2,,false
+http://75.149.170.42:84/mjpg/video.mjpg?timestamp=1478955217339,,8,"Washington, USA",5,5,mjpg,"office, people",-4,5,7,,false
+http://216.241.17.42:8083/jpg/image.jpg,,7,Chile,8,5,mjpg,wire,-4,8,9,,true
+http://46.9.55.20:82/mjpg/video.mjpg,,8,"Skien, falserway",4,4,mjpg,"terrace, people",2,4,8,,false
+http://199.91.204.42:85/mjpg/video.mjpg,,6,"Chicoutimi, Canada",5,5,mjpg,pool/pond,-5,3,6,,false
+http://207.70.161.41:8081/mjpg/video.mjpg,,7,"Conroe, USA",6,3,mjpg,"footpath, people",-5,3,7,,false
+http://75.149.170.42:86/mjpg/video.mjpg?timestamp=1478955760966,,8,"Washington, USA",5,4,mjpg,"office, people",-4,5,8,,false
+http://80.11.38.150:8083/mjpg/video.mjpg,,8,"Caen, France",5,5,mjpg,"restaurant, people",1,5,8,,false
+http://67.58.7.17:81/mjpg/video.mjpg,,9,"Anchorage, Alaska",7,3,mjpg,clock,-8,8,9,,false
+http://83.230.250.150:82/mjpg/1/video.mjpg,,5,"Madrid, Spain",5,6,mjpg,"landscape, truck",1,6,6,,false
+http://201.130.3.242:8090/mjpg/video.mjpg,,8,"Mexico City, Mexico",7,4,mjpg,machine,-5,7,8,,false
+http://82.219.223.243:8888/mjpg/video.mjpg,,8,"Bingly, UK",8,6,mjpg,"office, cable porn, people",0,9,8,,false
+http://77.174.226.241:9000/mjpg/video.mjpg,,7,"Amersfoort, Netherlands",6,3,mjpg,"gas station, people",1,4,7,,false
+http://88.209.85.243:8083/mjpg/video.mjpg,,7,Monaco,7,5,mjpg,"shopping street, people",1,6,7,,false
+http://193.251.72.244:8083/mjpg/video.mjpg?COUNTER,,8,"Paris, France",5,5,mjpg,"pharmacy, people",1,5,8,,false
+http://194.68.122.244:88/mjpg/video.mjpg,,6,"Stockholm, Sweden",5,5,mjpg,bassins,2,5,7,,false
+http://194.68.122.244:85/mjpg/video.mjpg,,7,"Stockholm, Sweden",5,3,mjpg,"street, people",2,4,7,,false
+http://46.14.239.243:8080/mjpg/video.mjpg,,6,"Geneve, Switzerland",7,6,mjpg,airport,1,6,7,,false
+http://131.128.170.246/mjpg/video.mjpg,,8,"Kingston, USA",7,7,mjpg,"exterior, house",-4,7,7,,false
+http://89.190.78.245:88/mjpg/video.mjpg,,4,"Vrchlabi, Czech Republic",3,4,mjpg,landscape,2,3,3,,false
+http://139.229.103.246/mjpg/video.mjpg,,7,"Tuscon, USA",8,6,mjpg,observatory,-7,8,7,,true
+http://195.88.34.247:81/mjpg/video.mjpg,,8,"Vienna, Austria",8,5,mjpg,"backyard, people",1,8,8,,false
+http://142.12.46.228/mjpg/video.mjpg,,7,"Sydney, Canada",6,6,mjpg,"entrance public building, people",-3,7,7,,false
+http://88.87.115.247:8080/mjpg/video.mjpg,,7,"Piemonte, Italy",7,6,mjpg,mine,1,6,7,,false
+http://81.248.11.139:8082/mjpg/3/video.mjpg,,6,Guadalupe,4,7,mjpg,"backyard, people",-4,4,7,,false
+http://77.89.20.147/mjpg/video.mjpg,,7,"Pessaro, Italy",7,7,mjpg,sports tracks,1,6,8,,false
+http://84.253.11.159/mjpg/video.mjpg,,7,"Zurich, Switzerland",6,5,mjpg,airport,1,6,7,,false
+http://88.125.106.19/mjpg/video.mjpg,,3,"Bridoire, France",3,3,mjpg,docks,1,4,6,,false
+http://131.229.80.11/mjpg/video.mjpg,,4,"falserthampton, USA",6,6,mjpg,observatory,-5,6,7,,true
+http://75.127.16.158/mjpg/video.mjpg,,6,"Gilette, USA",7,6,mjpg,view from power tower,-6,6,7,,false
+http://130.79.102.151/mjpg/video.mjpg,,9,"Illkirch-Graffenstad, France",8,6,mjpg,"operation dummy, people",1,8,9,,true
+http://130.79.102.146/mjpg/1/video.mjpg,,9,"Illkirch-Graffenstad, France",8,7,mjpg,"operation dummy, people",1,8,9,,true
+http://130.79.102.146/mjpg/2/video.mjpg,,9,"Illkirch-Graffenstad, France",8,7,mjpg,"operation dummy, people",1,9,9,,true
+http://178.49.241.136:8080/mjpg/video.mjpg,,8,"falsevosibirsk, Russia",8,3,mjpg,door entrance,6,8,9,,
+http://201.103.169.139:91/mjpg/video.mjpg,,8,"Polanco, Mexico",5,5,mjpg,"restaurant, people",-6,4,8,,
+http://88.185.37.138:8083/mjpg/video.mjpg,,8,"Lanta, France",5,4,mjpg,"kitchen, people",1,4,8,,
+http://41.160.227.150:8081/mjpg/video.mjpg,,8,"Randfontein, South Africa",6,4,mjpg,"office, people",2,5,8,,false
+http://41.160.227.144:8083/mjpg/video.mjpg,,8,"Randfontein, South Africa",6,4,mjpg,"office, people",2,5,8,,false
+http://41.160.227.150:8082/mjpg/video.mjpg,,8,"Randfontein, South Africa",6,4,mjpg,"office, people",2,5,9,,false
+http://41.160.227.150:8084/mjpg/video.mjpg,,8,"Randfontein, South Africa",6,4,mjpg,"office, people",2,5,8,,false
+http://41.160.227.151:8084/mjpg/video.mjpg,,8,"Randfontein, South Africa",6,4,mjpg,"office, people",2,5,8,,false
+http://41.160.227.150:8083/mjpg/video.mjpg,,8,"Randfontein, South Africa",6,4,mjpg,"office, people",2,5,8,,false
+http://187.214.235.139:8001/mjpg/video.mjpg,,7,"Tlalpan, Mexico",6,5,mjpg,"construction site, people",-6,5,8,,false
+http://87.9.124.150:9000/mjpg/video.mjpg?timestamp=1478961355390,,7,"Filattera, Italy",5,4,mjpg,"terrace, people",1,4,8,,false
+http://41.160.227.146:8084/mjpg/video.mjpg,,8,"Randfontein, South Africa",6,4,mjpg,"office, people",2,5,8,,false
+http://158.58.130.149/mjpg/video.mjpg,,8,"Sochi, Russia",5,6,mjpg,"swimming pool, people",3,4,7,,false
+http://158.58.130.148/mjpg/video.mjpg,,8,"Sochi, Russia",6,7,mjpg,"hotel lobby, people",3,6,8,,false
+http://80.21.86.148:85/mjpg/video.mjpg,,7,"Rome, Italy",6,5,mjpg,"walkers, garage",1,5,8,,false
+http://129.219.24.143/mjpg/video.mjpg?streamprofile=Quality,,8,"Tempe, USA",8,8,mjpg,"lab, people",-7,8,8,,true
+http://68.187.217.143:8000/mjpg/video.mjpg,,8,"Milbury, USA",5,8,mjpg,children's room,-6,5,8,,false
+http://2.138.193.152:90/mjpg/video.mjpg?timestamp=1478962055449,,8,"Sevilla, Spain",6,7,mjpg,"bar, people",1,6,8,,false
+http://74.92.201.146/mjpg/video.mjpg,,5,"Miami, USA",4,6,mjpg,palms and parking,-5,4,4,,false
+http://83.216.110.146:8081/mjpg/video.mjpg,,6,"Gavle, Sweden",6,3,mjpg,flats,1,4,5,,false
+http://64.192.53.130:8090/mjpg/video.mjpg,,8,"Blufton, USA",8,7,mjpg,"busy street, people",-5,8,8,,false
+http://109.188.135.129/mjpg/video.mjpg,,6,"Pargolovo, Russia",7,2,mjpg,"street, truck",3,5,8,,false
+http://109.130.30.128:8084/mjpg/video.mjpg,,8,"Wervik, Belgium",7,7,mjpg,restaurant,1,7,8,,false
+http://129.219.24.141/mjpg/video.mjpg?streamprofile=Quality,,8,"Tempe, USA",8,6,mjpg,"lab, people",-7,9,8,,true
+http://31.134.162.132:8084/mjpg/video.mjpg,,6,"St. Petersburg, Russia",8,8,mjpg,flats,3,7,6,,true
+http://159.147.37.133/mjpg/video.mjpg,,8,Santiago del Teide,7,8,mjpg,"shop, people",1,6,8,,false
+http://190.29.99.134/mjpg/video.mjpg,,8,"Antioquia, Colombia",7,7,mjpg,"restaurant, people",-5,7,8,,false
+http://2.138.193.152:91/mjpg/video.mjpg,,8,"Sevilla, Spain",6,7,mjpg,"shop, people",1,6,8,,false
+http://187.188.247.115/jpg/1/image.jpg,,7,"San Juan, Mexico",8,5,mjpg,solar panels,-6,8,7,,false
+http://72.26.42.115/mjpg/video.mjpg?timestamp=1478980397004,,4,Stephensville USA,6,4,mjpg,gate,-5,6,6,,false
+http://109.188.133.117/mjpg/video.mjpg,,7,St Petersburg Russia,7,5,mjpg,"street, people",3,7,7,,false
+http://207.98.208.118/mjpg/video.mjpg?timestamp=1478980583694,,8,"Clearwater, USA",8,1,mjpg,"street, people",-5,7,8,,false
+http://84.52.164.119:88/mjpg/video.mjpg,,8,"Ljublijana, Slovenia",8,2,mjpg,"car, parking space",1,7,9,,false
+http://108.54.184.121:8081/mjpg/video.mjpg,,8,"New York, USA",7,2,mjpg,house,-5,5,8,,false
+http://84.9.43.119:8001/mjpg/video.mjpg?timestamp=1478980972126,,4,"Seacombe, UK",4,4,mjpg,parking lot,0,4,6,,false
+http://114.33.6.120:10000/mjpg/1/video.mjpg?camera=1&timestamp=1478981090767,,7,"Nantou, Taiwan",6,5,mjpg,"public space, people",8,6,8,,false
+http://188.136.237.116:85/mjpg/video.mjpg,,4,"Esfahan, Iran",6,4,mjpg,"building, under construction",3.3,7,6,,false
+http://81.66.8.124:8001/mjpg/video.mjpg,,8,"Ronchin, France",6,5,mjpg,"backstage, office, people",1,6,8,,false
+http://198.86.121.121/mjpg/video.mjpg?timestamp=1478981408774,,3,"Morehead City, USA",3,5,mjpg,beach,-5,5,4,,false
+http://72.74.150.124:9000/mjpg/video.mjpg,,9,"Medford, USA",7,3,mjpg,"home, people",-5,7,9,,false
+http://107.218.43.123/mjpg/video.mjpg?timestamp=1478981861603,,7,"Los Angeles, USA",6,6,mjpg,projector screen,-7,5,8,,false
+http://120.127.252.105/mjpg/1/video.mjpg,,6,"Tapei, Taiwan",7,5,mjpg,outside office,8,5,7,,false
+http://120.127.252.105/mjpg/3/video.mjpg,,7,"Tapei, Taiwan",7,6,mjpg,"office, people",8,7,7,,false
+http://120.127.252.105/mjpg/4/video.mjpg,,7,"Tapei, Taiwan",8,6,mjpg,"factory, people",8,8,7,,false
+http://188.59.192.141/mjpg/video.mjpg,,7,"Istanbul, Turkey",7,7,mjpg,"street, people",3,6,7,,false
+http://143.106.172.142/mjpg/video.mjpg?timestamp=1478982490353,,9,"Sao Paolo, Brazil",8,6,mjpg,lab,-3,9,9,,true
+http://79.111.116.110/mjpg/video.mjpg?timestamp=1478983970832,,6,"Moscow, Russia",7,6,mjpg,flats,3,7,6,,false
+http://50.66.86.117:8080/mjpg/video.mjpg?timestamp=1478984109807,,8,"Kamloops, Canada",4,4,mjpg,"backyard, people",-8,5,8,,false
+http://73.0.231.118:90/mjpg/video.mjpg,,8,"Wellington, USA",5,6,mjpg,pools,-5,4,7,,false
+http://41.225.235.128:8001/mjpg/video.mjpg,,7,"Rades, Tunesia",7,6,mjpg,"street, people",1,5,8,,false
+http://166.140.53.118:8080/mjpg/video.mjpg?timestamp=1478984645915,,7,"Torrace, USA",7,6,mjpg,"street, junction",-8,7,7,,false
+http://115.188.148.117:8081/mjpg/video.mjpg,,6,"Auckland, New Zealand",4,6,mjpg,back yard,13,5,7,,false
+http://117.56.228.109/mjpg/video.mjpg?timestamp=1478985065832,,6,"Taoyuan City, Taiwan",6,6,mjpg,"gas station, bridge",8,7,7,,false
+http://117.4.195.110:8081/mjpg/video.mjpg?timestamp=1478985195632,,8,"hafalsei, vietnam",7,5,mjpg,"street, people",7,7,7,,false
+http://174.112.214.108:8084/mjpg/1/video.mjpg,,7,"Brittania, Canada",7,6,mjpg,driveway,-5,7,8,,false
+http://174.112.214.108:8084/mjpg/4/video.mjpg,,8,"Brittania, Canada",7,6,mjpg,back yard,-5,8,8,,false
+http://61.82.8.115:81/mjpg/video.mjpg,,4,"Seoul, South Korea",6,4,mjpg,landscape,9,5,4,,false
+http://187.189.82.108:82/mjpg/video.mjpg?timestamp=1478985613163,,8,"Rafael Lucio, Mexico",7,7,mjpg,"street, people",-6,7,8,,false
+http://69.156.141.113/mjpg/video.mjpg,,7,Quebuec,5,6,mjpg,"driveway, people",-5,6,8,,false
+http://24.43.202.114/mjpg/video.mjpg?timestamp=1478985789734,,7,Hawaii,7,7,mjpg,"ocean, surfers",-10,6,6,,false
+http://189.146.89.113:8081/jpg/image.jpg,,8,"Tlalpan, Mexico",6,6,mjpg,"office, people",-6,7,8,,false
+http://124.154.13.110/mjpg/video.mjpg,,7,"Matsuyama, Japan",7,7,mjpg,"street, gas station, people",9,7,8,,false
+http://31.168.248.120/mjpg/video.mjpg,,6,"Tel Aviv, Israel",5,4,mjpg,"beach, people",2,5,7,,false
+http://153.19.0.122:50001/mjpg/video.mjpg?timestamp=1479047852143,,6,"Gdansk, Poland",6,5,mjpg,"water, bridge",2,6,7,,false
+http://213.151.213.114/mjpg/video.mjpg,,5,"Ruzomberok, Slovakia",5,4,mjpg,"pafalserama, city scape",2,4,6,,false
+http://37.209.27.140:9000/mjpg/video.mjpg,,9,"Zahringen, Germany",8,3,mjpg,"door entrance, people",1,8,9,,false
+http://166.140.53.114:8080/mjpg/video.mjpg,,6,"Torrace, USA",6,5,mjpg,road,-8,4,6,,false
+http://148.0.119.122:84/mjpg/video.mjpg,,8,"San Pedro de Marconis, Domincian Republic",5,6,mjpg,"backyard, people",-4,4,8,,false
+http://188.254.76.141/mjpg/video.mjpg,,8,"Moscow, Russia",7,7,mjpg,robots,3,7,8,,false
+http://74.62.193.110:85/mjpg/video.mjpg,,7,"Diamond Bar, USA",6,5,mjpg,fish tank,-8,6,7,,false
+http://90.63.232.110:8081/mjpg/video.mjpg,,8,"Saint Denis, France",4,8,mjpg,"flower shop, people",1,5,8,,false
+http://84.31.104.114:1024/mjpg/video.mjpg,,9,"Venlo, Netherlands",6,4,mjpg,"private kitchen, people",1,7,8,,false
+http://148.0.119.122:82/mjpg/video.mjpg,,8,"San Pedro de Marconis, Domincian Republic",4,4,mjpg,"hallway, people",-5,4,8,,false
+http://201.137.22.123:8001/mjpg/3/video.mjpg?camera=3&timestamp=1479051746875,,8,"Iztacalco, Mexico",5,5,mjpg,"opticien, people",-6,4,8,,false
+http://207.173.177.139/mjpg/video.mjpg?timestamp=1479051926832,,6,"Seattle, USA",7,6,mjpg,roads,-8,8,7,,false
+http://89.190.174.137/mjpg/video.mjpg,,8,"Bolzafalse, Italië",7,4,mjpg,"display, people",1,6,9,,false
+http://188.117.182.150/mjpg/video.mjpg,,7,"Katowice, Poland",6,4,mjpg,"road, people",2,6,7,,false
+http://82.127.215.141/mjpg/video.mjpg,,8,France,6,4,mjpg,,,,,,
+http://136.169.219.105/mjpg/video.mjpg?timestamp=1479056162965,,7,"Salavat, Russia",8,9,mjpg,flower shop,5,8,8,,true
+http://128.171.203.104/mjpg/video.mjpg,,6,"Hilo, Hawaii",9,7,mjpg,satelitte dishes,-10,9,2,,true
+http://80.101.163.111:8082/mjpg/1/video.mjpg?timestamp=1479056548507,,3,"Edam, Netherlands",6,4,mjpg,rooftop view,1,5,3,,false
+http://80.102.198.109:8081/mjpg/video.mjpg,,8,"San Marti, Spain",4,5,mjpg,"office, people",1,4,8,,false
+http://80.178.208.109:81/mjpg/video.mjpg,,7,"Eilat, Israel",6,6,mjpg,"street, people",2,6,7,,false
+http://80.229.2.113:81/mjpg/1/video.mjpg?timestamp=1479056825483,,6,"Runcton, UK",4,5,mjpg,"house, people",0,5,7,,false
+http://189.146.89.113:8082/mjpg/video.mjpg,,7,"Tlalpan, Mexico",7,2,mjpg,"street, people",-6,7,8,,false
+http://91.154.224.110:82/mjpg/video.mjpg,,7,"Helsinki, Finland",7,3,mjpg,"street, storage, people",2,7,8,,false
+http://87.135.12.110:8001/mjpg/video.mjpg,,6,"Zell, Germany",7,7,mjpg,"square, sports fields, people",1,6,6,,false
+http://47.151.151.117:86/mjpg/video.mjpg,,9,"Pomona, USA",9,3,mjpg,underneath a table,-8,9,9,,true
+http://72.74.138.117/mjpg/video.mjpg?timestamp=1479057516485,,3,"Waltham, USA",2,5,mjpg,"ocean, sometimes people",-8,2,3,,true
+http://73.89.232.114:8001/mjpg/video.mjpg,,2,"Mount Laurel, USA",2,5,mjpg,ocean view,-5,1,2,,false
+http://115.188.148.117:8082/mjpg/video.mjpg,,8,"Waitakere, New Zealand",8,7,mjpg,"house, pool, people",13,8,7,,true
+http://87.28.242.118:5000/mjpg/video.mjpg,,7,"Morrovalle, Italy",8,2,mjpg,"street, fence, people",1,8,7,,false
+http://94.28.114.98:8080/mjpg/video.mjpg?timestamp=1479058583371,,5,"St. Petersburg, Russia",8,7,mjpg,flat,3,8,4,,true
+http://125.236.227.191:81/mjpg/video.mjpg,,5,"Auckland, New Zealand",5,5,mjpg,roundabout,12,6,7,,false
+http://222.154.230.107:8080/axis-cgi/jpg/image.cgi?1479066107343,,5,"Christchurch, New Zealand",7,7,mjpg,stock market update,13,7,8,,false
+http://66.249.99.103/mjpg/1/video.mjpg?camera=1&timestamp=1479066283777,,4,"Houston, USA",7,4,mjpg,road,-6,6,6,,false
+http://43.225.160.102/mjpg/video.mjpg,,8,"Mumbai, India",8,8,mjpg,wires and lights,5.3,8,9,,false
+http://70.63.216.101:8001/mjpg/video.mjpg,,8,"Wilmington, USA",6,3,mjpg,"office, people",-5,6,8,,false
+http://114.33.140.103:10000/mjpg/1/video.mjpg,,7,"Tainan, Taiwan",6,3,mjpg,"kitchen, people",8,6,8,,false
+http://117.56.116.103/mjpg/2/video.mjpg?camera=2&timestamp=1479067534883,,4,"Taipei, Taiwan",8,7,mjpg,"road, containers",8,8,4,,false
+http://117.56.116.103/mjpg/1/video.mjpg?camera=1&timestamp=1479067733975,,4,"Taipei, Taiwan",8,7,mjpg,"road, containers",8,8,4,,true
+http://69.193.149.90:82/mjpg/video.mjpg?timestamp=1479068216420,,9,"Herndon, USA",9,6,mjpg,"elevator, people",-5,7,8,,true
+http://85.26.220.90/mjpg/video.mjpg,,5,St Petersburg Russia,7,6,mjpg,flats,3,6,5,,false
+http://84.54.139.100:6004/mjpg/video.mjpg,,4,"Sliven, Bulgaria",6,6,mjpg,square,2,7,3,,false
+http://187.189.82.108:89/mjpg/video.mjpg?timestamp=1479069071476,,7,"Rafael Lucia, Mexico",8,8,mjpg,"factory, people",6,7,8,,false
+http://67.243.140.108:81/mjpg/video.mjpg,,8,"New York, USA",7,4,mjpg,"doorway, street",-4,6,6,,false
+http://166.166.212.18/mjpg/video.mjpg,,6,"Beaumont, USA",7,6,mjpg,helicopter landing pad,-6,7,5,,false
+http://95.161.168.18:8080/mjpg/video.mjpg,,7,"St. Petersburg, Russia",6,2,mjpg,"street, people",3,5,7,,false
+http://212.156.138.18:8082/mjpg/video.mjpg?streamprofile=800x500,,6,"Istanbul, Turkey",6,5,mjpg,"containers, pafalserama, people",2,6,5,,false
+http://181.167.109.66/mjpg/video.mjpg,,4,"Colegiales, Argentina",4,4,mjpg,"building, street, people",-3,3,4,,false
+http://71.41.126.82/mjpg/video.mjpg,,8,"Ormond Beach, Florida",7,7,mjpg,gate,-5,7,8,,false
+http://187.189.82.108:84/mjpg/video.mjpg?timestamp=1479070881168,,8,"Rafael Lucia, Mexico",4,7,mjpg,"garage, people",-6,6,7,,false
+http://187.189.82.108:91/mjpg/video.mjpg?timestamp=1479071089979,,8,"Rafael Lucia, Mexico",7,7,mjpg,"garage, people",-6,6,7,,false
+http://187.189.82.108:85/mjpg/video.mjpg?timestamp=1479071169496,,8,"Rafael Lucia, Mexico",4,7,mjpg,"garage, people",-6,6,7,,false
+http://188.94.223.8/mjpg/video.mjpg?timestamp=1479071449077,,7,"Oslo, falserway",8,6,mjpg,landing strip,2,7,7,,true
+http://89.208.19.10:8082/mjpg/video.mjpg?timestamp=1479071662193,,6,"Moscow, Russia",7,4,mjpg,flats,3,6,3,,false
+http://178.237.198.10:8083/mjpg/video.mjpg,,7,"Moscow, Russia",7,5,mjpg,"flats, construction, people",3,7,5,,false
+http://185.80.208.125/mjpg/video.mjpg,,2,"Umea, Sweden",4,4,mjpg,city pafalserama,2,3,2,,false
+http://166.142.109.112:5001/mjpg/1/video.mjpg,,7,"Rancho Cucamonga, USA",7,7,mjpg,advertisement,-8,7,9,,false
+http://95.172.59.106/mjpg/video.mjpg,,7,"Velikiy falsevgorod, Russia",6,5,mjpg,"street, people",3,6,7,,false
+http://217.197.149.7:88/mjpg/video.mjpg,,8,"Bystrice Pod Hostyne, Czech Republic",7,4,mjpg,jesus,2,8,7,,true
+http://68.188.191.8:81/mjpg/video.mjpg,,8,"Bay City, USA",8,3,mjpg,private room,-5,7,9,,false
+http://77.235.182.8/mjpg/1/video.mjpg?camera=1&timestamp=1479072660234,,8,"Chemnitz, Germany",8,2,mjpg,numbers,1,5,8,,false
+http://152.30.169.249/mjpg/video.mjpg,,8,"Cullowhee, USA",4,6,mjpg,"classroom, people",-4,6,7,,false
+http://119.195.122.249:8080/mjpg/1/video.mjpg,,8,"Seoul, South Korea",8,8,mjpg,machine,9,8,9,,false
+http://89.221.52.83/mjpg/video.mjpg,,8,"Druzhba, Russia",4,4,mjpg,"restaurant, people",3,3,7,,false
+http://141.35.154.67/mjpg/video.mjpg?streamprofile=jpg&timestamp=1479073393343,,8,"Jena, Germany",8,8,mjpg,machine,1,9,9,,true
+http://64.77.205.67/mjpg/video.mjpg,,7,"Jamestown, USA",5,5,mjpg,"street, people",-6,4,5,,false
+http://107.193.60.72/mjpg/video.mjpg,,6,"Woodland Hills, USA",5,7,mjpg,fish tank,-8,4,7,,false
+http://212.225.208.72/mjpg/video.mjpg,,8,"andalucia, Spain",5,4,mjpg,"restaurant, people",1,4,8,,false
+http://67.207.43.6:88/mjpg/video.mjpg,,6,"Draper, USA",5,7,mjpg,suburb pafalserama,-7,5,3,,false
+http://1.215.234.2:8080/mjpg/video.mjpg,,8,"Suigen, South Korea",6,4,mjpg,"office, people",9,6,8,,false
+http://121.146.108.79/mjpg/video.mjpg,,2,"Goseong, South Korea",5,4,mjpg,road,9,5,3,,false
+http://182.52.236.64:81/mjpg/video.mjpg?timestamp=1479074176095,,6,"Huai Khwang, Thailand",7,7,mjpg,pafalserama,7,6,2,,false
+http://73.232.100.98/mjpg/video.mjpg,,6,"Houston, USA",2,2,mjpg,balcony,-6,2,8,,false
+http://217.91.58.189:1024/mjpg/video.mjpg?timestamp=1479243171834,,7,"Mahlpful, Germany",4,5,mjpg,"street, people",1,5,6,,false
+http://66.108.251.98:5000/mjpg/video.mjpg,,8,"Astoria, USA",5,3,mjpg,"doorway, people",-3,5,8,,false
+http://50.224.16.205/mjpg/video.mjpg?timestamp=1479243441428,,6,"Mount Laurel, USA",5,5,mjpg,"campus, people",-5,4,5,,false
+http://64.77.205.140/mjpg/video.mjpg,,5,"Jamestown, USA",7,6,mjpg,"street, traffic",-6,7,6,,false
+http://71.174.180.144:8090/mjpg/video.mjpg,,9,"Allston, USA",8,2,mjpg,"stairs, people",-5,8,8,,false
+http://74.123.105.108:8001/mjpg/1/video.mjpg?timestamp=1479244112838,,9,"Edinburgh, USA",6,3,mjpg,"street, people",-6,8,8,,false
+http://166.140.82.70:8080/mjpg/video.mjpg,,4,"Torrace, USA",7,4,mjpg,highway,-8,7,6,,false
+http://135.23.63.72/mjpg/video.mjpg?timestamp=1479244658929,,7,"Oakville, USa",4,2,mjpg,"doorway, people",-5,3,8,,false
+http://173.160.241.35:8080/mjpg/video.mjpg,,7,"Washington, USA",7,7,mjpg,"machines, people",-5,6,8,,false
+http://187.218.43.53/mjpg/video.mjpg?timestamp=1479247538996,,8,"Tlalnepantla, Mexico",5,4,mjpg,"street, people",-6,7,8,,false
+http://94.72.19.56/mjpg/video.mjpg,,2,"Sushary, Russia",5,5,mjpg,parking lot,3,4,2,,false
+http://179.189.237.60:8080/mjpg/video.mjpg,,6,"Bueri, Brazil",7,7,mjpg,buildings ,-6,7,6,,false
+http://173.16.182.4:81/mjpg/video.mjpg,,7,"Springfield, USA",8,8,mjpg,"cable porn, storage",-6,8,7,,false
+http://129.186.144.1/mjpg/video.mjpg,,8,"Ames, USA",4,4,mjpg,"highschool, people",-6,4,8,,false
+http://152.157.252.1/mjpg/video.mjpg,,8,"Everett, USA",8,7,mjpg,"server, people",-8,7,8,,false
+http://96.225.55.10:8001/mjpg/video.mjpg,,8,"Newark, USA",4,4,mjpg,conference room,-5,3,8,,false
+http://182.52.238.15:81/mjpg/video.mjpg?timestamp=1479249419010,,5,"Bangkok, Thailand",7,6,mjpg,bridge,7,6,5,,false
+http://70.99.6.20:9000/mjpg/video.mjpg?streamprofile=Default_Web_Stream,,8,"Vancouver, USA",4,4,mjpg,"office, people",-7,4,7,,false
+http://31.129.174.20/mjpg/video.mjpg,,5,"Bila Tserkva, Ukraine",6,5,mjpg,"street, people",2,6,4,,false
+http://190.52.167.53:8084/mjpg/video.mjpg,,7,"Asuncion, Paraguay",5,4,mjpg,"restaurant, people",3,4,7,,false
+http://190.53.162.232:8082/mjpg/video.mjpg,,8,"San Salvador, El Salvador ",4,5,mjpg,"office, people",-6,4,7,,false
+http://190.53.162.232:8083/mjpg/video.mjpg,,8,"San Salvador, El Salvador ",4,5,mjpg,"office, people",-6,4,7,,false
+http://24.103.175.2/mjpg/video.mjpg,,8,"Utica, USA",6,5,mjpg,"room, people",-5,6,8,,false
+http://174.51.41.230:84/mjpg/video.mjpg,,7,"Silt, USA",5,7,mjpg,"plant shop, people",-7,5,7,,false
+http://130.180.105.226:8080/mjpg/video.mjpg,,8,"Wuppertal, Germany",8,3,mjpg,"mailboxes, people",1,7,8,,false
+http://91.112.176.230:8001/mjpg/video.mjpg,,8,"Tirol, Austria",8,8,mjpg,machine,1,8,8,,true
+http://91.112.176.230:8000/mjpg/video.mjpg,,8,"Tirol, Austria",8,8,mjpg,machine,1,8,8,,false
+http://1.34.197.140:10000/mjpg/1/video.mjpg,,7,"Taipei, Taiwan",6,7,mjpg,"storage, people",8,7,8,,false
+http://1.34.197.140:10000/mjpg/2/video.mjpg,,7,"Taipei, Taiwan",6,7,mjpg,"storage, people",8,7,8,,false
+http://1.34.197.140:10000/mjpg/3/video.mjpg,,7,"Taipei, Taiwan",6,7,mjpg,"storage, people",8,7,8,,false
+http://1.34.197.140:10000/mjpg/4/video.mjpg,,7,"Taipei, Taiwan",6,7,mjpg,"storage, people",8,7,8,,false
+http://197.255.64.2/mjpg/video.mjpg?timestamp=1480027013810,,7,"Accra, Ghana",6,5,mjpg,"office, people",0,5,7,,false
+http://82.81.58.71/mjpg/video.mjpg,,8,"Petah, Israel",7,6,mjpg,"entrance, people",2,7,8,,false
+http://217.174.90.67:81/mjpg/1/video.mjpg,,7,"Karlskoga, Sweden",7,7,mjpg,parking lot,2,7,8,,false
+http://217.174.90.67:81/mjpg/2/video.mjpg,,7,"Karlskoga, Sweden",7,7,mjpg,parking lot,2,7,8,,false
+http://217.174.90.67:81/mjpg/3/video.mjpg,,7,"Karlskoga, Sweden",7,7,mjpg,parking lot,2,7,8,,false
+http://217.174.90.67:81/mjpg/4/video.mjpg,,7,"Karlskoga, Sweden",7,7,mjpg,parking lot,2,7,8,,false
+http://132.160.100.57/mjpg/video.mjpg,,3,"Hofalselulu, Hawai",8,7,mjpg,mountain,-10,7,3,,false
+http://98.190.198.60/mjpg/1/video.mjpg?camera=1&timestamp=1480097439116,,5,"Los Angeles, USA",4,7,mjpg,"golf course, people",-8,4,5,,false
+http://73.77.191.68:8081/mjpg/video.mjpg,,8,"Mount Laurel, USA",5,6,mjpg,pool,-5,6,8,,false
+http://194.247.184.66/mjpg/video.mjpg,,7,"Salekhard, Russia",8,7,mjpg,house,5,7,7,,false
+http://212.220.45.65/mjpg/video.mjpg?COUNTER,,7,"St. Petersburg, Russia",7,5,mjpg,suburb pafalserama,3,7,6,,false
+http://130.25.250.64/mjpg/video.mjpg,,8,"Vedafalse Al Lambro, Italy",7,8,mjpg,plants,2,7,8,,false
+http://189.171.81.71:8082/mjpg/1/video.mjpg,,8,"Cabo San Lucas, Mexico",5,2,mjpg,"teracce, restaurant, people",-7,6,8,,true
+http://120.127.252.107/mjpg/1/video.mjpg,,7,"Tapei, Taiwan",8,3,mjpg,"street, camera hanging",8,8,7,,false
+http://120.127.252.107/mjpg/3/video.mjpg,,8,"Tapei, Taiwan",7,3,mjpg,"stairs, people",8,7,8,,false
+http://120.127.252.107/mjpg/4/video.mjpg,,7,"Tapei, Taiwan",7,3,mjpg,shore,8,7,7,,false
+http://109.226.226.125:84/mjpg/video.mjpg,,7,"Krasfalseyarsk, Russia",6,4,mjpg,parking lot,7,4,7,,false
+http://201.108.143.92/mjpg/video.mjpg,,8,"Tlalnepantla, Mexico",6,6,mjpg,"restaurant, people",-6,5,8,,false
+http://106.244.199.94:8081/mjpg/video.mjpg?timestamp=1480804094705,,6,"Anseong, South Korea",8,7,mjpg,"road, traffic lights",9,7,5,,false
+http://124.159.157.93:81/mjpg/video.mjpg?timestamp=1480804291399,,3,"Fukuoka, Japan",4,7,mjpg,mountains,9,4,2,,false
+http://129.21.170.88/mjpg/video.mjpg?timestamp=1480804414481,,9,"Henrietta, USA",9,7,mjpg,machine,-5,7,9,,false
+http://89.250.210.90/mjpg/video.mjpg,,7,"Perm, Russia",8,5,mjpg,"building, people",5,7,4,,false
+http://73.223.20.93/mjpg/video.mjpg,,4,"Pacific Grove, USA",4,5,mjpg,"beach, dunes",-8,4,4,,false
+http://66.189.181.92/mjpg/video.mjpg,,4,"Pasco, USA",5,5,mjpg,"beach, dunes",-8,5,4,,false
+http://93.228.18.92:1024/mjpg/video.mjpg,,8,"Monscheim, Germany",7,6,mjpg,"hallway, people",1,6,8,,false
+http://87.228.103.93/mjpg/video.mjpg,,3,"Moscow, Russia",7,5,mjpg,building,3,7,3,,false
+http://73.109.129.89/mjpg/video.mjpg,,9,"New Jersey, USA",8,4,mjpg,"eagle, camera, stick",-5,8,8,,true
+http://74.64.33.86:8001/mjpg/video.mjpg,,8,"New York, USA",7,4,mjpg,"elevator, people",-5,7,8,,false
+http://77.37.132.86/mjpg/1/video.mjpg,,9,"Reutov, Russia",8,4,mjpg,"elevator, people",4,8,9,,false
+http://77.37.132.86/mjpg/2/video.mjpg,,8,"Reutov, Russia",7,5,mjpg,"hallway, people",4,7,8,,false
+http://46.231.224.86:8080/mjpg/video.mjpg,,7,"Kiev, Ukraine",7,6,mjpg,"hallway, people, tilted",2,7,8,,false
+http://91.64.67.89:90/mjpg/1/video.mjpg,,8,"Staaken, Germany",7,6,mjpg,"hallway, people",1,6,8,,false
+http://23.113.102.86:8081/mjpg/1/video.mjpg?timestamp=1480806448818,,7,"Barrington, USA",7,7,mjpg,"car shop, office, people",-6,7,8,,false
+http://24.73.140.86/mjpg/video.mjpg,,7,"Melbourne, USA",7,6,mjpg,"public square, people",-5,6,6,,false
+http://200.113.109.77:86/mjpg/video.mjpg?timestamp=1480806635648,,6,"Santiago, Chile",7,6,mjpg,"dock, boats, people",-4,7,6,,false
+http://121.187.187.78:82/mjpg/video.mjpg,,6,"T'Aebaek, Korea",7,6,mjpg,industrial area,9,6,6,,false
+http://216.54.27.7/mjpg/video.mjpg,,8,"falserfolk, USA",6,7,mjpg,fish tank,-4,6,9,,false
+http://216.54.25.118/mjpg/video.mjpg,,7,"Petersburg, USA",8,6,mjpg,"exit, door, people",-4,8,7,,false
+http://208.13.138.34/mjpg/video.mjpg,,8,"Winter Park, USA",6,5,mjpg,"doors, dorm rooms",-4,5,8,,false
+http://184.70.246.138/mjpg/video.mjpg,,4,"Chicago, USA",4,6,mjpg,lake view,-5,6,4,,false
+http://186.1.21.71/mjpg/video.mjpg?timestamp=1480877201187,,9,"Managua, Nicaragua",7,6,mjpg,"school, classroom, people",-6,6,8,,false
+http://186.1.21.73/mjpg/video.mjpg,,9,"Managua, Nicaragua",5,6,mjpg,"school, classroom, people",-6,6,8,,false
+http://186.1.21.70/mjpg/video.mjpg,,9,"Managua, Nicaragua",5,7,mjpg,"school, classroom, people",-6,6,8,,false
+http://186.1.21.68/mjpg/video.mjpg,,9,"Managua, Nicaragua",5,6,mjpg,"school, classroom, people",-6,6,8,,false
+http://186.1.21.72/mjpg/video.mjpg,,9,"Managua, Nicaragua",5,6,mjpg,"school, classroom, people",-6,6,8,,false
+http://186.1.21.67/mjpg/video.mjpg,,9,"Managua, Nicaragua",5,6,mjpg,"school, classroom, people",-6,6,8,,false
+http://186.1.21.69/mjpg/video.mjpg,,9,"Managua, Nicaragua",5,6,mjpg,"school, classroom, people",-6,6,8,,false
+http://186.77.56.51/mjpg/video.mjpg,,4,"Managua, Nicaragua",5,6,mjpg,landscape,-6,3,4,,false
+http://60.42.103.94:8081/mjpg/video.mjpg?timestamp=1480877770237,,8,"Tokyo, Japan",7,2,mjpg,road,9,5,9,,false
+http://200.2.228.92:82/mjpg/video.mjpg,,5,"Puerto Natales, Chile",7,7,mjpg,dam,-4,7,7,,false
+http://115.22.158.79:8080/mjpg/video.mjpg,,8,"Busan, Korea",8,3,mjpg,machine,9,8,8,,true
+http://35.9.170.61/mjpg/video.mjpg,,8,"East Lansing, USA",7,7,mjpg,"office, people",-5,7,8,,false
+http://132.160.100.57/mjpg/video.mjpg,,3,"Hofalselulu, Hawai",7,6,mjpg,"landscape, industrial elements",-10,5,3,,true
+http://79.140.96.230/mjpg/video.mjpg,,5,"Lipetsk, Russia",8,6,mjpg,"warehouses, moving camera",4,7,4,,false
+http://79.138.122.159/mjpg/video.mjpg,,7,"Mala, Sweden",8,6,mjpg,"storage sources, light",2,8,7,,false
+http://77.108.63.232:82/mjpg/video.mjpg,,7,"Torifalse, Italy",7,3,mjpg,private house,1,6,7,,false
+http://207.177.253.55:8090/mjpg/video.mjpg,,9,"Chualar, USA",8,7,mjpg,chicks and eggs,-8,8,9,,false
+http://69.254.206.47/mjpg/video.mjpg,,7,"Tuscon, USA",6,7,mjpg,houses,-7,6,7,,false
+http://108.185.145.52/mjpg/video.mjpg?timestamp=1480879706749,,6,"Riverside, USA",7,8,mjpg,commercials on building,-8,7,6,,false
+http://200.6.188.43/mjpg/video.mjpg,,7,"Medellin, Colombia",7,7,mjpg,"street, people",-5,7,7,,false
+http://81.248.40.43/mjpg/video.mjpg,,8,"Cayenne,French Guiana",7,8,mjpg,"restaurant, people",-4,7,8,,false
+http://37.189.15.43:82/mjpg/video.mjpg,,8,"Viseu, Portugal",6,7,mjpg,"restaurant, people",0,6,8,,false
+http://50.248.1.46:8000/mjpg/video.mjpg?timestamp=1480880169901,,8,"bunche park, usa",6,7,mjpg,"pool, people",-5,6,8,,false
+http://136.176.201.42/mjpg/video.mjpg,,4,"Peoria, USA",7,4,mjpg,factory,-6,6,4,,false
+http://87.57.109.42:85/mjpg/video.mjpg,,8,"Hobro, Denmark",7,2,mjpg,ceiling,1,7,9,,false
+http://95.228.12.42:8001/mjpg/video.mjpg,,7,"Ciampifalse, Italy",8,5,mjpg,"cranes, docks",1,8,7,,false
+http://95.228.12.42:8000/mjpg/video.mjpg,,7,"Ciampifalse, Italy",8,5,mjpg,"cranes, docks",1,8,7,,false
+http://221.157.233.101:1024/mjpg/video.mjpg?timestamp=1481035974707,,2,"Pohang, Korea",8,6,mjpg,"view on water, industry",9,8,2,,true
+http://103.8.253.100:8080/mjpg/video.mjpg,,8,"Cambridge, New Zealand",4,5,mjpg,"room, university",13,4,7,,false
+http://31.199.140.100:81/mjpg/1/video.mjpg?timestamp=1481036260349,,7,"Milan, Italy",7,4,mjpg,water dam,1,6,7,,false
+http://86.218.144.97/mjpg/video.mjpg,,7,"Bouzonville, France",6,6,mjpg,"doctors waiting room, people",1,6,8,,false
+http://85.3.138.55/mjpg/video.mjpg,,6,"Sankt Gallen, Switzerland",6,6,mjpg,"train tracks, crossing",1,6,7,,false
+http://91.139.198.64:8090/mjpg/video.mjpg,,9,"Plovdiv, Bulgaria",8,3,mjpg,"table top, close up",2,7,9,,false
+http://88.102.234.45:8080/mjpg/video.mjpg,,8,"Liben, Czech Republic",7,8,mjpg,"bowling alley, people",1,6,8,,false
+http://69.144.207.46/mjpg/video.mjpg,,7,"Riverton, USA",5,6,mjpg,"inside pool, people",-7,6,8,,false
+http://92.106.232.35:82/mjpg/video.mjpg?timestamp=1481038524584,,8,"Geneve, Switzerland",7,6,mjpg,"patio, people",1,7,8,,false
+http://200.52.135.35/mjpg/video.mjpg,,8,"Venustiafalse Carranza, Mexico",7,7,mjpg,"classroom, people",-6,6,8,,false
+http://181.118.102.31:8090/mjpg/video.mjpg?timestamp=1481038732919,,7,"San Miguel de Tucaman, Argentina",7,7,mjpg,"street, people",-3,7,7,,false
+http://206.127.74.40/mjpg/video.mjpg,,2,"Helena, USA",3,5,mjpg,"mountains, landscape",-7,3,2,,false
+http://212.105.90.33/mjpg/video.mjpg,,9,"Billdal, Sweden",8,8,mjpg,"light, wires",1,8,8,,false
+http://88.176.167.36:8082/mjpg/video.mjpg,,8,"Erpon, France",8,6,mjpg,plane hangar,1,7,8,,false
+http://89.156.218.40/mjpg/video.mjpg,,8,"Plan-de-cuques, France",9,2,mjpg,abstract,1,8,9,,false
+http://166.248.68.158/mjpg/video.mjpg,,5,"Murfeesboro, USA",6,5,mjpg,road,-6,6,5,,false
+http://109.188.134.40:8081/mjpg/video.mjpg,,4,"St. Petersburg, Russia",7,6,mjpg,building,3,7,4,,false
+http://180.225.53.36/mjpg/video.mjpg,,7,"Seoul, South Korea",7,2,mjpg,waving leaves,9,7,9,,false
+http://101.128.115.155:8001/mjpg/video.mjpg,,9,"Jakarta, Indonesia",7,7,mjpg,"lobby, people",7,7,8,,false
+http://176.127.221.104:85/mjpg/1/video.mjpg,,8,"Zurich, Switzerland",6,8,mjpg,Exotic birds,1,6,8,,true
+http://176.127.221.104:85/mjpg/2/video.mjpg,,8,"Zurich, Switzerland",6,8,mjpg,Exotic birds,1,6,8,,true
+http://221.157.233.101:1024/mjpg/video.mjpg?timestamp=1481292294457,,2,"Pohang, Korea",6,7,mjpg,"water view, industry",9,7,2,,false
+http://172.85.60.101/mjpg/video.mjpg?timestamp=1481292567919,,7,"Long Island city, USA",5,4,mjpg,"elevator, people",-5,6,8,,false
+http://165.255.81.104:8084/mjpg/video.mjpg,,9,"Durban, South Africa",7,6,mjpg,"office, people",2,6,8,,false
+http://165.255.81.104:8081/mjpg/video.mjpg,,6,"Durban, South Africa",7,7,mjpg,road,2,7,7,,false
+http://80.92.118.102:84/mjpg/video.mjpg,,5,"Tirol, Austria",4,5,mjpg,square,1,4,3,,false
+http://84.157.61.104:83/mjpg/video.mjpg,,7,"Berlin, Germany",7,4,mjpg,"view on house, people",1,7,7,,false
+http://95.130.136.69:8083/mjpg/video.mjpg,,7,"Aiello Del Friuli, Italy",7,5,mjpg,electrical houses,1,7,7,,false
+http://89.113.0.71:81/mjpg/video.mjpg,,7,"Moscow, Russia",7,5,mjpg,electrical houses,3,7,7,,false
+http://92.154.14.71:8080/mjpg/video.mjpg,,8,"Bezons, France",6,7,mjpg,"stairs, attic, people",1,6,8,,false
+http://184.11.88.73/mjpg/video.mjpg?timestamp=1481295234648,,7,"Kearney, USA",8,5,mjpg,airport,-6,7,7,,false
+http://87.236.30.71:8090/mjpg/video.mjpg,,9,"Moscow, Russia",7,8,mjpg,"private home, people",3,6,9,,false
+http://160.36.32.70/mjpg/video.mjpg,,8,"Kfalsexville, USA",6,5,mjpg,garage,-5,5,8,,false
+http://46.27.244.42:90/mjpg/video.mjpg,,8,"Girona, Spain",7,6,mjpg,"restaurant, people",1,6,8,,false
+http://62.160.246.63:89/mjpg/video.mjpg,,6,"Reims, France",4,1,mjpg,"street, people",1,3,6,,false
+http://173.245.147.64/mjpg/video.mjpg,,8,"Malone, USA",6,7,mjpg,tempature meter,-5,8,9,,false
+http://81.223.43.66/mjpg/1/video.mjpg?camera=1&timestamp=1481303602417,,7,"Klagenfurth am Woerth, Austria",7,1,mjpg,waiting room,1,7,8,,false
+http://79.77.51.65:1024/jpg/1/image.jpg,,8,"Worhting, United Kingdom",7,7,mjpg,"church, altar, people",0,7,8,,false
+http://103.193.39.66:85/mjpg/video.mjpg,,7,"Tauranga, New Zealand",7,1,mjpg,"warehouse, people",13,8,5,,false
+http://81.30.8.66:8082/mjpg/1/video.mjpg?camera=1&timestamp=1481304120626,,6,"Piemonte, Italy",6,1,mjpg,street view,1,8,7,,false
+http://75.150.46.66/mjpg/video.mjpg,,8,"Eugene, Oregon",7,5,mjpg,"entrance, people",-8,7,8,,false
+http://190.161.178.66/mjpg/video.mjpg,,8,"Santiago, Chile",6,5,mjpg,"street view, people",-4,6,8,,false
+http://68.200.249.69:82/mjpg/video.mjpg,,7,"Brandenton Beach, USA",5,6,mjpg,beach house,-5,5,8,,false
+http://68.200.249.69:84/mjpg/video.mjpg,,7,"Brandenton Beach, USA",5,6,mjpg,beach house,-5,5,8,,false
+http://68.200.249.69:83/mjpg/video.mjpg,,7,"Brandenton Beach, USA",5,6,mjpg,beach house,-5,5,8,,false
+http://68.200.249.69:81/mjpg/video.mjpg,,7,"Brandenton Beach, USA",5,6,mjpg,beach house,-5,5,8,,false
+http://137.110.116.36/mjpg/video.mjpg?COUNTER,,8,"La Jolla, USA",9,6,mjpg,"stage, conference table, people",-8,9,8,,true
+http://128.65.235.47:82/mjpg/video.mjpg,,8,"Ponta Delgada, Azores",6,6,mjpg,"store, restaurant, people",0,6,8,,false
+http://24.171.223.156:83/mjpg/video.mjpg?timestamp=1481305683948,,8,"Humacao, Puerto Rico",7,8,mjpg,"plant, garden",-4,7,8,,false
+http://24.171.223.156:81/mjpg/video.mjpg?timestamp=1481307019595,,8,"Humacao, Puerto Rico",7,8,mjpg,"driveway, plants, people",-4,7,8,,false
+http://24.171.223.156:84/mjpg/video.mjpg?timestamp=1481307213371,,8,"Humacao, Puerto Rico",7,8,mjpg,"garden, people",-4,7,8,,false
+http://24.171.223.156:85/mjpg/video.mjpg?timestamp=1481307291910,,8,"Humacao, Puerto Rico",8,9,mjpg,"swimming pool, people",-4,9,8,,true
+http://67.224.139.155:8080/mjpg/video.mjpg,,7,"Ponce, Puerto Rico",8,9,mjpg,"beach, people",-4,7,7,,true
+http://119.195.110.154/mjpg/video.mjpg?timestamp=1481307694627,,4,"Kijang, South Korea",6,1,mjpg,"city views, moving camera",9,8,4,,false
+http://107.145.22.152/mjpg/video.mjpg,,8,"Orange City, USA",8,8,mjpg,yachts,-5,8,8,,false
+http://201.144.52.152/mjpg/video.mjpg?timestamp=1481308879399,,8,"Guanajuato, Mexico",7,4,mjpg,"office, people",-6,7,8,,false
+http://204.10.252.151/mjpg/video.mjpg,,9,"Steamboat Springs, USA",7,7,mjpg,"window, stain",-7,7,9,,true
+http://97.84.96.158/mjpg/video.mjpg,,3,"Atascadero, USA",8,8,mjpg,"under bridge, pafalserama",-8,4,3,,true
+http://188.187.125.155/mjpg/video.mjpg,,3,"Volgograd, Russia",7,7,mjpg,buildings ,3,7,3,,false
+http://50.127.78.30:8001/mjpg/video.mjpg,,8,"Morristown, USA",7,6,mjpg,cash registery,-6,6,9,,false
+http://85.42.100.30:83/mjpg/video.mjpg?timestamp=1481309675940,,6,"Rome, Italy",7,1,mjpg,"building, moving camera",1,8,6,,false
+http://129.219.24.143/mjpg/video.mjpg?streamprofile=Quality,,8,"Tempe, USA",9,8,mjpg,"lab, people",-7,9,8,,true
+http://104.51.0.148:81/mjpg/video.mjpg,,7,"Pompafalse Beach Highla, USA",7,8,mjpg,"pool, palms, people",-7,6,8,,false
+http://114.33.6.120:10000/mjpg/1/video.mjpg?camera=1&timestamp=1481376255236,,8,"Nantou, Taiwan",6,6,mjpg,"store entrance, people",-8,7,8,,false
+http://81.139.225.132/mjpg/video.mjpg,,2,"Highlands End, UK",7,6,mjpg,"sea shore, cliffs",0,7,2,,false
+http://77.57.198.123:8080/mjpg/video.mjpg,,6,"Fribourg, Switzerland",6,5,mjpg,"train tracks, industrial trains",1,6,7,,false
+http://71.234.198.120:8080/mjpg/video.mjpg,,8,"New Bedford, USA",8,6,mjpg,"street, people, moving camera",-5,8,7,,false
+http://101.109.83.144:81/mjpg/video.mjpg?timestamp=1481377309971,,2,"Bangkok, Thailand",5,2,mjpg,city pafalserama,8,6,4,,false
+http://176.129.177.151:82/mjpg/video.mjpg,,9,"Meudon, France",6,7,mjpg,details of a space,1,7,9,,false
+http://176.129.177.151:83/mjpg/video.mjpg,,9,"Meudon, France",6,7,mjpg,details of a space,1,7,9,,false
+http://220.244.146.150/mjpg/1/video.mjpg,,8,"Melbourne, Australia",8,8,mjpg,commercials,11,7,9,,false
+http://166.141.98.171/mjpg/video.mjpg,,4,"Harker Heights, USA",5,5,mjpg,"roads, landscape",-6,6,3,,false
+http://200.89.129.237/mjpg/video.mjpg,,7,"Mendoza, Argentina",6,4,mjpg,warf,-3,7,6,,false
+http://71.13.108.246/mjpg/1/video.mjpg?camera=1&timestamp=1481379082462,,6,"Iron River, USA",6,5,mjpg,water,-6,5,7,,false
+http://80.24.57.252:60001/mjpg/video.mjpg,,7,"Madrid, Spain",4,8,mjpg,"hotel, pools, people",1,5,7,,false
+http://93.151.134.251:81/mjpg/video.mjpg?timestamp=1481379235245,,8,"Colle Salvetti, Italy",6,6,mjpg,"church, altar, people",1,5,8,,false
+http://128.10.28.27/mjpg/video.mjpg,,8,"West Lafayette, Indiana",8,4,mjpg,"computer room, people",-5,8,8,,false
+http://130.126.240.21/mjpg/video.mjpg,,8,"Illifalseis, USA",9,6,mjpg,"view on outside of building, windows",-6,9,7,,true
+http://91.224.62.218:83/mjpg/video.mjpg,,8,"Moscow, Russia",4,5,mjpg,shoe store,4,4,8,,false
+http://88.85.34.134:81/jpg/image.jpg,,2,"Torshavn, Faroe Islands",6,4,mjpg,"docks, sea view",0,7,7,,false
+http://87.127.30.134:8001/mjpg/video.mjpg,,8,"Cheltenham, England",6,5,mjpg,"entrance, people, street",0,6,9,,false
+http://2.228.68.135/mjpg/video.mjpg,,8,"Milan, Italy",9,2,mjpg,conference room,1,9,8,,true
+http://196.203.148.167:8000/mjpg/video.mjpg,,9,"Tunis, Tunisia",9,4,mjpg,"elevator, people",1,8,8,,true
+http://96.56.186.228/mjpg/video.mjpg?timestamp=1481397340708,,7,"Hicksville, USA",7,4,mjpg,benches,-5,5,7,,false
+http://80.229.190.159/mjpg/video.mjpg?COUNTER,,7,"Ilford, UK",6,6,mjpg,street,0,5,7,,false
+http://185.95.239.153:88/mjpg/video.mjpg,,6,"Sessa Auruncia, Italy",7,2,mjpg,"trucks, cars",1,8,7,,false
+http://141.91.210.150:8081/mjpg/video.mjpg,,8,"Hamburg, Germany",7,2,mjpg,"walls, looking glass view",1,7,8,,false
+http://75.145.217.140:8081/mjpg/video.mjpg,,6,"Memphis, USA",6,7,mjpg,lake view,-6,4,7,,false
+http://75.145.217.140:8080/mjpg/video.mjpg,,7,"Memphis, USA",6,7,mjpg,"lake view, birds",-6,5,7,,false
+http://37.9.176.156:8080/mjpg/video.mjpg,,7,"Nicosia, Cyprus",6,5,mjpg,house,2,7,7,,false
+http://79.61.134.140/mjpg/video.mjpg,,8,"Bologna, Italy",5,6,mjpg,"store, people",1,4,8,,false
+http://110.5.60.140:8084/mjpg/video.mjpg,,9,"Tokyo, Japan",8,8,mjpg,screen,9,8,9,,true
+http://73.43.57.142/mjpg/video.mjpg,,8,"Atlanta, USA",7,8,mjpg,fencing room,-5,8,8,,false
+http://74.39.243.142/mjpg/video.mjpg?timestamp=1481399988651,,4,"Utah, USA",7,4,mjpg,train tracks (industrial),-7,7,5,,false
+http://200.2.228.161:81/mjpg/video.mjpg?timestamp=1481400200269,,8,"Puerto Natales, Chile",8,9,mjpg,machine,-4,8,8,,true
+http://200.2.228.136:83/mjpg/video.mjpg,,8,"Puerto Natales, Chile",8,7,mjpg,"machines, people",-4,8,9,,false
+http://201.116.203.119:81/mjpg/video.mjpg,,7,"San Jose del Cabo, Mexico",4,8,mjpg,"palms, road",-7,6,7,,false
+http://201.116.203.119:82/mjpg/video.mjpg?timestamp=1481400507464,,7,"San Jose del Cabo, Mexico",4,8,mjpg,"palms, road",-7,6,7,,false
+http://201.218.126.122:8080/mjpg/video.mjpg?timestamp=1481400862907,,8,"Panama City, Panama",6,4,mjpg,"hallway, people",-5,5,8,,false
+http://207.115.90.134/mjpg/video.mjpg?timestamp=1481401278883,,7,"Seattle, USA",8,6,mjpg,machines,-8,7,8,,false
+http://201.218.126.122:8081/jpg/1/image.jpg,,8,"Panama City, Panama",6,6,mjpg,"hallway, elevators, people",-5,6,8,,false
+http://173.240.20.99/mjpg/video.mjpg?timestamp=1481404778511,,9,"Minnetonka, USA",8,7,mjpg,machine,-6,8,9,,false
+http://206.162.189.195/mjpg/video.mjpg,,6,"Dalhousie, Canada",7,2,mjpg,wall,-4,5,9,,false
+http://220.130.221.161:8001/mjpg/video.mjpg,,7,"Taipei, Taiwan",6,6,mjpg,moped parking lot,8,6,8,,false
+http://86.47.151.161/mjpg/video.mjpg,,8,"Dublin, Ireland",7,2,mjpg,"restaurant, people, washing up",0,6,8,,false
+http://173.14.87.114/mjpg/video.mjpg?timestamp=1481405286342,,7,"Naples, USA",4,6,mjpg,"beach, people",-5,4,7,,false
+http://95.63.206.142/mjpg/video.mjpg?timestamp=1481405404924,,7,"Andalucia, Spain",6,7,mjpg,"swimming pool, people",1,6,7,,false
+http://112.162.204.84/mjpg/video.mjpg?timestamp=1481405547556,,4,"Kijang, South Korea",7,7,mjpg,"Sea shore, people",9,6,3,,false
+http://217.6.86.39/mjpg/video.mjpg,,8,"Nuremberg, Germany",8,9,mjpg,"cables, fuses",1,8,9,,false
+http://188.165.109.42:8081/mjpg/video.mjpg,,6,"Calais, France",8,9,mjpg,room ?,1,9,7,,false
+http://186.67.74.68:8090/mjpg/video.mjpg,,8,"Vina del Mar, Chile",6,9,mjpg,"store, people",-4,6,8,,false
+http://186.67.74.68:8084/mjpg/video.mjpg,,8,"Vina del Mar, Chile",6,9,mjpg,"store, people",-4,6,8,,false
+http://186.67.74.68:8082/mjpg/video.mjpg,,8,"Vina del Mar, Chile",6,9,mjpg,"store, people",-4,6,8,,false
+http://200.52.135.40/mjpg/video.mjpg,,8,"Naulcapan de Juarez, Mexico",4,7,mjpg,"slide, people",-6,6,8,,false
+http://92.255.185.40/mjpg/video.mjpg,,8,"Omsk, Russia",7,6,mjpg,"hotel lobby, people",6,7,8,,false
+http://130.149.32.39/mjpg/1/video.mjpg,,8,"Berlin, Germany",9,7,mjpg,"lab, machine",1,8,9,,true
+http://130.149.32.39/mjpg/2/video.mjpg,,8,"Berlin, Germany",9,6,mjpg,"lab, machine",1,8,9,,false
+http://130.149.32.39/mjpg/3/video.mjpg,,8,"Berlin, Germany",9,6,mjpg,"lab, machine",1,8,9,,false
+http://130.149.32.39/mjpg/4/video.mjpg,,8,"Berlin, Germany",9,6,mjpg,"lab, machine",1,8,9,,false
+http://50.199.221.39/mjpg/video.mjpg,,8,"West Newton, USA",6,2,mjpg,"classroom, people",-4,6,8,,false
+http://190.57.73.38:8090/mjpg/video.mjpg,,8,"Nuevo Cuscaltan, El Salvador",7,5,mjpg,"factory, people",-6,6,8,,false
+http://112.219.255.36:5000/mjpg/video.mjpg,,8,"Seoul, South Korea",7,5,mjpg,"street, people",9,6,8,,false
+http://62.207.128.38/mjpg/video.mjpg,,4,"Amsterdam, The Netherlands",6,6,mjpg,city view,1,5,3,,false
+http://78.33.192.36/mjpg/1/video.mjpg,,8,"London, UK",6,5,mjpg,bales of hay,0,5,8,,false
+http://190.6.62.38:81/mjpg/1/video.mjpg,,8,"Caracas, Venezuela",5,8,mjpg,"fabric store, people",-6,6,8,,false
+http://190.6.62.38:81/mjpg/2/video.mjpg,,7,"Caracas, Venezuela",5,7,mjpg,"fabric store, people",-6,6,8,,false
+http://190.6.62.38:81/mjpg/3/video.mjpg,,7,"Caracas, Venezuela",5,3,mjpg,"fabric store, people",-6,6,8,,false
+http://190.6.62.38:81/mjpg/4/video.mjpg,,7,"Caracas, Venezuela",5,7,mjpg,"fabric store, people",-6,8,8,,false
+http://173.165.200.38/mjpg/video.mjpg?timestamp=1481409160757,,8,"Jacksonville, USA",7,7,mjpg,"church, altar, people",-6,8,8,,false
+http://160.36.32.69/mjpg/video.mjpg,,9,"Tennessee, USA",7,4,mjpg,room,-5,7,9,,false
+http://77.48.31.68/mjpg/video.mjpg,,4,Czech Repoblic,5,5,mjpg,"street, people",2,5,5,,false
+http://84.247.13.198:9000/mjpg/video.mjpg?timestamp=1481409446669,,2,"Bucharest, Rumania",5,6,mjpg,"streets, parking lots",2,7,2,,false
+http://198.153.189.25/mjpg/video.mjpg,,3,"st joseph, USA",7,7,mjpg,"city view, satellites",-5,8,3,,false
+http://128.8.138.24/mjpg/video.mjpg,,8,"Maryland, USA",8,6,mjpg,lab,-5,8,8,,false
+http://211.72.235.34/mjpg/video.mjpg,,2,"Chang Hua, Taiwan",2,5,mjpg,"river, landscape",9,7,2,,false
+http://107.1.228.34/mjpg/video.mjpg,,7,"Plainfield, USA",8,5,mjpg,"windmill, baths",-4,8,7,,true
+http://186.67.202.34:8083/mjpg/video.mjpg,,7,"Santiago, Chile",7,6,mjpg,"warehouse, people",-4,6,6,,false
+http://130.215.68.34/mjpg/video.mjpg,,6,"Worcester, USA",6,7,mjpg,"theatre, people",-5,6,6,,false
+http://202.74.79.30:8000/mjpg/video.mjpg,,8,"Jakarta, Indonesia",7,8,mjpg,"restaurant, people",7,7,8,,false
+http://206.202.208.31/mjpg/video.mjpg,,3,"Oklahoma, USA",8,7,mjpg,city view,-5,7,2,,true
+http://128.10.29.33/mjpg/1/video.mjpg?camera=1&timestamp=1481411207528,,4,"falseblesville, USA",7,7,mjpg,"college, people",-4,7,3,,false
+http://128.10.29.33/mjpg/2/video.mjpg?camera=2&timestamp=1481411243351,,4,"falseblesville, USA",7,6,mjpg,"college, people",-4,7,7,,false
+http://128.10.29.31/mjpg/video.mjpg,,4,"falseblesville, USA",7,6,mjpg,"college, people",-4,7,3,,false
+http://128.10.29.30/mjpg/video.mjpg,,8,"falseblesville, USA",7,4,mjpg,"college, people",-4,6,8,,false
+http://128.10.29.21/mjpg/video.mjpg,,8,"falseblesville, USA",7,4,mjpg,"college, people",-4,6,8,,false
+http://81.138.2.65:1024/mjpg/video.mjpg,,7,"Rothesay, Schotland",6,8,mjpg,"church, altar, people",0,6,8,,false
+http://101.128.115.155:8001/mjpg/video.mjpg,,8,"Jakarta, Indonesia",7,7,mjpg,"hallway hotel, people",7,6,9,,false
+http://156.106.207.35/mjpg/video.mjpg,,8,"Geneve, Switzerland",6,7,mjpg,"computer room, maps, people",2,6,8,,true
+http://196.21.92.209/jpg/image.jpg,,4,"Cape Town, South Africa",8,5,mjpg,observatory,2,8,4,,false
+http://183.76.76.205:8081/mjpg/video.mjpg,,2,"Tokyo, Japan",5,6,mjpg,view on city and water,9,7,2,,false
+http://82.90.127.3/mjpg/video.mjpg,,7,"Pordefalsene, Italy",5,7,mjpg,"dry cleaners, people",1,6,8,,false
+http://210.23.68.3:84/mjpg/video.mjpg?timestamp=1481463380214,,3,"Jakarta, Indonesia",7,6,mjpg,road,7,7,3,,false
+http://138.186.200.2/mjpg/video.mjpg?timestamp=1481463509228,,3,"Guadalupe, Mexico",7,6,mjpg,"building, road",-6,7,2,,false
+http://27.145.103.5:5001/mjpg/video.mjpg,,8,"Bangkok, Thailand",6,6,mjpg,"doorway, people",7,6,8,,false
+http://195.230.164.70/mjpg/video.mjpg,,4,"Eisenstadt, Austria",6,5,mjpg,"building, restaurant",2,5,4,,false
+http://74.219.165.69/mjpg/video.mjpg?timestamp=1481464220708,,8,"Columbus, USA",7,6,mjpg,machines,-4,7,8,,false
+http://138.236.97.69/mjpg/video.mjpg?timestamp=1481464323482,,8,"Saint Peter, USA",4,6,mjpg,"plant, garden",-5,4,9,,false
+http://128.95.77.64/mjpg/video.mjpg,,7,"Seattle, USA",6,8,mjpg,tennis coart,-8,7,7,,false
+http://87.224.70.62:1080/mjpg/video.mjpg,,8,"London, UK",5,5,mjpg,"classroom, people",0,5,8,,false
+http://85.126.170.50/mjpg/video.mjpg?timestamp=1481464654579,,4,"Graz, Austria",6,8,mjpg,"street, shopping centre",1,7,3,,false
+http://206.158.4.16/mjpg/video.mjpg,,8,"Refalse, USA",7,6,mjpg,machines,-7,7,8,,false
+http://200.68.61.12:5001/mjpg/1/video.mjpg,,7,"Santiago, Chile",7,7,mjpg,"dirt, commercial screen",-4,7,8,,false
+http://65.182.115.49/mjpg/video.mjpg,,6,"Cleveland, USA",6,3,mjpg,wind mill,-4,6,7,,false
+http://81.174.2.74:83/mjpg/video.mjpg,,8,"Lombardia, Italy",7,9,mjpg,machine,1,7,8,,false
+http://205.124.147.71/mjpg/video.mjpg,,3,"Sandy City, USA",5,5,mjpg,city view,-6,5,2,,false
+http://24.87.13.62:5001/mjpg/1/video.mjpg,,7,"Vancouver, Canada",7,2,mjpg,entrance house,-7,7,8,,false
+http://208.84.193.88:8888/mjpg/video.mjpg,,2,Virgin Islands,2,9,mjpg,view on islands,-4,3,2,,true
+http://59.22.0.86:8080/mjpg/1/video.mjpg,,8,"Seoul, South Korea",8,2,mjpg,machine,9,7,8,,false
+http://59.22.0.86:8080/mjpg/2/video.mjpg,,8,"Seoul, South Korea",8,2,mjpg,machine,9,7,8,,false
+http://213.135.234.78:5003/mjpg/video.mjpg?timestamp=1481465697598,,8,"Luxembourg, Luxembourg",3,4,mjpg,"garden, people",1,3,8,,false
+http://213.135.234.78:5004/mjpg/video.mjpg?timestamp=1481465731413,,8,"Luxembourg, Luxembourg",3,4,mjpg,"garden, people",1,3,8,,false
+http://217.170.90.88:8080/mjpg/video.mjpg,,8,"St. Petersburg, Russia",8,4,mjpg,door,3,8,8,,false
+http://188.9.52.91:8080/mjpg/video.mjpg,,7,"Milan, Italy",7,6,mjpg,construction site,1,7,7,,false
+http://200.69.253.129:83/mjpg/1/video.mjpg,,8,"Buefalses Aires, Argentina",7,6,mjpg,"office, people",-4,6,8,,false
+http://200.69.253.129:83/mjpg/4/video.mjpg,,8,"Buefalses Aires, Argentina",6,7,mjpg,entrance of house,-4,6,8,,false
+http://157.242.44.61/mjpg/video.mjpg?COUNTER,,7,"Los Angeles, USA",4,7,mjpg,road between houses,-7,4,8,,false
+http://89.106.109.128:8080/mjpg/video.mjpg,,8,"Gabrovo, Bulgaria",7,4,mjpg,"street, people",3,6,8,,false
+http://130.246.119.128/mjpg/1/video.mjpg,,8,"Appleton, UK",8,5,mjpg,"observatory, satellites",0,8,9,,false
+http://130.246.119.128/mjpg/2/video.mjpg,,8,"Appleton, UK",8,6,mjpg,"observatory, satellites",0,9,7,,true
+http://130.246.119.128/mjpg/3/video.mjpg,,4,"Appleton, UK",8,2,mjpg,"observatory, satellites",0,8,8,,false
+http://130.246.119.128/mjpg/4/video.mjpg,,4,"Appleton, UK",8,6,mjpg,"observatory, satellites",0,8,5,,false
+http://93.88.142.130:8080/mjpg/video.mjpg,,8,"Voronezh, Russia",7,7,mjpg,"factory, people",3,6,7,,false
+http://173.162.95.134:88/mjpg/video.mjpg?timestamp=1481473451204,,9,"Miami, USA",7,8,mjpg,"underwater camera, hazy details",-4,7,9,,true
+http://72.151.199.122/mjpg/video.mjpg,,7,"Miami, USA",6,8,mjpg,"cruises, harbour, people",-4,6,7,,false
+http://65.40.15.131:85/mjpg/video.mjpg,,7,"Leesburg, USA",3,6,mjpg,golf course,-4,3,7,,false
+http://194.102.231.137/mjpg/video.mjpg,,9,"Iasi, Romania",8,2,mjpg,machine,3,8,9,,false
+http://85.93.34.137/mjpg/video.mjpg,,8,"Moscow, Russia",6,6,mjpg,fast food restaurant,4,7,8,,false
+http://61.84.253.136/mjpg/video.mjpg,,6,"Cheju, South Korea",7,3,mjpg,tank station,9,7,8,,false
+http://77.244.75.139/mjpg/video.mjpg?timestamp=1481474623453,,7,"St. Petersburg, Russia",8,6,mjpg,street view from building,3,8,7,,false
+http://178.188.199.138/mjpg/video.mjpg,,8,"Neustadt, Austria",5,5,mjpg,"office, people",1,6,8,,false
+http://186.248.75.132:8080/mjpg/video.mjpg,,8,"Belo Horizonte, Brazil",7,6,mjpg,"routers, lights",-3,7,9,,false
+http://82.137.34.135:8083/mjpg/video.mjpg,,9,"Baja Mare, Rumania",9,2,mjpg,peak through window,3,9,9,,false
+http://64.183.196.134:8888/mjpg/video.mjpg,,8,"Plafalse, Texas",6,8,mjpg,flower shop,-5,8,8,,false
+http://82.215.181.133:81/mjpg/video.mjpg?timestamp=1481475023642,,7,"Liguria, Italy",6,6,mjpg,"palms, pool, people",1,6,7,,false
+http://82.215.181.133:83/mjpg/video.mjpg?timestamp=1481475060325,,7,"Liguria, Italy",6,6,mjpg,"palms, pool, people",1,6,7,,false
+http://82.215.181.133:82/mjpg/video.mjpg?timestamp=1481475152092,,7,"Liguria, Italy",6,6,mjpg,"palms, pool, people",1,6,7,,false
+http://114.179.94.133/mjpg/video.mjpg,,5,"Tagamatsu, Japan",6,5,mjpg,parking lot,9,7,6,,false
+http://65.102.86.120/mjpg/video.mjpg,,7,"Colorado Springs, USA",4,6,mjpg,street,-6,6,7,,false
+http://66.8.139.135:81/mjpg/video.mjpg,,8,"Kamuela, Hawaii",7,5,mjpg,"front proch, people",-10,6,8,,false
+http://77.94.174.234/mjpg/video.mjpg,,4,"Tver, Russia",7,7,mjpg,"square, people",5,8,3,,false
+http://180.225.53.36/mjpg/video.mjpg,,5,"Seoul, South Korea",6,4,mjpg,"road, traveling lights",9,6,6,,false
+http://66.135.243.107/axis-cgi/mjpg/video.cgi?camera=&resolution=640x480&1481475794947,,8,"Hofalselulu, Hawaii",4,5,mjpg,"hallway, people",-10,5,8,,false
+http://41.224.248.144:8001/mjpg/video.mjpg,,9,"Tunis, Tunisia",7,3,mjpg,"kitchen, plant, people",1,5,9,,false
+http://78.245.84.147:2000/mjpg/video.mjpg,,8,"Labege, France",9,2,mjpg,data room,1,9,8,,true
+http://213.21.112.147/mjpg/video.mjpg,,3,"Robertsfors, Sweden",7,2,mjpg,view from window,1,7,4,,false
+http://24.43.209.62/mjpg/video.mjpg,,6,"Kamuela, Hawaii",3,7,mjpg,"beach, people",-10,3,4,,false
+http://189.125.100.150:8080/mjpg/video.mjpg,,8,"Cotia, Brazil",9,8,mjpg,"routers, lights",-4,9,8,,false
+http://89.20.246.139:8080/mjpg/video.mjpg,,3,"Forde, falserway",7,6,mjpg,"city, moving camera",2,7,2,,false
+http://85.125.209.140/mjpg/video.mjpg,,7,"Vienna, Austria",8,6,mjpg,view from window,1,7,8,,false
+http://65.216.18.102/mjpg/video.mjpg,,8,"Dallas, Texas",6,4,mjpg,conference room,-6,6,8,,false
+http://137.219.66.153/mjpg/video.mjpg?timestamp=1481476674498,,8,"Townsville, Australia",7,2,mjpg,machine,10,7,8,,false
+http://81.149.63.177:81/mjpg/video.mjpg,,9,"London, UK",5,6,mjpg,printer top,0,5,9,,false
+http://98.155.244.58/mjpg/video.mjpg,,6,"Hofalselulu, Hawaii",4,6,mjpg,view on water,-10,5,5,,false
+http://95.225.62.151/mjpg/video.mjpg,,8,"Rome, Italy",3,5,mjpg,"store, people",1,3,8,,false
+http://79.58.129.44:8083/mjpg/video.mjpg,,7,"Liga, Italy",6,6,mjpg,"store, people",1,4,8,,false
+http://187.188.136.201:8081/mjpg/video.mjpg,,7,"Monterrey, Mexico",7,6,mjpg,car shop,-6,6,7,,false
+http://187.174.218.180:83/mjpg/video.mjpg,,8,"Mexico City, Mexico",7,6,mjpg,"study hall, people",-6,8,7,,true
+http://183.76.76.205:8081/mjpg/video.mjpg,,1,"Tokyo, Japan",5,7,mjpg,view on water,9,7,2,,false
+http://91.102.216.166:8080/mjpg/video.mjpg,,8,"Urengoy, Russia",6,7,mjpg,"hotel lobby, people",6,6,8,,false
+http://82.119.123.70:84/mjpg/video.mjpg,,8,"Bratislava, Slovakia",7,2,mjpg,slot machines,3,7,8,,false
+http://193.213.211.182/mjpg/video.mjpg,,5,"Oslo, falserway",8,7,mjpg,airport gates,2,8,5,,false
+http://208.105.94.184:82/mjpg/video.mjpg,,8,"New York, USa",7,4,mjpg,street view,-4,7,8,,false
+http://64.250.201.186:9000/mjpg/video.mjpg,,8,"Blanchard, USA",8,8,mjpg,"machine, fuses",-5,8,9,,true
+http://81.211.119.191/mjpg/video.mjpg,,3,"Arkangelsk, Russia",7,6,mjpg,factory,4,8,3,,false
+http://24.17.235.52:8080/mjpg/1/video.mjpg,,8,"Puyallup, USA",7,4,mjpg,"doorway, people",-8,7,8,,false
+http://66.193.157.18/mjpg/video.mjpg,,7,"Kapa'A, Hawaii",8,8,mjpg,"different scenes, moving camera",-10,8,3,,false
+http://129.186.135.31/mjpg/video.mjpg,,6,"Iowa, USA",7,4,mjpg,"house, people",-5,7,6,,false
+http://95.224.202.31:81/mjpg/video.mjpg,,8,"Rome, Italy",4,5,mjpg,"store, people",1,4,8,,false
+http://212.125.222.124:8080/mjpg/video.mjpg,,,,,,,,,,,,
