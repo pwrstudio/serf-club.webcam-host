@@ -2,7 +2,6 @@
 // Dependencies
 const mongoose = require('mongoose')
 const Chance = require('chance')
-const colors = require('colors')
 const chance = new Chance()
 const PoissonProcess = require('poisson-process')
 
@@ -14,7 +13,6 @@ const state = require('./state.js')
 const director = require('./director.js')
 const communicator = require('./communicator.js')
 
-
 const composer = {
   start: function start () {
 
@@ -22,6 +20,7 @@ const composer = {
 
       const queryArgs = {}
 
+      // 0.5 change of melodic sounds
       if(chance.bool()) {
         queryArgs.melodic = true
       }
@@ -32,11 +31,13 @@ const composer = {
 
         if (err) { console.log(err) }
 
-        const selectedAudio = chance.pickone(audioStreams)
+        // Get Random audio
+        state.soundTwo = chance.pickone(audioStreams)
 
-        state.soundTwo = selectedAudio
+        // Set random playback rate
         state.playerTwoRate  = chance.weighted([1.4, 1.2 , 1 , 0.8, 0.6, 0.4], [ 2, 4, 10 , 4, 2, 1])
 
+        // Send audio
         communicator.audioTwo()
 
       })
@@ -48,27 +49,23 @@ const composer = {
   },
   triggerDiagetic: function triggerDiagetic() {
 
-    console.log('diagetic'.bgBlue)
-
-    const queryArgs = {'diegetic': true}
-
+    // Get diegetic sound
     Audio
-    .find(queryArgs)
+    .find({'diegetic': true})
     .exec(function (err, audioStreams) {
 
-      console.log('diagetic streams:', audioStreams.length)
+      if(audioStreams.length) {
 
-      if(audioStreams.length !== 0) {
-
-          // Handle error
+        // Handle error
         if (err) { console.log(err) }
 
-        const selectedAudio = chance.pickone(audioStreams)
+        // Get Random audio
+        state.soundOne = chance.pickone(audioStreams)
 
-        console.log('diagetic sound:', selectedAudio.url)
-        state.soundOne = selectedAudio
+        // Set random playback rate
         state.playerOneRate  = chance.weighted([1.4, 1.2 , 1 , 0.8, 0.6, 0.4], [ 2, 4, 10 , 4, 2, 1])
 
+        // Send audio
         communicator.audioOne()
 
       }

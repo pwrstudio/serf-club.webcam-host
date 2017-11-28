@@ -51,7 +51,6 @@ const speaker = {
       let utterance = Sentencer.make(vocabulary.sentenceTemplates[Math.round(Math.random() * (vocabulary.sentenceTemplates.length - 1))])
       state.subtitle = utterance
       communicator.subtitle()
-      console.log('spoken')
     })
 
     speakerLoop.start()

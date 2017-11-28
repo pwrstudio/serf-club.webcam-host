@@ -11,3 +11,7 @@ npm-debug.log
 Dockerfile
 docker-compose.yml
 yarn.lock
+
+# Secret
+config/config.js
+content

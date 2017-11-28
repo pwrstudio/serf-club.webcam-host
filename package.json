@@ -11,13 +11,9 @@
   },
   "dependencies": {
     "chance": "^1.0.4",
-    "colors": "^1.1.2",
     "express": "^4.14.0",
-    "markov": "^0.0.7",
     "mongoose": "^4.5.8",
-    "nlp_compromise": "^6.5.3",
     "npm": "^4.0.3",
-    "oscillators": "^0.4.0",
     "pm2": "^2.4.2",
     "poisson-process": "^0.2.1",
     "raven": "^1.1.4",
@@ -30,7 +26,6 @@
   },
   "keywords": [
     "node",
-    "heroku",
     "express"
   ],
   "license": "MIT"

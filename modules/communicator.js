@@ -2,7 +2,7 @@
 // Dependencies
 const express = require('express')
 const app = express()
-const port = process.env.PORT || 8080
+const port = process.env.PORT || 7070
 const server = app.listen(port)
 const io = require('socket.io').listen(server)
 const state = require('./state.js')
@@ -10,7 +10,6 @@ const state = require('./state.js')
 const communicator = {
   init: function init () {
     io.on('connection', function (socket) {
-      console.log(socket.id)
       socket.emit('init', state)
     })
   },
@@ -20,7 +19,7 @@ const communicator = {
   jumpCut: function jumpCut() {
     io.emit('jumpcut', state)
   },
-  subtitle: function aubtitle () {
+  subtitle: function subtitle () {
     io.emit('subtitle', state)
   },
   audioTwo: function audioTwo () {

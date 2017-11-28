@@ -4,12 +4,13 @@ const mongoose = require('mongoose')
 const colors = require('colors')
 const Chance = require('chance')
 const chance = new Chance()
+
 // Models
 const Stream = require('../models/stream.js')
-// const Audio = require('../models/audio.js')
 
 // Config
 const config = require('../config/config.js')
+
 // Modules
 const state = require('./state.js')
 const director = require('./director.js')
@@ -23,7 +24,6 @@ let switcher = 0
 
 const editor = {
   start: function start () {
-    console.log('serf.club.engine'.bgBlack.bold)
 
     // Connect to database...
     mongoose.Promise = global.Promise
@@ -33,7 +33,6 @@ const editor = {
 
     // Once the database is open, start the loop
     db.once('open', function () {
-      console.log('db open'.bgGreen)
       editor.loop(director.mainSpeed)
       composer.start()
       speaker.start()
@@ -42,42 +41,15 @@ const editor = {
   },
   loop: function loop (time) {
 
-    console.log('loop')
-    console.log(time)
-
     // Advance the director
     director.tick()
 
-    const queryArgs = {
-      'format': 'mjpg',
-      'online': true
-    }
-
-    console.log(colors.bgYellow(director.mainSpeed))
-
-    // if(director.intense) {
-    //   queryArgs.intensity = { $gt: 7 }
-    //   console.log('‡‡‡ Mode: intense'.bgYellow)
-    // } else {
-    //   queryArgs.intensity = { $lt: 8 }
-    //   console.log('‡‡‡ Mode: calm'.bgYellow)
-    // }
-
-    if(director.exterior) {
-      console.log('‡‡‡ Mode: Exterior'.bgYellow)
-    } else {
-      console.log('‡‡‡ Mode: Interior'.bgYellow)
-    }
-
-    // if(director.mainSpeed > 25000){
-    //   queryArgs.iconic = true
-    //   console.log('‡‡‡ Mode: Iconic'.bgYellow)
-    // }
-
-    console.log(queryArgs)
-
+    // Get stream
     Stream
-      .find(queryArgs)
+      .find({
+        'format': 'mjpg',
+        'online': true
+      })
       .exec(function (err, streams) {
         // Handle error
         if (err) { console.log(err) }
@@ -107,18 +79,8 @@ const editor = {
             })
           }
 
-          // For reference...
-          console.log(streams.length)
-
-          let randomIndex = Math.round(Math.random() * (streams.length - 1))
-
-          // console.log('random index:',randomIndex)
-
-          const selectedStream = streams[randomIndex]
-
-          // console.dir(selectedStream)
-
-          // console.log(selectedStream.description, selectedStream.location,'interior:', selectedStream.interior)
+          // Get stream
+          const selectedStream = streams[chance.integer({min: 0, max: streams.length - 1})]
 
           if (screenSelector === 1) {
             state.screenOne.url = selectedStream.url
@@ -132,11 +94,6 @@ const editor = {
             state.screenOne.classObject.direct= false
           }
 
-          if(selectedStream.exterior) {
-
-
-          }
-
           // Play new background sound
           composer.triggerDiagetic()
 
@@ -144,37 +101,17 @@ const editor = {
           communicator.crossCut()
 
           // One in six low-intensity jumpcut
-          // if(chance.weighted([true, false], [1, 6]) && director.mainSpeed > 15000) {
           if(director.mainSpeed > 15000 && director.mainSpeed < 20000 && chance.weighted([true, false], [6, 1])) {
 
             var isFirst = true
 
             function jump() {
 
-              console.log('JUMPCUT'.bgYellow)
-
-              // Reset classes
-              // if (screenSelector === 1) {
-              //   Object.keys(state.screenOne.classObject).forEach(function(key,index) {
-              //     state.screenOne.classObject[key] = false
-              //   })
-              //   state.screenOne.classObject.active = true
-              // } else {
-              //   Object.keys(state.screenTwo.classObject).forEach(function(key,index) {
-              //     state.screenTwo.classObject[key] = false
-              //   })
-              //   state.screenTwo.classObject.active = true
-              // }
-
               let panClass = 'pan-' + chance.pickone(panSteps) + '-' + chance.pickone(panSteps)
               let zoomClass = ''
               if(isFirst) {
-                console.log('first')
                 zoomClass = 'zoom-' + chance.pickone(zoomSteps)
               }
-
-              console.log(panClass)
-              console.log(zoomClass)
 
               if (screenSelector === 1) {
                 state.screenOne.classObject[panClass] = true
@@ -194,9 +131,9 @@ const editor = {
 
             }
 
-            setTimeout(jump, 7000)
-            if(chance.bool()) {setTimeout(jump, 10000)}
-            setTimeout(jump, 14000)
+            setTimeout(jump, 2000)
+            setTimeout(jump, 3000)
+            setTimeout(jump, 5000)
 
           }
 
