@@ -1,4 +1,4 @@
-"use strict"
+'use strict'
 const state = {
   subtitle: 'I am here now',
   exterior: false,

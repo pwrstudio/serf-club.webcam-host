@@ -1,4 +1,4 @@
-"use strict"
+'use strict'
 const Chance = require('chance')
 const chance = new Chance()
 
@@ -10,10 +10,8 @@ const director = {
   intense: false,
   intenseCounter: 10,
   exterior: true,
-  tick: function tick () {
-
+  tick: function tick() {
     this.mainSpeed = 20000
-
   }
 }
 

@@ -1,4 +1,4 @@
-"use strict"
+'use strict'
 const vocabulary = {
   nouns: [
     'he',
@@ -11,7 +11,8 @@ const vocabulary = {
     'the woman',
     'the girl',
     'the boy',
-    'the child'],
+    'the child'
+  ],
   adjectives: [
     'cold',
     'warm',
@@ -52,7 +53,8 @@ const vocabulary = {
     'impossible',
     'wrong',
     'bad',
-    'good'],
+    'good'
+  ],
   verbs: [
     'will be',
     'has been',
@@ -62,7 +64,8 @@ const vocabulary = {
     'was',
     'was not',
     'seemed',
-    'might be'],
+    'might be'
+  ],
   actions: [
     'heard',
     'overheard',
@@ -84,22 +87,17 @@ const vocabulary = {
     'dreamt about',
     'told about',
     'wanted',
-    'indicated'],
+    'indicated'
+  ],
   futures: [
-      'will go',
-      'will return',
-      'will know',
-      'will be there',
-      'will come here',
-      'will communicate',
-    ],
-    presents: [
-        'saw',
-        'talks to',
-        'looks at',
-        'go to',
-        'get to know'
-      ],
+    'will go',
+    'will return',
+    'will know',
+    'will be there',
+    'will come here',
+    'will communicate'
+  ],
+  presents: ['saw', 'talks to', 'looks at', 'go to', 'get to know'],
   objects: [
     'them',
     'her',
@@ -125,7 +123,8 @@ const vocabulary = {
     'the club',
     'the assembly',
     'the position',
-    'someone'],
+    'someone'
+  ],
   singleObjects: [
     'story',
     'step',
@@ -137,7 +136,8 @@ const vocabulary = {
     'border',
     'process',
     'organization',
-    'machine'],
+    'machine'
+  ],
   statements: [
     'yes',
     'yes',
@@ -155,23 +155,10 @@ const vocabulary = {
     'no idea',
     'true',
     'false',
-    'sure'],
-  questions: [
-    'yes?',
-    'no?',
-    'really?',
-    'why not?',
-    'how?',
-    'where?',
-    'now?',
-    'why?',
-    'what?'],
-  punctations: [
-    '',
-    '',
-    '',
-    '...',
-    '.'],
+    'sure'
+  ],
+  questions: ['yes?', 'no?', 'really?', 'why not?', 'how?', 'where?', 'now?', 'why?', 'what?'],
+  punctations: ['', '', '', '...', '.'],
   adverbs: [
     'quickly',
     'suddenly',
@@ -181,7 +168,8 @@ const vocabulary = {
     'rarely',
     'really',
     'slowly',
-    'carefully'],
+    'carefully'
+  ],
   sentenceTemplates: [
     '{{ statement}}, {{ noun }} {{ verb }} {{ adjective }}',
     '{{ statement}}... {{ noun }} {{ verb }} {{ adjective }}',
@@ -197,7 +185,8 @@ const vocabulary = {
     '{{ question }} {{ noun }} {{ action }} {{ object }}?',
     '{{ noun }} {{ verb }} {{ adjective }}?',
     'if {{ noun }} {{ present }} {{ object }}, {{ noun }} {{ future }} {{ punctation }}',
-    '{{ noun }} {{ action }} {{ object }}{{ punctation }}']
+    '{{ noun }} {{ action }} {{ object }}{{ punctation }}'
+  ]
 }
 
 module.exports = vocabulary

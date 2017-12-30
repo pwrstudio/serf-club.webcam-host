@@ -12,21 +12,16 @@
   "dependencies": {
     "chance": "^1.0.4",
     "express": "^4.14.0",
-    "mongoose": "^4.5.8",
-    "npm": "^4.0.3",
-    "pm2": "^2.4.2",
-    "poisson-process": "^0.2.1",
-    "raven": "^1.1.4",
+    "mongoose": "^5.0.0-rc0",
+    "npm": "^5.6.0",
+    "poisson-process": "^1.0.0",
+    "raven": "^2.3.0",
     "sentencer": "^0.1.5",
-    "socket.io": "^1.4.8"
+    "socket.io": "^2.0.4"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pwrstudio/serf.club.engine"
+    "url": "https://github.com/pwrstudio/serf-club.webcam-host"
   },
-  "keywords": [
-    "node",
-    "express"
-  ],
   "license": "MIT"
 }
