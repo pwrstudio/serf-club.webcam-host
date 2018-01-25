@@ -3,19 +3,17 @@
   "version": "0.2.5",
   "description": "Algorithmic director",
   "engines": {
-    "node": "5.9.1"
+    "node": "*"
   },
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node server.js"
   },
   "dependencies": {
-    "chance": "^1.0.4",
-    "express": "^4.14.0",
-    "mongoose": "^5.0.0-rc0",
-    "npm": "^5.6.0",
-    "poisson-process": "^1.0.0",
-    "raven": "^2.3.0",
+    "chance": "^1.0.13",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.1",
+    "raven": "^2.4.0",
     "sentencer": "^0.1.5",
     "socket.io": "^2.0.4"
   },

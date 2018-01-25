@@ -1,5 +1,3 @@
-'use strict'
-// Dependencies
 const express = require('express')
 const app = express()
 const port = process.env.PORT || 7070
@@ -7,27 +5,25 @@ const server = app.listen(port)
 const io = require('socket.io').listen(server)
 const state = require('./state.js')
 
-const communicator = {
-  init: function init() {
-    io.on('connection', function(socket) {
+module.exports = {
+  init() {
+    io.on('connection', socket => {
       socket.emit('init', state)
     })
   },
-  crossCut: function crossCut() {
+  crossCut() {
     io.emit('crosscut', state)
   },
-  jumpCut: function jumpCut() {
+  jumpCut() {
     io.emit('jumpcut', state)
   },
-  subtitle: function subtitle() {
+  subtitle() {
     io.emit('subtitle', state)
   },
-  audioTwo: function audioTwo() {
+  audioTwo() {
     io.emit('audiotwo', state)
   },
-  audioOne: function audioOne() {
+  audioOne() {
     io.emit('audioone', state)
   }
 }
-
-module.exports = communicator
