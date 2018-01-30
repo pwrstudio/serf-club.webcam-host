@@ -368,6 +368,7 @@ const vocabulary = {
     ]
   },
   narrator: {
+    punctations: ['', '', '', '...', '.'],
     nouns: [
       'he',
       'she',
@@ -394,17 +395,12 @@ const vocabulary = {
       'Eliza',
       'Antwerp',
       'Lagos',
+      'Seattle',
+      'Hanoi',
       'the Lawgiver',
-      'Hanoi'
-    ],
-    time: [
-      'At the time of reporting',
-      'Then',
-      'In the past',
-      'In the future',
-      'Today',
-      'Now',
-      'Somehow'
+      'An Uber',
+      'The candidate',
+      'The Weather'
     ],
     adjectives: [
       'cold',
@@ -460,18 +456,10 @@ const vocabulary = {
       'reticent',
       'sealed',
       'late',
-      'communist'
-    ],
-    verbs: [
-      'will be',
-      'has been',
-      'is',
-      'is not',
-      'would be',
-      'was',
-      'was not',
-      'seemed',
-      'might be'
+      'communist',
+      'primitivist',
+      'feudal',
+      'radicalized'
     ],
     actions: [
       'heard',
@@ -506,7 +494,7 @@ const vocabulary = {
       'ignited',
       'initiated',
       'altered',
-      'intuited',
+      'comprehended',
       'dragged',
       'danced',
       'jumped',
@@ -515,7 +503,11 @@ const vocabulary = {
       'upheld',
       'vindicated',
       'enhanced',
-      'said'
+      'said',
+      'enabled',
+      'encircled',
+      're-enacted',
+      'decided'
     ],
     futures: [
       'will go',
@@ -570,11 +562,9 @@ const vocabulary = {
       'the space',
       'the weather',
       'the climate',
-      'the zone'
+      'the zone',
+      'The People That Make The Weather'
     ],
-    statements: ['yes', 'no', 'maybe', 'perhaps', 'could be', 'true', 'false', 'sure', 'Now', 'So'],
-    questions: ['yes?', 'no?', 'really?', 'why not?', 'how?', 'where?', 'now?', 'why?', 'what?'],
-    punctations: ['', '', '', '...', '.'],
     adverbs: [
       'quickly',
       'suddenly',
@@ -594,13 +584,23 @@ const vocabulary = {
       'calmly',
       'efficiently',
       'extravagantly',
-      'in the manner of herding elephants',
       'rigorously',
       'drastically'
     ],
+    time: [
+      'At the time of reporting',
+      'Then',
+      'In the past',
+      'In the future',
+      'Today',
+      'Now',
+      'Somehow',
+      'Presently',
+      'After a while'
+    ],
     sentenceTemplates: [
       '{{ time }}, {{ noun }} {{ action }} {{ object }}',
-      'if {{ noun }} {{ present }} {{ object }}, {{ noun }} {{ future }}',
+      'if {{ noun }} {{ present }} {{ object }}, {{ adjective }} {{ noun }} {{ future }}',
       '{{ noun }} {{ adverb }} {{ action }} {{ object }}'
     ]
   }

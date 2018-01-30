@@ -91,9 +91,9 @@ const control = {
   stepText(time) {
     console.log('Text Step'.cyan, String(time / 1000).yellow)
 
-    // for (let i = 0; i < 1000; i++) {
-    //   console.log(text.getLine(chance.pickone(['A', 'B', 'N'])))
-    // }
+    for (let i = 0; i < 1000; i++) {
+      console.log(text.getLine(chance.pickone(['A', 'B', 'N'])))
+    }
 
     // ***********
     // Sine   wave

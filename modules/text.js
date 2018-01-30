@@ -89,26 +89,17 @@ module.exports = {
         nounList: vocabulary.narrator.nouns,
         adjectiveList: vocabulary.narrator.adjectives,
         actions: {
-          verb() {
-            return chance.pickone(vocabulary.narrator.verbs)
-          },
           action() {
             return chance.pickone(vocabulary.narrator.actions)
           },
           object() {
             return chance.pickone(vocabulary.narrator.objects)
           },
-          statement() {
-            return chance.pickone(vocabulary.narrator.statements)
-          },
-          question() {
-            return chance.pickone(vocabulary.narrator.questions)
-          },
-          punctation() {
-            return chance.pickone(vocabulary.narrator.punctations)
-          },
           adverb() {
             return chance.pickone(vocabulary.narrator.adverbs)
+          },
+          adjective() {
+            return chance.pickone(vocabulary.narrator.adjectives)
           },
           future() {
             return chance.pickone(vocabulary.narrator.futures)
