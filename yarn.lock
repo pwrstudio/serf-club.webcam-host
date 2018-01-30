@@ -460,6 +460,10 @@ path-to-regexp@0.1.7:
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-0.1.7.tgz#df604178005f522f15eb4490e7247a1bfaa67f8c"
 
+prismic.io:
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/prismic.io/-/prismic.io-3.6.1.tgz#845887f061951f1ffa82fd319b3eaaf33fc5e3e3"
+
 prng-well1024a@~1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/prng-well1024a/-/prng-well1024a-1.0.1.tgz#05e8ed923e4ea2b3f78af5ee94f056b4d5cfab24"
