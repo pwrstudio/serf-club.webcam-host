@@ -55,6 +55,9 @@ module.exports = {
           verb() {
             return chance.pickone(vocabulary.b.verbs)
           },
+          doubt() {
+            return chance.pickone(vocabulary.b.doubt)
+          },
           action() {
             return chance.pickone(vocabulary.b.actions)
           },
@@ -81,40 +84,6 @@ module.exports = {
           }
         }
       })
-
-      // CharacterC.configure({
-      //   nounList: vocabulary.c.nouns,
-      //   adjectiveList: vocabulary.c.adjectives,
-      //   actions: {
-      //     verb() {
-      //       return chance.pickone(vocabulary.c.verbs)
-      //     },
-      //     action() {
-      //       return chance.pickone(vocabulary.c.actions)
-      //     },
-      //     object() {
-      //       return chance.pickone(vocabulary.c.objects)
-      //     },
-      //     statement() {
-      //       return chance.pickone(vocabulary.c.statements)
-      //     },
-      //     question() {
-      //       return chance.pickone(vocabulary.c.questions)
-      //     },
-      //     punctation() {
-      //       return chance.pickone(vocabulary.c.punctations)
-      //     },
-      //     adverb() {
-      //       return chance.pickone(vocabulary.c.adverbs)
-      //     },
-      //     future() {
-      //       return chance.pickone(vocabulary.c.futures)
-      //     },
-      //     present() {
-      //       return chance.pickone(vocabulary.c.presents)
-      //     }
-      //   }
-      // })
 
       Narrator.configure({
         nounList: vocabulary.narrator.nouns,
@@ -146,6 +115,9 @@ module.exports = {
           },
           present() {
             return chance.pickone(vocabulary.narrator.presents)
+          },
+          time() {
+            return chance.pickone(vocabulary.narrator.time)
           }
         }
       })
@@ -160,16 +132,11 @@ module.exports = {
         line = CharacterA.make(chance.pickone(vocabulary.a.sentenceTemplates))
         break
       case 'B':
-        line = CharacterA.make(chance.pickone(vocabulary.a.sentenceTemplates))
+        line = CharacterA.make(chance.pickone(vocabulary.b.sentenceTemplates))
         break
-      // case 'C':
-      //   line = 'C: ' + CharacterA.make(chance.pickone(vocabulary.a.sentenceTemplates))
-      //   break
       case 'N':
-        line = Narrator.make(chance.pickone(vocabulary.a.sentenceTemplates)).toUpperCase()
+        line = Narrator.make(chance.pickone(vocabulary.narrator.sentenceTemplates)).toUpperCase()
         break
-      default:
-        line = Narrator.make(chance.pickone(vocabulary.a.sentenceTemplates)).toUpperCase()
     }
     return line
   }

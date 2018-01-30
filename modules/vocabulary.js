@@ -1,14 +1,5 @@
 'use strict'
 
-// --- Narrator
-// Omnipresent voice
-// --- Character A
-// Sanguine: curious, outgoing, sincere, optimistic, enthusiastic
-// --- Character B
-// Melancholic: pessimistic, nostalgic, analytical
-// --- Character C
-// Choleric: flippant, hedonistic, assertive
-
 const vocabulary = {
   a: {
     nouns: [
